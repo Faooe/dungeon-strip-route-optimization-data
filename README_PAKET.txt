@@ -3,6 +3,7 @@ DATA DAN KODE DUNGEON STRIP
 
 Paket ini memuat data utama dan analisis tambahan yang mendukung artikel.
 Naskah Word/PDF tidak termasuk dalam paket atau repositori GitHub.
+Kode dilisensikan MIT dan data CC BY 4.0. Lihat LICENSE dan DATA_LICENSE.md.
 Baca ASAL_DATA.txt, Studi_Rute_Fase3/PHASE3_README.txt,
 Studi_Rute_Fase3/PHASE4_PROTOCOL.txt, dan PHASE5_PROTOCOL.txt.
 

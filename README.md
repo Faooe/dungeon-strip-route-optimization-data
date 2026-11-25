@@ -6,6 +6,12 @@ eksperimen dan kode analisis. Tidak ada responden maupun permainan manual;
 komputer menghasilkan dan mengevaluasi peta secara deterministik.
 Naskah artikel Word/PDF tidak tersedia dalam repositori ini.
 
+## Lisensi
+
+Kode (`.js`, `.mjs`, `.py`) menggunakan [MIT](LICENSE). Data, gambar analisis,
+dan dokumentasi menggunakan [CC BY 4.0](DATA_LICENSE.md). Kredit pencipta
+data tercantum dalam berkas lisensi data.
+
 ## Isi
 
 - `Studi_Rute_Fase2/phase2_test/maps.jsonl`: 4.000 peta hasil empat metode
