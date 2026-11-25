@@ -100,7 +100,8 @@ def main():
             check("Judul bagian 13 pt", all(r.font.size and abs(r.font.size.pt-13)<.01 and r.bold for r in paragraph.runs), True)
             check("Spasi judul bagian", (paragraph.paragraph_format.space_before.pt,
                                          paragraph.paragraph_format.space_after.pt), (18, 6))
-    check("Placeholder data publik", "[URL/DOI Zenodo-GitHub - ISI PENULIS]" in source, True)
+    check("Tautan data publik", "https://github.com/Faooe/dungeon-strip-route-optimization-data" in source, True)
+    check("Tidak ada placeholder data publik", "[URL/DOI Zenodo-GitHub - ISI PENULIS]" in source, False)
     check("Tidak ada path pribadi di naskah", bool(re.search(r"C:[/\\]Users", source)), False)
     check("Naskah memakai rerata seluruh optimum", "rerata seluruh susunan optimum" in source, True)
     check("Median ruang pencarian", summary['search_space']['median'], 1296)

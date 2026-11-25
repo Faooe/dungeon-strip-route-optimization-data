@@ -24,3 +24,4 @@ Ringkasan: Studi_Rute_Fase3/exhaustive_summary.json
 Protokol: Studi_Rute_Fase3/PHASE3_PROTOCOL.txt
 Pemeriksaan: Studi_Rute_Fase3/validation.json dan ANGKA_CEK.csv
 Analisis tambahan: Studi_Rute_Fase3/PHASE4_PROTOCOL.txt
+Repositori publik: https://github.com/Faooe/dungeon-strip-route-optimization-data

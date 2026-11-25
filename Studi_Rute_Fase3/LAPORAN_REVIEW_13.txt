@@ -2,7 +2,7 @@ LAPORAN REVISI ARTIKEL JSON — DUNGEON STRIP
 ==========================================
 
 Naskah Revisi 13: 11 halaman, 3 gambar, 9 tabel, 20 referensi.
-Audit struktur dan angka: 92 pemeriksaan lulus.
+Audit struktur dan angka: 93 pemeriksaan lulus.
 
 PERBAIKAN BERDASARKAN CATATAN REVIEW
 1. Baris optimum pejalan acak menghitung rerata seluruh susunan yang seri
@@ -45,8 +45,9 @@ PEMERIKSAAN
   atau judul tabel terpisah dari isinya.
 
 SEBELUM SUBMISI
-- Tautan data publik pada naskah masih placeholder. Paket ZIP sudah siap,
-  tetapi belum diunggah ke repositori dan belum dapat diakses pembaca.
+- Data dan kode tersedia pada repositori publik:
+  https://github.com/Faooe/dungeon-strip-route-optimization-data
+  Riwayat commit GitHub menyimpan versi data yang digunakan.
 - Nama, urutan penulis, afiliasi, dan email perlu dikonfirmasi penulis.
 - Angka Volume/Nomor/DOI dan tanggal Submitted/Accepted/Published adalah
   placeholder redaksi dari template.

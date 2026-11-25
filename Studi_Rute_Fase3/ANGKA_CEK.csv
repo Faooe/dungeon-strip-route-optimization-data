@@ -7,7 +7,7 @@ Tabel 3 hanya tiga ukuran yang memakai statistik kolom,4,4,cocok
 Tabel 3 tanpa tanda nilai kosong,False,False,cocok
 Tabel 5 tanpa tanda nilai kosong,False,False,cocok
 Kata 1. PENDAHULUAN,True,True,cocok
-Jumlah kata 1. PENDAHULUAN,>=700,818,cocok
+Jumlah kata 1. PENDAHULUAN,>=700,816,cocok
 Kata 2. METODOLOGI PENELITIAN,True,True,cocok
 Jumlah kata 2. METODOLOGI PENELITIAN,>=500,952,cocok
 Kata 3. HASIL DAN PEMBAHASAN,True,True,cocok
@@ -43,7 +43,8 @@ Judul bagian 13 pt,True,True,cocok
 Spasi judul bagian,"(18, 6)","(18.0, 6.0)",cocok
 Judul bagian 13 pt,True,True,cocok
 Spasi judul bagian,"(18, 6)","(18.0, 6.0)",cocok
-Placeholder data publik,True,True,cocok
+Tautan data publik,True,True,cocok
+Tidak ada placeholder data publik,False,False,cocok
 Tidak ada path pribadi di naskah,False,False,cocok
 Naskah memakai rerata seluruh optimum,True,True,cocok
 Median ruang pencarian,1296,1296.0,cocok
