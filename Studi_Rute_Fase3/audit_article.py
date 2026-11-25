@@ -101,6 +101,8 @@ def main():
             check("Spasi judul bagian", (paragraph.paragraph_format.space_before.pt,
                                          paragraph.paragraph_format.space_after.pt), (18, 6))
     check("Tautan data publik", "https://github.com/Faooe/dungeon-strip-route-optimization-data" in source, True)
+    check("Naskah menunjuk versi data bertag", "https://github.com/Faooe/dungeon-strip-route-optimization-data/tree/v1.0.1" in source, True)
+    check("Naskah menyebut lisensi", "lisensi MIT" in source and "CC BY 4.0" in source, True)
     check("Tidak ada placeholder data publik", "[URL/DOI Zenodo-GitHub - ISI PENULIS]" in source, False)
     check("Tidak ada path pribadi di naskah", bool(re.search(r"C:[/\\]Users", source)), False)
     check("Naskah memakai rerata seluruh optimum", "rerata seluruh susunan optimum" in source, True)

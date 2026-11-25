@@ -11,7 +11,7 @@ Jumlah kata 1. PENDAHULUAN,>=700,816,cocok
 Kata 2. METODOLOGI PENELITIAN,True,True,cocok
 Jumlah kata 2. METODOLOGI PENELITIAN,>=500,978,cocok
 Kata 3. HASIL DAN PEMBAHASAN,True,True,cocok
-Jumlah kata 3. HASIL DAN PEMBAHASAN,>=1800,2494,cocok
+Jumlah kata 3. HASIL DAN PEMBAHASAN,>=1800,2495,cocok
 Kata 4. KESIMPULAN,True,True,cocok
 Jumlah kata 4. KESIMPULAN,>=200,344,cocok
 Kata ABSTRAK,True,True,cocok
@@ -44,6 +44,8 @@ Spasi judul bagian,"(18, 6)","(18.0, 6.0)",cocok
 Judul bagian 13 pt,True,True,cocok
 Spasi judul bagian,"(18, 6)","(18.0, 6.0)",cocok
 Tautan data publik,True,True,cocok
+Naskah menunjuk versi data bertag,True,True,cocok
+Naskah menyebut lisensi,True,True,cocok
 Tidak ada placeholder data publik,False,False,cocok
 Tidak ada path pribadi di naskah,False,False,cocok
 Naskah memakai rerata seluruh optimum,True,True,cocok
