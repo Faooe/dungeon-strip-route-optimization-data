@@ -1,0 +1,22 @@
+[
+  "T. X. Short and T. Adams, Eds., Procedural Generation in Game Design. Boca Raton, FL, USA: CRC Press, 2017. ISBN: 9781498799195.",
+  "G. N. Yannakakis and J. Togelius, Artificial Intelligence and Games, 2nd ed. Cham, Switzerland: Springer, 2025, doi: 10.1007/978-3-031-83347-2.",
+  "M. Anshar, R. Sumiharto, and M. E. Wibowo, \"Progressive Content Generation Based on Cyclic Graph for Generate Dungeon,\" IJCCS (Indonesian Journal of Computing and Cybernetics Systems), vol. 17, no. 1, 2023, doi: 10.22146/ijccs.81178.",
+  "A. Vatresia, F. P. Utama, and A. Yulianto, \"Designing a 3D Roguelike Game with Procedural Content Generation Using the Graph Grammars Method,\" Jurnal Teknik Informatika (Jutif), vol. 4, no. 6, pp. 1437–1446, 2023, doi: 10.52436/1.jutif.2023.4.6.546.",
+  "E. W. Hidayat, E. N. F. Dewi, and I. S. Ramadhan, \"Application of Procedural Content Generation System in Forming Dungeon Level in Dungeon Diver Game,\" Jurnal Teknik Informatika (Jutif), vol. 5, no. 3, pp. 873–881, 2024, doi: 10.52436/1.jutif.2024.5.3.1465.",
+  "P. A. Putra, J. T. Tarigan, and E. M. Zamzami, \"Procedural 2D Dungeon Generation Using Binary Space Partition Algorithm and L-Systems,\" in Proc. IC3INA, 2023, pp. 365–369, doi: 10.1109/IC3INA60834.2023.10285811.",
+  "W. Wattanapornprom et al., \"Procedural Content Generation for 2.5D Rogue-Lite Games: An Evolutionary Algorithm Approach,\" in Proc. ICSEC, 2024, pp. 1–6, doi: 10.1109/ICSEC62781.2024.10770719.",
+  "B.-Y. Wang and C.-L. Chang, \"Wave Function Collapse Algorithm in Roguelite Game Level Design: An Analysis of Strategies and Challenges,\" in Proc. ICASI, 2024, pp. 359–361, doi: 10.1109/ICASI60819.2024.10547926.",
+  "S. Amiri-Chimeh, H. Haghighi, and M. Vahidi-Asl, \"JAHAN: A Framework for Procedural Generation of Game Maps from Design Specifications,\" Entertainment Computing, vol. 50, art. 100644, 2024, doi: 10.1016/j.entcom.2024.100644.",
+  "P. V. M. Dutra, S. M. Villela, and R. F. Neto, \"A Mixed-Initiative Design Framework for Procedural Content Generation Using Reinforcement Learning,\" Entertainment Computing, vol. 52, art. 100759, 2025, doi: 10.1016/j.entcom.2024.100759.",
+  "F. Rupp and K. Eckert, \"G-PCGRL: Procedural Graph Data Generation via Reinforcement Learning,\" in Proc. IEEE Conference on Games, 2024, pp. 1–8, doi: 10.1109/CoG60054.2024.10645633.",
+  "A. Khalifa et al., \"The Procedural Content Generation Benchmark: An Open-source Testbed for Generative Challenges in Games,\" in Proc. Foundations of Digital Games, 2025, pp. 1–12, doi: 10.1145/3723498.3723794.",
+  "V. Volz, B. Naujoks, P. Kerschke, and T. Tušar, \"Tools for Landscape Analysis of Optimisation Problems in Procedural Content Generation for Games,\" Applied Soft Computing, vol. 136, art. 110121, 2023, doi: 10.1016/j.asoc.2023.110121.",
+  "H. Schaa and N. A. Barriga, \"Evaluating the Expressive Range of Super Mario Bros Level Generators,\" Algorithms, vol. 17, no. 7, art. 307, 2024, doi: 10.3390/a17070307.",
+  "V. G. S. L. Peixoto, E. F. Wanner, and A. R. da Cruz, \"A Multiobjective Tuning of a Procedural Content Generator for Game Level Design via Evolutionary Algorithms,\" in Optimization, Learning Algorithms and Applications, 2024, pp. 544–559, doi: 10.1007/978-3-031-53025-8_37.",
+  "M. Zamorano, Á. Domingo, C. Cetina, and F. Sarro, \"Game Software Engineering: A Controlled Experiment Comparing Automated Content Generation Techniques,\" in Proc. ESEM, 2024, pp. 302–313, doi: 10.1145/3674805.3686690.",
+  "M. Bazzaz and S. Cooper, \"Level Generation with Constrained Expressive Range,\" in Proc. Foundations of Digital Games, 2025, pp. 1–6, doi: 10.1145/3723498.3723845.",
+  "B. van Eden and N. Botha, \"Constraint-Guided Hybrid Procedural Dungeon Generation Using CNN-Based Semantic Refinement,\" in Proc. SAIMC-INSPIRE, 2026, pp. 1–8, doi: 10.1109/SAIMC-INSPIRE70184.2026.11772774.",
+  "L. Lazaridis and G. F. Fragulis, \"Creating a Newer and Improved Procedural Content Generation (PCG) Algorithm with Minimal Human Intervention for Computer Gaming Development,\" Computers, vol. 13, no. 11, art. 304, 2024, doi: 10.3390/computers13110304.",
+  "O. Withington, M. Cook, and L. Tokarchuk, \"On the Evaluation of Procedural Level Generation Systems,\" in Proc. Foundations of Digital Games, 2024, pp. 1–10, doi: 10.1145/3649921.3650016."
+]

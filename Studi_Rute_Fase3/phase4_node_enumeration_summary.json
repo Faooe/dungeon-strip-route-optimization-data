@@ -1,0 +1,13 @@
+{
+  "seed_count": 1000,
+  "total_evaluations": 3787236,
+  "mean_ms": 19.451204199999992,
+  "median_ms": 6.274750000000495,
+  "p05_ms": 0.4721350000000541,
+  "p95_ms": 76.36680000000042,
+  "node_version": "v24.22.3",
+  "source_sha256": "b1d5cbe36149f8d529608e3fd81e9d18c2888f70855f368aec64d5d514d7a9ca",
+  "phase2_sha256": "81a37b7066c9c82c0cb8ae54634adb66570a8a91a598e27c95e62ea74829fd6d",
+  "timing_includes": "buatPeta(seed), prepare(map), unique permutation construction, exhaustive evaluation",
+  "validation": "all exact metrics and search-space sizes match Python phase-3 audit"
+}

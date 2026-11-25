@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "records": 1000,
+  "sampled_seeds_reenumerated": [
+    "U0001",
+    "U0013",
+    "U0067",
+    "U0500",
+    "U1000"
+  ],
+  "sampled_method_maps_checked": 20,
+  "walk_maps_checked": 4000,
+  "sensitivity_values_checked": 64,
+  "phase2_means_match": true
+}

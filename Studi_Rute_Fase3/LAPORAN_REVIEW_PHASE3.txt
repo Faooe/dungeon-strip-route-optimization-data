@@ -1,0 +1,74 @@
+LAPORAN PENANGANAN REVIEW — DUNGEON STRIP / JSON
+================================================
+
+Judul yang dipakai (12 kata):
+1. Optimum Eksak Penataan Ruang Dungeon Strip: Evaluasi Algoritma Genetika dan Pencarian Lokal
+
+Alternatif judul:
+2. Algoritma Genetika dan Pencarian Lokal pada Ruang Pencarian Peta Dungeon Strip
+3. Kinerja Algoritma Genetika terhadap Optimum Eksak Penataan Ruang Dungeon Strip
+
+ANALISIS
+- Enumerasi penuh selesai untuk 1.000 seed dan 3.787.236 susunan sah secara
+  keseluruhan. Ruang per seed: minimum 9, median 1.296, rerata 3.787,236,
+  maksimum 103.680; 352 seed (35,2%) ≤744 dan 792 (79,2%) ≤5.000.
+- Acak dan genetika mencapai optimum metrik 1–2 pada 1.000 seed; pencarian
+  lokal pada 988. Untuk keempat metrik: acak 985, genetika 997, lokal 952.
+- Dua belas ID yang meleset pada pencarian lokal: U0067, U0155, U0186,
+  U0350, U0354, U0520, U0554, U0584, U0634, U0667, U0799, U0898.
+  U0067 dipakai sebagai contoh kedua pada Tabel 4.
+- Ada 101 seed dengan optimum kesempatan minimum nol: 39 tanpa Peti/Toko
+  dan 62 dengan tepat satu Peti/Toko.
+- Pejalan acak: peluang minimum 0,430 pada peta awal; 0,503 acak; 0,502
+  genetika; 0,502 lokal; 0,495 pada satu wakil optimum eksak. Ekspektasi
+  minimum 0,540; 0,715; 0,713; 0,716; 0,713 dalam urutan yang sama.
+  Selisih lokal–awal untuk peluang 0,0719 (CI 95% 0,0555–0,0887) dan untuk
+  ekspektasi 0,1764 (CI 0,1568–0,1966). Wakil optimum dipilih dari seri
+  empat metrik dan tidak mengoptimalkan pejalan acak.
+- Graf: 19–23 node, rerata 20,174; jalur lengkap 4–46, rerata 12,472;
+  lapisan 0 dua Tempur, lapisan 5 tiga Api, lapisan 6 satu Bos.
+- Tuning 90 seed: satu titik awal memberi rerata kesempatan minimum 1,500
+  dengan 34,3 evaluasi; empat titik awal 1,633 dengan 139,0 evaluasi.
+  Tidak ditambahkan nilai jumlah titik awal lain.
+- Uji tanda dua sisi (seri diabaikan): genetika vs lokal 47/951/2,
+  p=4,36×10^-12; genetika vs acak 14/983/3, p=0,0127; lokal vs acak
+  11/944/45, p=5,38×10^-6. Urutan angka: menang/seri/kalah.
+- Sensitivitas empat metode termuat pada Tabel 8; metrik, median, p05,
+  p95, SD, biaya, dan waktu termuat pada Tabel 5.
+- Tabel 3 menampilkan hanya ukuran yang mempunyai minimum, median, rerata,
+  dan maksimum. Persentase seed dengan ruang pencarian kecil dipindahkan
+  ke catatan tabel. Tabel 5 memisahkan hasil rute, jumlah kandidat yang
+  dinilai, dan waktu membuat peta; jumlah kandidat ditulis sebagai hitungan.
+
+PEMERIKSAAN
+- Skrip Python terpisah mengulang enumerasi lima seed (termasuk U0067)
+  dan menghitung metrik pejalan acak pada 4.000 peta Fase 2; lulus.
+  Sebanyak 64 nilai sensitivitas dari seluruh metode juga dihitung ulang;
+  semuanya cocok. Audit naskah mencakup 84 pemeriksaan.
+- Angka lama yang diperiksa kembali: 0,981/1,651/1,639; 0,768/0,068;
+  543 naik dan 457 tetap; 410 dan 932 selisih nol; ketiga perbandingan
+  menang/seri/kalah; 0,579/0,897; 1,691/2,043; 4,051/4,052. Tidak ada
+  perbedaan pada angka tersebut. Tabel rinci ada pada ANGKA_CEK.csv.
+- Naskah: 11 halaman, 3 gambar, 8 tabel, 20 referensi, 2 buku. Seluruh
+  referensi dikutip dalam urutan kemunculan. Kedua abstrak berada dalam
+  batas 90–230 kata. Audit format lulus dan halaman tabel diperiksa
+  secara visual.
+- Crossref mengonfirmasi 19 DOI yang tercantum, termasuk referensi [18].
+  Referensi [18] juga ditemukan pada laman penerbit IEEE Xplore:
+  https://ieeexplore.ieee.org/abstract/document/11772774
+  Buku [1] tidak mencantumkan DOI, namun judul/editor/tahun/ISBN cocok
+  dengan laman penerbit Routledge:
+  https://www.routledge.com/ProceduralGeneration-in-Game-Design/Short-Adams/p/book/9781498799195
+  Perincian metadata tiap referensi ada pada reference_check.csv.
+
+CATATAN SEBELUM SUBMISI
+- Penulis perlu memverifikasi nama, urutan penulis, afiliasi, dan email;
+  identitas di naskah dibiarkan sama seperti versi sebelumnya.
+- Placeholder [URL/DOI Zenodo-GitHub - ISI PENULIS] perlu diganti hanya
+  sesudah paket data benar-benar dipublikasikan.
+- Nilai Volume, Nomor, DOI, dan tanggal Submitted/Accepted/Published
+  adalah placeholder redaksi, bukan informasi terbit yang sudah ada.
+- LibreOffice tidak terpasang pada komputer ini. PDF pratinjau dibuat dari
+  Word dan halaman-halamannya diperiksa sebagai gambar.
+- Paket unggahan menetralkan jalur lokal pada salinan skrip Fase 2; kode
+  pembangkit peta yang diuji dan hash sumbernya tetap dicatat.

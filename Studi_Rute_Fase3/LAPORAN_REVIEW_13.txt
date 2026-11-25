@@ -1,0 +1,55 @@
+LAPORAN REVISI ARTIKEL JSON — DUNGEON STRIP
+==========================================
+
+Naskah Revisi 13: 11 halaman, 3 gambar, 9 tabel, 20 referensi.
+Audit struktur dan angka: 92 pemeriksaan lulus.
+
+PERBAIKAN BERDASARKAN CATATAN REVIEW
+1. Baris optimum pejalan acak menghitung rerata seluruh susunan yang seri
+   pada empat tujuan dalam setiap seed, lalu rerata atas 1.000 seed.
+   Sebanyak 993 seed memiliki lebih dari satu optimum. Peluang minimum
+   rerata 0,502, dibanding 0,495 jika hanya wakil pertama enumerasi yang
+   dipakai. Rentang rerata bila dipilih nilai terendah/tertinggi per seed
+   adalah 0,405–0,593. Data dan kode tersedia dalam berkas phase4_*.csv,
+   phase4_optimal_ties.py, dan PHASE4_PROTOCOL.txt.
+2. Enumerasi dijalankan di Node.js v24.22.3 dengan fungsi penilai dari
+   skrip eksperimen asli yang dibekukan. Semua 1.000 optimum dan jumlah
+   susunannya sama dengan audit Python. Rerata waktu enumerasi 19,451 ms,
+   median 6,275 ms; rerata waktu pencarian lokal pada pengukuran ulang
+   0,785 ms. Waktu bersifat indikatif karena proses diukur terpisah.
+3. Tabel 5 kini khusus mutu rute; Tabel 6 khusus jumlah evaluasi dan waktu.
+   Tabel perbandingan, pejalan acak, dan sensitivitas bergeser menjadi
+   Tabel 7, 8, dan 9.
+4. Referensi memakai huruf miring pada nama jurnal, prosiding, atau buku;
+   judul artikel tetap tegak di dalam tanda kutip.
+5. Untuk 62 seed dengan satu Peti/Toko dan optimum nol, tidak ada node
+   pada lapisan hadiah yang dapat dicapai dari kedua titik awal. Semua
+   62 graf telah diperiksa ulang.
+6. Naskah menjelaskan Dungeon Strip sebagai game yang dikembangkan penulis
+   dari salinan lokal. Fungsi Air Suci dijelaskan pada Tabel 1.
+7. Gambar 1 diperbaiki. Gambar 2 diambil ulang dari antarmuka game dengan
+   masukan U0013 dan cocok dengan peta awal pada data mentah. Gambar 3 tetap.
+8. Sensitivitas 1, 2, 3, 4, dan 8 titik awal hanya memakai 90 seed
+   pengembangan. Delapan titik awal mencapai optimum empat metrik pada
+   90/90 seed dengan rerata 280,9 evaluasi; empat titik awal tetap dipakai
+   pada uji utama karena telah ditetapkan sebelumnya. Tiga uji tanda
+   ditafsirkan dengan ambang Bonferroni 0,0167.
+
+PEMERIKSAAN
+- Delapan seed kecil diperiksa lagi dengan enumerasi sederhana dan
+  pejalan acak rekursif; jumlah ikatan optimum dan reratanya cocok.
+- Empat ribu peta pengukuran ulang cocok dengan arsip utama pada jenis
+  ruang, sisi graf, metrik, dan evaluasi.
+- Word dirender dengan Microsoft Word karena LibreOffice tidak tersedia.
+  Semua halaman PDF diperiksa sebagai PNG; tidak ada tabel terpotong
+  atau judul tabel terpisah dari isinya.
+
+SEBELUM SUBMISI
+- Tautan data publik pada naskah masih placeholder. Paket ZIP sudah siap,
+  tetapi belum diunggah ke repositori dan belum dapat diakses pembaca.
+- Nama, urutan penulis, afiliasi, dan email perlu dikonfirmasi penulis.
+- Angka Volume/Nomor/DOI dan tanggal Submitted/Accepted/Published adalah
+  placeholder redaksi dari template.
+- Konfigurasi graf sintetis besar belum ditambahkan karena merupakan
+  eksperimen baru di luar protokol dan data game utama. Batas generalisasi
+  tersebut dinyatakan pada pembahasan.

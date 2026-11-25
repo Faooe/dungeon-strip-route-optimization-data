@@ -1,0 +1,32 @@
+{
+  "study": "Dungeon Strip seeded route optimization",
+  "source_path": "Studi_Rute_Fase2/phase2_test/logika_snapshot.js",
+  "source_sha256": "b1d5cbe36149f8d529608e3fd81e9d18c2888f70855f368aec64d5d514d7a9ca",
+  "generator_sha256": "dcd8891e3cc0693f5255c6e8600664ede4ad2efac093d7c59a888bd0f818d8d1",
+  "seed_start": "2023-10-01",
+  "seed_count": 90,
+  "seed_end": "2023-12-29",
+  "population": 24,
+  "generations": 30,
+  "candidates_per_optimization": 744,
+  "local_swap_restarts": 4,
+  "local_swap_max_steps_per_start": 10,
+  "scope": "Route graph and room types only; no room layouts, combat outcomes, loot draws or human player experience",
+  "reward_types": [
+    "peti",
+    "toko"
+  ],
+  "high_risk_types": [
+    "elit",
+    "tantangan"
+  ],
+  "objectives": [
+    "minimum_best_reward",
+    "negative_reward_gap",
+    "negative_worst_risk_streak",
+    "unique_path_share"
+  ],
+  "elapsed_seconds": 1.4231824999999998,
+  "node_version": "v22.20.0",
+  "created_at_utc": "2026-11-24T01:11:13.634Z"
+}

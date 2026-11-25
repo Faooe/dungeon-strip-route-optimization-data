@@ -1,0 +1,38 @@
+PROTOKOL FASE 2 — DIBEKUKAN SEBELUM PENGUJIAN UTAMA
+===================================================
+
+Tujuan: menguji apakah perbaikan rute dengan pertukaran lokal dapat mendekati
+kualitas pencarian acak dan algoritma genetika pada biaya komputasi lebih kecil.
+Tidak ada pengujian pemain atau responden.
+
+Kode game sumber SHA-256:
+b1d5cbe36149f8d529608e3fd81e9d18c2888f70855f368aec64d5d514d7a9ca
+Kode eksperimen fase2.mjs SHA-256 sebelum pengujian:
+81a37b7066c9c82c0cb8ae54634adb66570a8a91a598e27c95e62ea74829fd6d
+
+Pengembangan menggunakan 90 seed dari 2023-10-01 sampai 2023-12-29.
+Pada data pengembangan, satu titik awal perbaikan lokal mendekati hasil
+pencarian tetapi belum cukup; empat titik awal dipilih sebagai kompromi
+kualitas/biaya. Seed pengujian utama 2024-01-01 dan 999 hari berikutnya
+belum digunakan untuk memilih parameter. Hasil fase 1 (2021-01-01 s.d.
+2023-09-27) menjadi temuan yang mendorong metode baru, bukan data uji fase 2.
+
+Empat metode: generator asli, pencarian acak 744 kandidat, algoritma genetika
+744 kandidat, dan perbaikan pertukaran lokal dengan 4 titik awal dan maksimal
+10 langkah per titik awal. Metode terakhir berhenti ketika tidak ada
+perbaikan. Jumlah kandidat yang dievaluasi metode lokal dilaporkan per seed.
+
+Semua metode mempertahankan graf rute dan frekuensi setiap jenis ruang pada
+masing-masing lapisan untuk seed yang sama. Prioritas hasil tetap seperti
+fase 1: (1) minimum kesempatan hadiah terbaik dari semua titik awal naik;
+(2) selisih kesempatan terbaik antar titik awal turun; (3) rentetan ruang
+berisiko tinggi terpanjang turun; (4) proporsi urutan jenis ruang unik naik.
+Ruang hadiah: Peti/Toko. Risiko tinggi: Elite/Tantangan. Hasil sekunder:
+proporsi jalur dengan minimal satu Peti/Toko. Metode ini hanya mengukur
+struktur rute, bukan pengalaman bermain.
+
+Analisis memakai selisih berpasangan antar metode pada seed sama dan interval
+bootstrap 95% dengan 2.000 resampling. Waktu eksekusi dilaporkan sebagai
+indikasi, dengan urutan tiga metode optimasi dirotasi berdasarkan seed untuk
+mengurangi bias urutan. Hasil utama ditafsirkan menurut besar efek praktis,
+termasuk kasus seri dan ketika metode lokal kalah dari pembanding.

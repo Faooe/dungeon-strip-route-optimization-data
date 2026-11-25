@@ -1,0 +1,42 @@
+{
+  "1": {
+    "seed_count": 90,
+    "mean_minimum_best_reward": 1.5,
+    "mean_reward_gap": 0.07777777777777778,
+    "mean_evaluations": 34.31111111111111,
+    "optimal_first_two": 76,
+    "optimal_all_four": 56
+  },
+  "2": {
+    "seed_count": 90,
+    "mean_minimum_best_reward": 1.6111111111111112,
+    "mean_reward_gap": 0.07777777777777778,
+    "mean_evaluations": 68.67777777777778,
+    "optimal_first_two": 85,
+    "optimal_all_four": 74
+  },
+  "3": {
+    "seed_count": 90,
+    "mean_minimum_best_reward": 1.6222222222222222,
+    "mean_reward_gap": 0.06666666666666667,
+    "mean_evaluations": 101.54444444444445,
+    "optimal_first_two": 87,
+    "optimal_all_four": 78
+  },
+  "4": {
+    "seed_count": 90,
+    "mean_minimum_best_reward": 1.6333333333333333,
+    "mean_reward_gap": 0.06666666666666667,
+    "mean_evaluations": 138.98888888888888,
+    "optimal_first_two": 88,
+    "optimal_all_four": 84
+  },
+  "8": {
+    "seed_count": 90,
+    "mean_minimum_best_reward": 1.6555555555555554,
+    "mean_reward_gap": 0.06666666666666667,
+    "mean_evaluations": 280.94444444444446,
+    "optimal_first_two": 90,
+    "optimal_all_four": 90
+  }
+}

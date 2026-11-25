@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "seeds_checked": 90,
+  "maps_checked": 360,
+  "metrics_recomputed_independently": true,
+  "topology_and_layer_room_counts_unchanged": true,
+  "source_hash_verified": true,
+  "summary_means_recomputed": true
+}

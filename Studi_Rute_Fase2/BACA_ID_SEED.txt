@@ -1,0 +1,14 @@
+PETA ID SEED PENELITIAN
+=======================
+
+Naskah menggunakan P001–P090 untuk 90 seed pengembangan dan U0001–U1000
+untuk 1.000 seed pengujian. ID hanya nama singkat untuk pembaca.
+
+seed_id_mapping.json memasangkan setiap ID dengan string input sebenarnya
+yang diberikan kepada fungsi pembuat peta Dungeon Strip. String input tersebut
+berbentuk tanggal karena fungsi game menggunakannya sebagai seed harian.
+Itu bukan tanggal pengumpulan data atau tanggal permainan.
+
+Contoh Tabel 1: U0013 dipetakan ke input 2024-01-13. Semua eksperimen
+dijalankan pada 24 November 2026. Empat metode menghasilkan satu peta
+untuk setiap seed uji yang sama, sehingga total ada 4.000 peta uji.

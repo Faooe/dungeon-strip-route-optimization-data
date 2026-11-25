@@ -1,0 +1,26 @@
+ASAL DATA PENELITIAN DUNGEON STRIP
+=================================
+
+Sumber: fungsi buatPeta(seed) pada kode game Dungeon Strip milik penulis.
+Salinan sumber ada pada Studi_Rute_Fase2/phase2_test/logika_snapshot.js.
+SHA-256 sumber:
+b1d5cbe36149f8d529608e3fd81e9d18c2888f70855f368aec64d5d514d7a9ca
+
+Eksperimen utama Fase 2 dijalankan pada 24 November 2026. Sebanyak 90 seed
+pengembangan digunakan untuk memilih empat titik awal pencarian lokal.
+Empat metode memakai 1.000 seed uji yang sama dan menghasilkan 4.000 peta.
+Fase 3 menghitung optimum eksak dan metrik tambahan dari data tersebut.
+Tidak ada responden atau permainan manual.
+
+ID P001 memakai string masukan 2023-10-01 dan ID U0001 memakai 2024-01-01;
+ID berikutnya dalam masing-masing kelompok bertambah satu hari kalender.
+String itu hanya masukan deterministik fungsi game, bukan tanggal bermain
+atau periode pengumpulan data. Pemetaan lengkap ada pada
+Studi_Rute_Fase2/seed_id_mapping.json.
+
+Data peta: Studi_Rute_Fase2/phase2_test/maps.jsonl
+Hasil eksak: Studi_Rute_Fase3/exhaustive_per_seed.csv
+Ringkasan: Studi_Rute_Fase3/exhaustive_summary.json
+Protokol: Studi_Rute_Fase3/PHASE3_PROTOCOL.txt
+Pemeriksaan: Studi_Rute_Fase3/validation.json dan ANGKA_CEK.csv
+Analisis tambahan: Studi_Rute_Fase3/PHASE4_PROTOCOL.txt

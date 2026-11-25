@@ -1,0 +1,5458 @@
+{
+  "description": "ID seed for article reporting, mapped to the exact input string used by Dungeon Strip",
+  "experiment_executed_on": "2026-11-24",
+  "input_note": "The YYYY-MM-DD shaped input is a deterministic generator key, not a date of observation or gameplay.",
+  "source_sha256": "b1d5cbe36149f8d529608e3fd81e9d18c2888f70855f368aec64d5d514d7a9ca",
+  "entries": [
+    {
+      "id": "P001",
+      "set": "pengembangan",
+      "game_input": "2023-10-01"
+    },
+    {
+      "id": "P002",
+      "set": "pengembangan",
+      "game_input": "2023-10-02"
+    },
+    {
+      "id": "P003",
+      "set": "pengembangan",
+      "game_input": "2023-10-03"
+    },
+    {
+      "id": "P004",
+      "set": "pengembangan",
+      "game_input": "2023-10-04"
+    },
+    {
+      "id": "P005",
+      "set": "pengembangan",
+      "game_input": "2023-10-05"
+    },
+    {
+      "id": "P006",
+      "set": "pengembangan",
+      "game_input": "2023-10-06"
+    },
+    {
+      "id": "P007",
+      "set": "pengembangan",
+      "game_input": "2023-10-07"
+    },
+    {
+      "id": "P008",
+      "set": "pengembangan",
+      "game_input": "2023-10-08"
+    },
+    {
+      "id": "P009",
+      "set": "pengembangan",
+      "game_input": "2023-10-09"
+    },
+    {
+      "id": "P010",
+      "set": "pengembangan",
+      "game_input": "2023-10-10"
+    },
+    {
+      "id": "P011",
+      "set": "pengembangan",
+      "game_input": "2023-10-11"
+    },
+    {
+      "id": "P012",
+      "set": "pengembangan",
+      "game_input": "2023-10-12"
+    },
+    {
+      "id": "P013",
+      "set": "pengembangan",
+      "game_input": "2023-10-13"
+    },
+    {
+      "id": "P014",
+      "set": "pengembangan",
+      "game_input": "2023-10-14"
+    },
+    {
+      "id": "P015",
+      "set": "pengembangan",
+      "game_input": "2023-10-15"
+    },
+    {
+      "id": "P016",
+      "set": "pengembangan",
+      "game_input": "2023-10-16"
+    },
+    {
+      "id": "P017",
+      "set": "pengembangan",
+      "game_input": "2023-10-17"
+    },
+    {
+      "id": "P018",
+      "set": "pengembangan",
+      "game_input": "2023-10-18"
+    },
+    {
+      "id": "P019",
+      "set": "pengembangan",
+      "game_input": "2023-10-19"
+    },
+    {
+      "id": "P020",
+      "set": "pengembangan",
+      "game_input": "2023-10-20"
+    },
+    {
+      "id": "P021",
+      "set": "pengembangan",
+      "game_input": "2023-10-21"
+    },
+    {
+      "id": "P022",
+      "set": "pengembangan",
+      "game_input": "2023-10-22"
+    },
+    {
+      "id": "P023",
+      "set": "pengembangan",
+      "game_input": "2023-10-23"
+    },
+    {
+      "id": "P024",
+      "set": "pengembangan",
+      "game_input": "2023-10-24"
+    },
+    {
+      "id": "P025",
+      "set": "pengembangan",
+      "game_input": "2023-10-25"
+    },
+    {
+      "id": "P026",
+      "set": "pengembangan",
+      "game_input": "2023-10-26"
+    },
+    {
+      "id": "P027",
+      "set": "pengembangan",
+      "game_input": "2023-10-27"
+    },
+    {
+      "id": "P028",
+      "set": "pengembangan",
+      "game_input": "2023-10-28"
+    },
+    {
+      "id": "P029",
+      "set": "pengembangan",
+      "game_input": "2023-10-29"
+    },
+    {
+      "id": "P030",
+      "set": "pengembangan",
+      "game_input": "2023-10-30"
+    },
+    {
+      "id": "P031",
+      "set": "pengembangan",
+      "game_input": "2023-10-31"
+    },
+    {
+      "id": "P032",
+      "set": "pengembangan",
+      "game_input": "2023-11-01"
+    },
+    {
+      "id": "P033",
+      "set": "pengembangan",
+      "game_input": "2023-11-02"
+    },
+    {
+      "id": "P034",
+      "set": "pengembangan",
+      "game_input": "2023-11-03"
+    },
+    {
+      "id": "P035",
+      "set": "pengembangan",
+      "game_input": "2023-11-04"
+    },
+    {
+      "id": "P036",
+      "set": "pengembangan",
+      "game_input": "2023-11-05"
+    },
+    {
+      "id": "P037",
+      "set": "pengembangan",
+      "game_input": "2023-11-06"
+    },
+    {
+      "id": "P038",
+      "set": "pengembangan",
+      "game_input": "2023-11-07"
+    },
+    {
+      "id": "P039",
+      "set": "pengembangan",
+      "game_input": "2023-11-08"
+    },
+    {
+      "id": "P040",
+      "set": "pengembangan",
+      "game_input": "2023-11-09"
+    },
+    {
+      "id": "P041",
+      "set": "pengembangan",
+      "game_input": "2023-11-10"
+    },
+    {
+      "id": "P042",
+      "set": "pengembangan",
+      "game_input": "2023-11-11"
+    },
+    {
+      "id": "P043",
+      "set": "pengembangan",
+      "game_input": "2023-11-12"
+    },
+    {
+      "id": "P044",
+      "set": "pengembangan",
+      "game_input": "2023-11-13"
+    },
+    {
+      "id": "P045",
+      "set": "pengembangan",
+      "game_input": "2023-11-14"
+    },
+    {
+      "id": "P046",
+      "set": "pengembangan",
+      "game_input": "2023-11-15"
+    },
+    {
+      "id": "P047",
+      "set": "pengembangan",
+      "game_input": "2023-11-16"
+    },
+    {
+      "id": "P048",
+      "set": "pengembangan",
+      "game_input": "2023-11-17"
+    },
+    {
+      "id": "P049",
+      "set": "pengembangan",
+      "game_input": "2023-11-18"
+    },
+    {
+      "id": "P050",
+      "set": "pengembangan",
+      "game_input": "2023-11-19"
+    },
+    {
+      "id": "P051",
+      "set": "pengembangan",
+      "game_input": "2023-11-20"
+    },
+    {
+      "id": "P052",
+      "set": "pengembangan",
+      "game_input": "2023-11-21"
+    },
+    {
+      "id": "P053",
+      "set": "pengembangan",
+      "game_input": "2023-11-22"
+    },
+    {
+      "id": "P054",
+      "set": "pengembangan",
+      "game_input": "2023-11-23"
+    },
+    {
+      "id": "P055",
+      "set": "pengembangan",
+      "game_input": "2023-11-24"
+    },
+    {
+      "id": "P056",
+      "set": "pengembangan",
+      "game_input": "2023-11-25"
+    },
+    {
+      "id": "P057",
+      "set": "pengembangan",
+      "game_input": "2023-11-26"
+    },
+    {
+      "id": "P058",
+      "set": "pengembangan",
+      "game_input": "2023-11-27"
+    },
+    {
+      "id": "P059",
+      "set": "pengembangan",
+      "game_input": "2023-11-28"
+    },
+    {
+      "id": "P060",
+      "set": "pengembangan",
+      "game_input": "2023-11-29"
+    },
+    {
+      "id": "P061",
+      "set": "pengembangan",
+      "game_input": "2023-11-30"
+    },
+    {
+      "id": "P062",
+      "set": "pengembangan",
+      "game_input": "2023-12-01"
+    },
+    {
+      "id": "P063",
+      "set": "pengembangan",
+      "game_input": "2023-12-02"
+    },
+    {
+      "id": "P064",
+      "set": "pengembangan",
+      "game_input": "2023-12-03"
+    },
+    {
+      "id": "P065",
+      "set": "pengembangan",
+      "game_input": "2023-12-04"
+    },
+    {
+      "id": "P066",
+      "set": "pengembangan",
+      "game_input": "2023-12-05"
+    },
+    {
+      "id": "P067",
+      "set": "pengembangan",
+      "game_input": "2023-12-06"
+    },
+    {
+      "id": "P068",
+      "set": "pengembangan",
+      "game_input": "2023-12-07"
+    },
+    {
+      "id": "P069",
+      "set": "pengembangan",
+      "game_input": "2023-12-08"
+    },
+    {
+      "id": "P070",
+      "set": "pengembangan",
+      "game_input": "2023-12-09"
+    },
+    {
+      "id": "P071",
+      "set": "pengembangan",
+      "game_input": "2023-12-10"
+    },
+    {
+      "id": "P072",
+      "set": "pengembangan",
+      "game_input": "2023-12-11"
+    },
+    {
+      "id": "P073",
+      "set": "pengembangan",
+      "game_input": "2023-12-12"
+    },
+    {
+      "id": "P074",
+      "set": "pengembangan",
+      "game_input": "2023-12-13"
+    },
+    {
+      "id": "P075",
+      "set": "pengembangan",
+      "game_input": "2023-12-14"
+    },
+    {
+      "id": "P076",
+      "set": "pengembangan",
+      "game_input": "2023-12-15"
+    },
+    {
+      "id": "P077",
+      "set": "pengembangan",
+      "game_input": "2023-12-16"
+    },
+    {
+      "id": "P078",
+      "set": "pengembangan",
+      "game_input": "2023-12-17"
+    },
+    {
+      "id": "P079",
+      "set": "pengembangan",
+      "game_input": "2023-12-18"
+    },
+    {
+      "id": "P080",
+      "set": "pengembangan",
+      "game_input": "2023-12-19"
+    },
+    {
+      "id": "P081",
+      "set": "pengembangan",
+      "game_input": "2023-12-20"
+    },
+    {
+      "id": "P082",
+      "set": "pengembangan",
+      "game_input": "2023-12-21"
+    },
+    {
+      "id": "P083",
+      "set": "pengembangan",
+      "game_input": "2023-12-22"
+    },
+    {
+      "id": "P084",
+      "set": "pengembangan",
+      "game_input": "2023-12-23"
+    },
+    {
+      "id": "P085",
+      "set": "pengembangan",
+      "game_input": "2023-12-24"
+    },
+    {
+      "id": "P086",
+      "set": "pengembangan",
+      "game_input": "2023-12-25"
+    },
+    {
+      "id": "P087",
+      "set": "pengembangan",
+      "game_input": "2023-12-26"
+    },
+    {
+      "id": "P088",
+      "set": "pengembangan",
+      "game_input": "2023-12-27"
+    },
+    {
+      "id": "P089",
+      "set": "pengembangan",
+      "game_input": "2023-12-28"
+    },
+    {
+      "id": "P090",
+      "set": "pengembangan",
+      "game_input": "2023-12-29"
+    },
+    {
+      "id": "U0001",
+      "set": "pengujian",
+      "game_input": "2024-01-01"
+    },
+    {
+      "id": "U0002",
+      "set": "pengujian",
+      "game_input": "2024-01-02"
+    },
+    {
+      "id": "U0003",
+      "set": "pengujian",
+      "game_input": "2024-01-03"
+    },
+    {
+      "id": "U0004",
+      "set": "pengujian",
+      "game_input": "2024-01-04"
+    },
+    {
+      "id": "U0005",
+      "set": "pengujian",
+      "game_input": "2024-01-05"
+    },
+    {
+      "id": "U0006",
+      "set": "pengujian",
+      "game_input": "2024-01-06"
+    },
+    {
+      "id": "U0007",
+      "set": "pengujian",
+      "game_input": "2024-01-07"
+    },
+    {
+      "id": "U0008",
+      "set": "pengujian",
+      "game_input": "2024-01-08"
+    },
+    {
+      "id": "U0009",
+      "set": "pengujian",
+      "game_input": "2024-01-09"
+    },
+    {
+      "id": "U0010",
+      "set": "pengujian",
+      "game_input": "2024-01-10"
+    },
+    {
+      "id": "U0011",
+      "set": "pengujian",
+      "game_input": "2024-01-11"
+    },
+    {
+      "id": "U0012",
+      "set": "pengujian",
+      "game_input": "2024-01-12"
+    },
+    {
+      "id": "U0013",
+      "set": "pengujian",
+      "game_input": "2024-01-13"
+    },
+    {
+      "id": "U0014",
+      "set": "pengujian",
+      "game_input": "2024-01-14"
+    },
+    {
+      "id": "U0015",
+      "set": "pengujian",
+      "game_input": "2024-01-15"
+    },
+    {
+      "id": "U0016",
+      "set": "pengujian",
+      "game_input": "2024-01-16"
+    },
+    {
+      "id": "U0017",
+      "set": "pengujian",
+      "game_input": "2024-01-17"
+    },
+    {
+      "id": "U0018",
+      "set": "pengujian",
+      "game_input": "2024-01-18"
+    },
+    {
+      "id": "U0019",
+      "set": "pengujian",
+      "game_input": "2024-01-19"
+    },
+    {
+      "id": "U0020",
+      "set": "pengujian",
+      "game_input": "2024-01-20"
+    },
+    {
+      "id": "U0021",
+      "set": "pengujian",
+      "game_input": "2024-01-21"
+    },
+    {
+      "id": "U0022",
+      "set": "pengujian",
+      "game_input": "2024-01-22"
+    },
+    {
+      "id": "U0023",
+      "set": "pengujian",
+      "game_input": "2024-01-23"
+    },
+    {
+      "id": "U0024",
+      "set": "pengujian",
+      "game_input": "2024-01-24"
+    },
+    {
+      "id": "U0025",
+      "set": "pengujian",
+      "game_input": "2024-01-25"
+    },
+    {
+      "id": "U0026",
+      "set": "pengujian",
+      "game_input": "2024-01-26"
+    },
+    {
+      "id": "U0027",
+      "set": "pengujian",
+      "game_input": "2024-01-27"
+    },
+    {
+      "id": "U0028",
+      "set": "pengujian",
+      "game_input": "2024-01-28"
+    },
+    {
+      "id": "U0029",
+      "set": "pengujian",
+      "game_input": "2024-01-29"
+    },
+    {
+      "id": "U0030",
+      "set": "pengujian",
+      "game_input": "2024-01-30"
+    },
+    {
+      "id": "U0031",
+      "set": "pengujian",
+      "game_input": "2024-01-31"
+    },
+    {
+      "id": "U0032",
+      "set": "pengujian",
+      "game_input": "2024-02-01"
+    },
+    {
+      "id": "U0033",
+      "set": "pengujian",
+      "game_input": "2024-02-02"
+    },
+    {
+      "id": "U0034",
+      "set": "pengujian",
+      "game_input": "2024-02-03"
+    },
+    {
+      "id": "U0035",
+      "set": "pengujian",
+      "game_input": "2024-02-04"
+    },
+    {
+      "id": "U0036",
+      "set": "pengujian",
+      "game_input": "2024-02-05"
+    },
+    {
+      "id": "U0037",
+      "set": "pengujian",
+      "game_input": "2024-02-06"
+    },
+    {
+      "id": "U0038",
+      "set": "pengujian",
+      "game_input": "2024-02-07"
+    },
+    {
+      "id": "U0039",
+      "set": "pengujian",
+      "game_input": "2024-02-08"
+    },
+    {
+      "id": "U0040",
+      "set": "pengujian",
+      "game_input": "2024-02-09"
+    },
+    {
+      "id": "U0041",
+      "set": "pengujian",
+      "game_input": "2024-02-10"
+    },
+    {
+      "id": "U0042",
+      "set": "pengujian",
+      "game_input": "2024-02-11"
+    },
+    {
+      "id": "U0043",
+      "set": "pengujian",
+      "game_input": "2024-02-12"
+    },
+    {
+      "id": "U0044",
+      "set": "pengujian",
+      "game_input": "2024-02-13"
+    },
+    {
+      "id": "U0045",
+      "set": "pengujian",
+      "game_input": "2024-02-14"
+    },
+    {
+      "id": "U0046",
+      "set": "pengujian",
+      "game_input": "2024-02-15"
+    },
+    {
+      "id": "U0047",
+      "set": "pengujian",
+      "game_input": "2024-02-16"
+    },
+    {
+      "id": "U0048",
+      "set": "pengujian",
+      "game_input": "2024-02-17"
+    },
+    {
+      "id": "U0049",
+      "set": "pengujian",
+      "game_input": "2024-02-18"
+    },
+    {
+      "id": "U0050",
+      "set": "pengujian",
+      "game_input": "2024-02-19"
+    },
+    {
+      "id": "U0051",
+      "set": "pengujian",
+      "game_input": "2024-02-20"
+    },
+    {
+      "id": "U0052",
+      "set": "pengujian",
+      "game_input": "2024-02-21"
+    },
+    {
+      "id": "U0053",
+      "set": "pengujian",
+      "game_input": "2024-02-22"
+    },
+    {
+      "id": "U0054",
+      "set": "pengujian",
+      "game_input": "2024-02-23"
+    },
+    {
+      "id": "U0055",
+      "set": "pengujian",
+      "game_input": "2024-02-24"
+    },
+    {
+      "id": "U0056",
+      "set": "pengujian",
+      "game_input": "2024-02-25"
+    },
+    {
+      "id": "U0057",
+      "set": "pengujian",
+      "game_input": "2024-02-26"
+    },
+    {
+      "id": "U0058",
+      "set": "pengujian",
+      "game_input": "2024-02-27"
+    },
+    {
+      "id": "U0059",
+      "set": "pengujian",
+      "game_input": "2024-02-28"
+    },
+    {
+      "id": "U0060",
+      "set": "pengujian",
+      "game_input": "2024-02-29"
+    },
+    {
+      "id": "U0061",
+      "set": "pengujian",
+      "game_input": "2024-03-01"
+    },
+    {
+      "id": "U0062",
+      "set": "pengujian",
+      "game_input": "2024-03-02"
+    },
+    {
+      "id": "U0063",
+      "set": "pengujian",
+      "game_input": "2024-03-03"
+    },
+    {
+      "id": "U0064",
+      "set": "pengujian",
+      "game_input": "2024-03-04"
+    },
+    {
+      "id": "U0065",
+      "set": "pengujian",
+      "game_input": "2024-03-05"
+    },
+    {
+      "id": "U0066",
+      "set": "pengujian",
+      "game_input": "2024-03-06"
+    },
+    {
+      "id": "U0067",
+      "set": "pengujian",
+      "game_input": "2024-03-07"
+    },
+    {
+      "id": "U0068",
+      "set": "pengujian",
+      "game_input": "2024-03-08"
+    },
+    {
+      "id": "U0069",
+      "set": "pengujian",
+      "game_input": "2024-03-09"
+    },
+    {
+      "id": "U0070",
+      "set": "pengujian",
+      "game_input": "2024-03-10"
+    },
+    {
+      "id": "U0071",
+      "set": "pengujian",
+      "game_input": "2024-03-11"
+    },
+    {
+      "id": "U0072",
+      "set": "pengujian",
+      "game_input": "2024-03-12"
+    },
+    {
+      "id": "U0073",
+      "set": "pengujian",
+      "game_input": "2024-03-13"
+    },
+    {
+      "id": "U0074",
+      "set": "pengujian",
+      "game_input": "2024-03-14"
+    },
+    {
+      "id": "U0075",
+      "set": "pengujian",
+      "game_input": "2024-03-15"
+    },
+    {
+      "id": "U0076",
+      "set": "pengujian",
+      "game_input": "2024-03-16"
+    },
+    {
+      "id": "U0077",
+      "set": "pengujian",
+      "game_input": "2024-03-17"
+    },
+    {
+      "id": "U0078",
+      "set": "pengujian",
+      "game_input": "2024-03-18"
+    },
+    {
+      "id": "U0079",
+      "set": "pengujian",
+      "game_input": "2024-03-19"
+    },
+    {
+      "id": "U0080",
+      "set": "pengujian",
+      "game_input": "2024-03-20"
+    },
+    {
+      "id": "U0081",
+      "set": "pengujian",
+      "game_input": "2024-03-21"
+    },
+    {
+      "id": "U0082",
+      "set": "pengujian",
+      "game_input": "2024-03-22"
+    },
+    {
+      "id": "U0083",
+      "set": "pengujian",
+      "game_input": "2024-03-23"
+    },
+    {
+      "id": "U0084",
+      "set": "pengujian",
+      "game_input": "2024-03-24"
+    },
+    {
+      "id": "U0085",
+      "set": "pengujian",
+      "game_input": "2024-03-25"
+    },
+    {
+      "id": "U0086",
+      "set": "pengujian",
+      "game_input": "2024-03-26"
+    },
+    {
+      "id": "U0087",
+      "set": "pengujian",
+      "game_input": "2024-03-27"
+    },
+    {
+      "id": "U0088",
+      "set": "pengujian",
+      "game_input": "2024-03-28"
+    },
+    {
+      "id": "U0089",
+      "set": "pengujian",
+      "game_input": "2024-03-29"
+    },
+    {
+      "id": "U0090",
+      "set": "pengujian",
+      "game_input": "2024-03-30"
+    },
+    {
+      "id": "U0091",
+      "set": "pengujian",
+      "game_input": "2024-03-31"
+    },
+    {
+      "id": "U0092",
+      "set": "pengujian",
+      "game_input": "2024-04-01"
+    },
+    {
+      "id": "U0093",
+      "set": "pengujian",
+      "game_input": "2024-04-02"
+    },
+    {
+      "id": "U0094",
+      "set": "pengujian",
+      "game_input": "2024-04-03"
+    },
+    {
+      "id": "U0095",
+      "set": "pengujian",
+      "game_input": "2024-04-04"
+    },
+    {
+      "id": "U0096",
+      "set": "pengujian",
+      "game_input": "2024-04-05"
+    },
+    {
+      "id": "U0097",
+      "set": "pengujian",
+      "game_input": "2024-04-06"
+    },
+    {
+      "id": "U0098",
+      "set": "pengujian",
+      "game_input": "2024-04-07"
+    },
+    {
+      "id": "U0099",
+      "set": "pengujian",
+      "game_input": "2024-04-08"
+    },
+    {
+      "id": "U0100",
+      "set": "pengujian",
+      "game_input": "2024-04-09"
+    },
+    {
+      "id": "U0101",
+      "set": "pengujian",
+      "game_input": "2024-04-10"
+    },
+    {
+      "id": "U0102",
+      "set": "pengujian",
+      "game_input": "2024-04-11"
+    },
+    {
+      "id": "U0103",
+      "set": "pengujian",
+      "game_input": "2024-04-12"
+    },
+    {
+      "id": "U0104",
+      "set": "pengujian",
+      "game_input": "2024-04-13"
+    },
+    {
+      "id": "U0105",
+      "set": "pengujian",
+      "game_input": "2024-04-14"
+    },
+    {
+      "id": "U0106",
+      "set": "pengujian",
+      "game_input": "2024-04-15"
+    },
+    {
+      "id": "U0107",
+      "set": "pengujian",
+      "game_input": "2024-04-16"
+    },
+    {
+      "id": "U0108",
+      "set": "pengujian",
+      "game_input": "2024-04-17"
+    },
+    {
+      "id": "U0109",
+      "set": "pengujian",
+      "game_input": "2024-04-18"
+    },
+    {
+      "id": "U0110",
+      "set": "pengujian",
+      "game_input": "2024-04-19"
+    },
+    {
+      "id": "U0111",
+      "set": "pengujian",
+      "game_input": "2024-04-20"
+    },
+    {
+      "id": "U0112",
+      "set": "pengujian",
+      "game_input": "2024-04-21"
+    },
+    {
+      "id": "U0113",
+      "set": "pengujian",
+      "game_input": "2024-04-22"
+    },
+    {
+      "id": "U0114",
+      "set": "pengujian",
+      "game_input": "2024-04-23"
+    },
+    {
+      "id": "U0115",
+      "set": "pengujian",
+      "game_input": "2024-04-24"
+    },
+    {
+      "id": "U0116",
+      "set": "pengujian",
+      "game_input": "2024-04-25"
+    },
+    {
+      "id": "U0117",
+      "set": "pengujian",
+      "game_input": "2024-04-26"
+    },
+    {
+      "id": "U0118",
+      "set": "pengujian",
+      "game_input": "2024-04-27"
+    },
+    {
+      "id": "U0119",
+      "set": "pengujian",
+      "game_input": "2024-04-28"
+    },
+    {
+      "id": "U0120",
+      "set": "pengujian",
+      "game_input": "2024-04-29"
+    },
+    {
+      "id": "U0121",
+      "set": "pengujian",
+      "game_input": "2024-04-30"
+    },
+    {
+      "id": "U0122",
+      "set": "pengujian",
+      "game_input": "2024-05-01"
+    },
+    {
+      "id": "U0123",
+      "set": "pengujian",
+      "game_input": "2024-05-02"
+    },
+    {
+      "id": "U0124",
+      "set": "pengujian",
+      "game_input": "2024-05-03"
+    },
+    {
+      "id": "U0125",
+      "set": "pengujian",
+      "game_input": "2024-05-04"
+    },
+    {
+      "id": "U0126",
+      "set": "pengujian",
+      "game_input": "2024-05-05"
+    },
+    {
+      "id": "U0127",
+      "set": "pengujian",
+      "game_input": "2024-05-06"
+    },
+    {
+      "id": "U0128",
+      "set": "pengujian",
+      "game_input": "2024-05-07"
+    },
+    {
+      "id": "U0129",
+      "set": "pengujian",
+      "game_input": "2024-05-08"
+    },
+    {
+      "id": "U0130",
+      "set": "pengujian",
+      "game_input": "2024-05-09"
+    },
+    {
+      "id": "U0131",
+      "set": "pengujian",
+      "game_input": "2024-05-10"
+    },
+    {
+      "id": "U0132",
+      "set": "pengujian",
+      "game_input": "2024-05-11"
+    },
+    {
+      "id": "U0133",
+      "set": "pengujian",
+      "game_input": "2024-05-12"
+    },
+    {
+      "id": "U0134",
+      "set": "pengujian",
+      "game_input": "2024-05-13"
+    },
+    {
+      "id": "U0135",
+      "set": "pengujian",
+      "game_input": "2024-05-14"
+    },
+    {
+      "id": "U0136",
+      "set": "pengujian",
+      "game_input": "2024-05-15"
+    },
+    {
+      "id": "U0137",
+      "set": "pengujian",
+      "game_input": "2024-05-16"
+    },
+    {
+      "id": "U0138",
+      "set": "pengujian",
+      "game_input": "2024-05-17"
+    },
+    {
+      "id": "U0139",
+      "set": "pengujian",
+      "game_input": "2024-05-18"
+    },
+    {
+      "id": "U0140",
+      "set": "pengujian",
+      "game_input": "2024-05-19"
+    },
+    {
+      "id": "U0141",
+      "set": "pengujian",
+      "game_input": "2024-05-20"
+    },
+    {
+      "id": "U0142",
+      "set": "pengujian",
+      "game_input": "2024-05-21"
+    },
+    {
+      "id": "U0143",
+      "set": "pengujian",
+      "game_input": "2024-05-22"
+    },
+    {
+      "id": "U0144",
+      "set": "pengujian",
+      "game_input": "2024-05-23"
+    },
+    {
+      "id": "U0145",
+      "set": "pengujian",
+      "game_input": "2024-05-24"
+    },
+    {
+      "id": "U0146",
+      "set": "pengujian",
+      "game_input": "2024-05-25"
+    },
+    {
+      "id": "U0147",
+      "set": "pengujian",
+      "game_input": "2024-05-26"
+    },
+    {
+      "id": "U0148",
+      "set": "pengujian",
+      "game_input": "2024-05-27"
+    },
+    {
+      "id": "U0149",
+      "set": "pengujian",
+      "game_input": "2024-05-28"
+    },
+    {
+      "id": "U0150",
+      "set": "pengujian",
+      "game_input": "2024-05-29"
+    },
+    {
+      "id": "U0151",
+      "set": "pengujian",
+      "game_input": "2024-05-30"
+    },
+    {
+      "id": "U0152",
+      "set": "pengujian",
+      "game_input": "2024-05-31"
+    },
+    {
+      "id": "U0153",
+      "set": "pengujian",
+      "game_input": "2024-06-01"
+    },
+    {
+      "id": "U0154",
+      "set": "pengujian",
+      "game_input": "2024-06-02"
+    },
+    {
+      "id": "U0155",
+      "set": "pengujian",
+      "game_input": "2024-06-03"
+    },
+    {
+      "id": "U0156",
+      "set": "pengujian",
+      "game_input": "2024-06-04"
+    },
+    {
+      "id": "U0157",
+      "set": "pengujian",
+      "game_input": "2024-06-05"
+    },
+    {
+      "id": "U0158",
+      "set": "pengujian",
+      "game_input": "2024-06-06"
+    },
+    {
+      "id": "U0159",
+      "set": "pengujian",
+      "game_input": "2024-06-07"
+    },
+    {
+      "id": "U0160",
+      "set": "pengujian",
+      "game_input": "2024-06-08"
+    },
+    {
+      "id": "U0161",
+      "set": "pengujian",
+      "game_input": "2024-06-09"
+    },
+    {
+      "id": "U0162",
+      "set": "pengujian",
+      "game_input": "2024-06-10"
+    },
+    {
+      "id": "U0163",
+      "set": "pengujian",
+      "game_input": "2024-06-11"
+    },
+    {
+      "id": "U0164",
+      "set": "pengujian",
+      "game_input": "2024-06-12"
+    },
+    {
+      "id": "U0165",
+      "set": "pengujian",
+      "game_input": "2024-06-13"
+    },
+    {
+      "id": "U0166",
+      "set": "pengujian",
+      "game_input": "2024-06-14"
+    },
+    {
+      "id": "U0167",
+      "set": "pengujian",
+      "game_input": "2024-06-15"
+    },
+    {
+      "id": "U0168",
+      "set": "pengujian",
+      "game_input": "2024-06-16"
+    },
+    {
+      "id": "U0169",
+      "set": "pengujian",
+      "game_input": "2024-06-17"
+    },
+    {
+      "id": "U0170",
+      "set": "pengujian",
+      "game_input": "2024-06-18"
+    },
+    {
+      "id": "U0171",
+      "set": "pengujian",
+      "game_input": "2024-06-19"
+    },
+    {
+      "id": "U0172",
+      "set": "pengujian",
+      "game_input": "2024-06-20"
+    },
+    {
+      "id": "U0173",
+      "set": "pengujian",
+      "game_input": "2024-06-21"
+    },
+    {
+      "id": "U0174",
+      "set": "pengujian",
+      "game_input": "2024-06-22"
+    },
+    {
+      "id": "U0175",
+      "set": "pengujian",
+      "game_input": "2024-06-23"
+    },
+    {
+      "id": "U0176",
+      "set": "pengujian",
+      "game_input": "2024-06-24"
+    },
+    {
+      "id": "U0177",
+      "set": "pengujian",
+      "game_input": "2024-06-25"
+    },
+    {
+      "id": "U0178",
+      "set": "pengujian",
+      "game_input": "2024-06-26"
+    },
+    {
+      "id": "U0179",
+      "set": "pengujian",
+      "game_input": "2024-06-27"
+    },
+    {
+      "id": "U0180",
+      "set": "pengujian",
+      "game_input": "2024-06-28"
+    },
+    {
+      "id": "U0181",
+      "set": "pengujian",
+      "game_input": "2024-06-29"
+    },
+    {
+      "id": "U0182",
+      "set": "pengujian",
+      "game_input": "2024-06-30"
+    },
+    {
+      "id": "U0183",
+      "set": "pengujian",
+      "game_input": "2024-07-01"
+    },
+    {
+      "id": "U0184",
+      "set": "pengujian",
+      "game_input": "2024-07-02"
+    },
+    {
+      "id": "U0185",
+      "set": "pengujian",
+      "game_input": "2024-07-03"
+    },
+    {
+      "id": "U0186",
+      "set": "pengujian",
+      "game_input": "2024-07-04"
+    },
+    {
+      "id": "U0187",
+      "set": "pengujian",
+      "game_input": "2024-07-05"
+    },
+    {
+      "id": "U0188",
+      "set": "pengujian",
+      "game_input": "2024-07-06"
+    },
+    {
+      "id": "U0189",
+      "set": "pengujian",
+      "game_input": "2024-07-07"
+    },
+    {
+      "id": "U0190",
+      "set": "pengujian",
+      "game_input": "2024-07-08"
+    },
+    {
+      "id": "U0191",
+      "set": "pengujian",
+      "game_input": "2024-07-09"
+    },
+    {
+      "id": "U0192",
+      "set": "pengujian",
+      "game_input": "2024-07-10"
+    },
+    {
+      "id": "U0193",
+      "set": "pengujian",
+      "game_input": "2024-07-11"
+    },
+    {
+      "id": "U0194",
+      "set": "pengujian",
+      "game_input": "2024-07-12"
+    },
+    {
+      "id": "U0195",
+      "set": "pengujian",
+      "game_input": "2024-07-13"
+    },
+    {
+      "id": "U0196",
+      "set": "pengujian",
+      "game_input": "2024-07-14"
+    },
+    {
+      "id": "U0197",
+      "set": "pengujian",
+      "game_input": "2024-07-15"
+    },
+    {
+      "id": "U0198",
+      "set": "pengujian",
+      "game_input": "2024-07-16"
+    },
+    {
+      "id": "U0199",
+      "set": "pengujian",
+      "game_input": "2024-07-17"
+    },
+    {
+      "id": "U0200",
+      "set": "pengujian",
+      "game_input": "2024-07-18"
+    },
+    {
+      "id": "U0201",
+      "set": "pengujian",
+      "game_input": "2024-07-19"
+    },
+    {
+      "id": "U0202",
+      "set": "pengujian",
+      "game_input": "2024-07-20"
+    },
+    {
+      "id": "U0203",
+      "set": "pengujian",
+      "game_input": "2024-07-21"
+    },
+    {
+      "id": "U0204",
+      "set": "pengujian",
+      "game_input": "2024-07-22"
+    },
+    {
+      "id": "U0205",
+      "set": "pengujian",
+      "game_input": "2024-07-23"
+    },
+    {
+      "id": "U0206",
+      "set": "pengujian",
+      "game_input": "2024-07-24"
+    },
+    {
+      "id": "U0207",
+      "set": "pengujian",
+      "game_input": "2024-07-25"
+    },
+    {
+      "id": "U0208",
+      "set": "pengujian",
+      "game_input": "2024-07-26"
+    },
+    {
+      "id": "U0209",
+      "set": "pengujian",
+      "game_input": "2024-07-27"
+    },
+    {
+      "id": "U0210",
+      "set": "pengujian",
+      "game_input": "2024-07-28"
+    },
+    {
+      "id": "U0211",
+      "set": "pengujian",
+      "game_input": "2024-07-29"
+    },
+    {
+      "id": "U0212",
+      "set": "pengujian",
+      "game_input": "2024-07-30"
+    },
+    {
+      "id": "U0213",
+      "set": "pengujian",
+      "game_input": "2024-07-31"
+    },
+    {
+      "id": "U0214",
+      "set": "pengujian",
+      "game_input": "2024-08-01"
+    },
+    {
+      "id": "U0215",
+      "set": "pengujian",
+      "game_input": "2024-08-02"
+    },
+    {
+      "id": "U0216",
+      "set": "pengujian",
+      "game_input": "2024-08-03"
+    },
+    {
+      "id": "U0217",
+      "set": "pengujian",
+      "game_input": "2024-08-04"
+    },
+    {
+      "id": "U0218",
+      "set": "pengujian",
+      "game_input": "2024-08-05"
+    },
+    {
+      "id": "U0219",
+      "set": "pengujian",
+      "game_input": "2024-08-06"
+    },
+    {
+      "id": "U0220",
+      "set": "pengujian",
+      "game_input": "2024-08-07"
+    },
+    {
+      "id": "U0221",
+      "set": "pengujian",
+      "game_input": "2024-08-08"
+    },
+    {
+      "id": "U0222",
+      "set": "pengujian",
+      "game_input": "2024-08-09"
+    },
+    {
+      "id": "U0223",
+      "set": "pengujian",
+      "game_input": "2024-08-10"
+    },
+    {
+      "id": "U0224",
+      "set": "pengujian",
+      "game_input": "2024-08-11"
+    },
+    {
+      "id": "U0225",
+      "set": "pengujian",
+      "game_input": "2024-08-12"
+    },
+    {
+      "id": "U0226",
+      "set": "pengujian",
+      "game_input": "2024-08-13"
+    },
+    {
+      "id": "U0227",
+      "set": "pengujian",
+      "game_input": "2024-08-14"
+    },
+    {
+      "id": "U0228",
+      "set": "pengujian",
+      "game_input": "2024-08-15"
+    },
+    {
+      "id": "U0229",
+      "set": "pengujian",
+      "game_input": "2024-08-16"
+    },
+    {
+      "id": "U0230",
+      "set": "pengujian",
+      "game_input": "2024-08-17"
+    },
+    {
+      "id": "U0231",
+      "set": "pengujian",
+      "game_input": "2024-08-18"
+    },
+    {
+      "id": "U0232",
+      "set": "pengujian",
+      "game_input": "2024-08-19"
+    },
+    {
+      "id": "U0233",
+      "set": "pengujian",
+      "game_input": "2024-08-20"
+    },
+    {
+      "id": "U0234",
+      "set": "pengujian",
+      "game_input": "2024-08-21"
+    },
+    {
+      "id": "U0235",
+      "set": "pengujian",
+      "game_input": "2024-08-22"
+    },
+    {
+      "id": "U0236",
+      "set": "pengujian",
+      "game_input": "2024-08-23"
+    },
+    {
+      "id": "U0237",
+      "set": "pengujian",
+      "game_input": "2024-08-24"
+    },
+    {
+      "id": "U0238",
+      "set": "pengujian",
+      "game_input": "2024-08-25"
+    },
+    {
+      "id": "U0239",
+      "set": "pengujian",
+      "game_input": "2024-08-26"
+    },
+    {
+      "id": "U0240",
+      "set": "pengujian",
+      "game_input": "2024-08-27"
+    },
+    {
+      "id": "U0241",
+      "set": "pengujian",
+      "game_input": "2024-08-28"
+    },
+    {
+      "id": "U0242",
+      "set": "pengujian",
+      "game_input": "2024-08-29"
+    },
+    {
+      "id": "U0243",
+      "set": "pengujian",
+      "game_input": "2024-08-30"
+    },
+    {
+      "id": "U0244",
+      "set": "pengujian",
+      "game_input": "2024-08-31"
+    },
+    {
+      "id": "U0245",
+      "set": "pengujian",
+      "game_input": "2024-09-01"
+    },
+    {
+      "id": "U0246",
+      "set": "pengujian",
+      "game_input": "2024-09-02"
+    },
+    {
+      "id": "U0247",
+      "set": "pengujian",
+      "game_input": "2024-09-03"
+    },
+    {
+      "id": "U0248",
+      "set": "pengujian",
+      "game_input": "2024-09-04"
+    },
+    {
+      "id": "U0249",
+      "set": "pengujian",
+      "game_input": "2024-09-05"
+    },
+    {
+      "id": "U0250",
+      "set": "pengujian",
+      "game_input": "2024-09-06"
+    },
+    {
+      "id": "U0251",
+      "set": "pengujian",
+      "game_input": "2024-09-07"
+    },
+    {
+      "id": "U0252",
+      "set": "pengujian",
+      "game_input": "2024-09-08"
+    },
+    {
+      "id": "U0253",
+      "set": "pengujian",
+      "game_input": "2024-09-09"
+    },
+    {
+      "id": "U0254",
+      "set": "pengujian",
+      "game_input": "2024-09-10"
+    },
+    {
+      "id": "U0255",
+      "set": "pengujian",
+      "game_input": "2024-09-11"
+    },
+    {
+      "id": "U0256",
+      "set": "pengujian",
+      "game_input": "2024-09-12"
+    },
+    {
+      "id": "U0257",
+      "set": "pengujian",
+      "game_input": "2024-09-13"
+    },
+    {
+      "id": "U0258",
+      "set": "pengujian",
+      "game_input": "2024-09-14"
+    },
+    {
+      "id": "U0259",
+      "set": "pengujian",
+      "game_input": "2024-09-15"
+    },
+    {
+      "id": "U0260",
+      "set": "pengujian",
+      "game_input": "2024-09-16"
+    },
+    {
+      "id": "U0261",
+      "set": "pengujian",
+      "game_input": "2024-09-17"
+    },
+    {
+      "id": "U0262",
+      "set": "pengujian",
+      "game_input": "2024-09-18"
+    },
+    {
+      "id": "U0263",
+      "set": "pengujian",
+      "game_input": "2024-09-19"
+    },
+    {
+      "id": "U0264",
+      "set": "pengujian",
+      "game_input": "2024-09-20"
+    },
+    {
+      "id": "U0265",
+      "set": "pengujian",
+      "game_input": "2024-09-21"
+    },
+    {
+      "id": "U0266",
+      "set": "pengujian",
+      "game_input": "2024-09-22"
+    },
+    {
+      "id": "U0267",
+      "set": "pengujian",
+      "game_input": "2024-09-23"
+    },
+    {
+      "id": "U0268",
+      "set": "pengujian",
+      "game_input": "2024-09-24"
+    },
+    {
+      "id": "U0269",
+      "set": "pengujian",
+      "game_input": "2024-09-25"
+    },
+    {
+      "id": "U0270",
+      "set": "pengujian",
+      "game_input": "2024-09-26"
+    },
+    {
+      "id": "U0271",
+      "set": "pengujian",
+      "game_input": "2024-09-27"
+    },
+    {
+      "id": "U0272",
+      "set": "pengujian",
+      "game_input": "2024-09-28"
+    },
+    {
+      "id": "U0273",
+      "set": "pengujian",
+      "game_input": "2024-09-29"
+    },
+    {
+      "id": "U0274",
+      "set": "pengujian",
+      "game_input": "2024-09-30"
+    },
+    {
+      "id": "U0275",
+      "set": "pengujian",
+      "game_input": "2024-10-01"
+    },
+    {
+      "id": "U0276",
+      "set": "pengujian",
+      "game_input": "2024-10-02"
+    },
+    {
+      "id": "U0277",
+      "set": "pengujian",
+      "game_input": "2024-10-03"
+    },
+    {
+      "id": "U0278",
+      "set": "pengujian",
+      "game_input": "2024-10-04"
+    },
+    {
+      "id": "U0279",
+      "set": "pengujian",
+      "game_input": "2024-10-05"
+    },
+    {
+      "id": "U0280",
+      "set": "pengujian",
+      "game_input": "2024-10-06"
+    },
+    {
+      "id": "U0281",
+      "set": "pengujian",
+      "game_input": "2024-10-07"
+    },
+    {
+      "id": "U0282",
+      "set": "pengujian",
+      "game_input": "2024-10-08"
+    },
+    {
+      "id": "U0283",
+      "set": "pengujian",
+      "game_input": "2024-10-09"
+    },
+    {
+      "id": "U0284",
+      "set": "pengujian",
+      "game_input": "2024-10-10"
+    },
+    {
+      "id": "U0285",
+      "set": "pengujian",
+      "game_input": "2024-10-11"
+    },
+    {
+      "id": "U0286",
+      "set": "pengujian",
+      "game_input": "2024-10-12"
+    },
+    {
+      "id": "U0287",
+      "set": "pengujian",
+      "game_input": "2024-10-13"
+    },
+    {
+      "id": "U0288",
+      "set": "pengujian",
+      "game_input": "2024-10-14"
+    },
+    {
+      "id": "U0289",
+      "set": "pengujian",
+      "game_input": "2024-10-15"
+    },
+    {
+      "id": "U0290",
+      "set": "pengujian",
+      "game_input": "2024-10-16"
+    },
+    {
+      "id": "U0291",
+      "set": "pengujian",
+      "game_input": "2024-10-17"
+    },
+    {
+      "id": "U0292",
+      "set": "pengujian",
+      "game_input": "2024-10-18"
+    },
+    {
+      "id": "U0293",
+      "set": "pengujian",
+      "game_input": "2024-10-19"
+    },
+    {
+      "id": "U0294",
+      "set": "pengujian",
+      "game_input": "2024-10-20"
+    },
+    {
+      "id": "U0295",
+      "set": "pengujian",
+      "game_input": "2024-10-21"
+    },
+    {
+      "id": "U0296",
+      "set": "pengujian",
+      "game_input": "2024-10-22"
+    },
+    {
+      "id": "U0297",
+      "set": "pengujian",
+      "game_input": "2024-10-23"
+    },
+    {
+      "id": "U0298",
+      "set": "pengujian",
+      "game_input": "2024-10-24"
+    },
+    {
+      "id": "U0299",
+      "set": "pengujian",
+      "game_input": "2024-10-25"
+    },
+    {
+      "id": "U0300",
+      "set": "pengujian",
+      "game_input": "2024-10-26"
+    },
+    {
+      "id": "U0301",
+      "set": "pengujian",
+      "game_input": "2024-10-27"
+    },
+    {
+      "id": "U0302",
+      "set": "pengujian",
+      "game_input": "2024-10-28"
+    },
+    {
+      "id": "U0303",
+      "set": "pengujian",
+      "game_input": "2024-10-29"
+    },
+    {
+      "id": "U0304",
+      "set": "pengujian",
+      "game_input": "2024-10-30"
+    },
+    {
+      "id": "U0305",
+      "set": "pengujian",
+      "game_input": "2024-10-31"
+    },
+    {
+      "id": "U0306",
+      "set": "pengujian",
+      "game_input": "2024-11-01"
+    },
+    {
+      "id": "U0307",
+      "set": "pengujian",
+      "game_input": "2024-11-02"
+    },
+    {
+      "id": "U0308",
+      "set": "pengujian",
+      "game_input": "2024-11-03"
+    },
+    {
+      "id": "U0309",
+      "set": "pengujian",
+      "game_input": "2024-11-04"
+    },
+    {
+      "id": "U0310",
+      "set": "pengujian",
+      "game_input": "2024-11-05"
+    },
+    {
+      "id": "U0311",
+      "set": "pengujian",
+      "game_input": "2024-11-06"
+    },
+    {
+      "id": "U0312",
+      "set": "pengujian",
+      "game_input": "2024-11-07"
+    },
+    {
+      "id": "U0313",
+      "set": "pengujian",
+      "game_input": "2024-11-08"
+    },
+    {
+      "id": "U0314",
+      "set": "pengujian",
+      "game_input": "2024-11-09"
+    },
+    {
+      "id": "U0315",
+      "set": "pengujian",
+      "game_input": "2024-11-10"
+    },
+    {
+      "id": "U0316",
+      "set": "pengujian",
+      "game_input": "2024-11-11"
+    },
+    {
+      "id": "U0317",
+      "set": "pengujian",
+      "game_input": "2024-11-12"
+    },
+    {
+      "id": "U0318",
+      "set": "pengujian",
+      "game_input": "2024-11-13"
+    },
+    {
+      "id": "U0319",
+      "set": "pengujian",
+      "game_input": "2024-11-14"
+    },
+    {
+      "id": "U0320",
+      "set": "pengujian",
+      "game_input": "2024-11-15"
+    },
+    {
+      "id": "U0321",
+      "set": "pengujian",
+      "game_input": "2024-11-16"
+    },
+    {
+      "id": "U0322",
+      "set": "pengujian",
+      "game_input": "2024-11-17"
+    },
+    {
+      "id": "U0323",
+      "set": "pengujian",
+      "game_input": "2024-11-18"
+    },
+    {
+      "id": "U0324",
+      "set": "pengujian",
+      "game_input": "2024-11-19"
+    },
+    {
+      "id": "U0325",
+      "set": "pengujian",
+      "game_input": "2024-11-20"
+    },
+    {
+      "id": "U0326",
+      "set": "pengujian",
+      "game_input": "2024-11-21"
+    },
+    {
+      "id": "U0327",
+      "set": "pengujian",
+      "game_input": "2024-11-22"
+    },
+    {
+      "id": "U0328",
+      "set": "pengujian",
+      "game_input": "2024-11-23"
+    },
+    {
+      "id": "U0329",
+      "set": "pengujian",
+      "game_input": "2024-11-24"
+    },
+    {
+      "id": "U0330",
+      "set": "pengujian",
+      "game_input": "2024-11-25"
+    },
+    {
+      "id": "U0331",
+      "set": "pengujian",
+      "game_input": "2024-11-26"
+    },
+    {
+      "id": "U0332",
+      "set": "pengujian",
+      "game_input": "2024-11-27"
+    },
+    {
+      "id": "U0333",
+      "set": "pengujian",
+      "game_input": "2024-11-28"
+    },
+    {
+      "id": "U0334",
+      "set": "pengujian",
+      "game_input": "2024-11-29"
+    },
+    {
+      "id": "U0335",
+      "set": "pengujian",
+      "game_input": "2024-11-30"
+    },
+    {
+      "id": "U0336",
+      "set": "pengujian",
+      "game_input": "2024-12-01"
+    },
+    {
+      "id": "U0337",
+      "set": "pengujian",
+      "game_input": "2024-12-02"
+    },
+    {
+      "id": "U0338",
+      "set": "pengujian",
+      "game_input": "2024-12-03"
+    },
+    {
+      "id": "U0339",
+      "set": "pengujian",
+      "game_input": "2024-12-04"
+    },
+    {
+      "id": "U0340",
+      "set": "pengujian",
+      "game_input": "2024-12-05"
+    },
+    {
+      "id": "U0341",
+      "set": "pengujian",
+      "game_input": "2024-12-06"
+    },
+    {
+      "id": "U0342",
+      "set": "pengujian",
+      "game_input": "2024-12-07"
+    },
+    {
+      "id": "U0343",
+      "set": "pengujian",
+      "game_input": "2024-12-08"
+    },
+    {
+      "id": "U0344",
+      "set": "pengujian",
+      "game_input": "2024-12-09"
+    },
+    {
+      "id": "U0345",
+      "set": "pengujian",
+      "game_input": "2024-12-10"
+    },
+    {
+      "id": "U0346",
+      "set": "pengujian",
+      "game_input": "2024-12-11"
+    },
+    {
+      "id": "U0347",
+      "set": "pengujian",
+      "game_input": "2024-12-12"
+    },
+    {
+      "id": "U0348",
+      "set": "pengujian",
+      "game_input": "2024-12-13"
+    },
+    {
+      "id": "U0349",
+      "set": "pengujian",
+      "game_input": "2024-12-14"
+    },
+    {
+      "id": "U0350",
+      "set": "pengujian",
+      "game_input": "2024-12-15"
+    },
+    {
+      "id": "U0351",
+      "set": "pengujian",
+      "game_input": "2024-12-16"
+    },
+    {
+      "id": "U0352",
+      "set": "pengujian",
+      "game_input": "2024-12-17"
+    },
+    {
+      "id": "U0353",
+      "set": "pengujian",
+      "game_input": "2024-12-18"
+    },
+    {
+      "id": "U0354",
+      "set": "pengujian",
+      "game_input": "2024-12-19"
+    },
+    {
+      "id": "U0355",
+      "set": "pengujian",
+      "game_input": "2024-12-20"
+    },
+    {
+      "id": "U0356",
+      "set": "pengujian",
+      "game_input": "2024-12-21"
+    },
+    {
+      "id": "U0357",
+      "set": "pengujian",
+      "game_input": "2024-12-22"
+    },
+    {
+      "id": "U0358",
+      "set": "pengujian",
+      "game_input": "2024-12-23"
+    },
+    {
+      "id": "U0359",
+      "set": "pengujian",
+      "game_input": "2024-12-24"
+    },
+    {
+      "id": "U0360",
+      "set": "pengujian",
+      "game_input": "2024-12-25"
+    },
+    {
+      "id": "U0361",
+      "set": "pengujian",
+      "game_input": "2024-12-26"
+    },
+    {
+      "id": "U0362",
+      "set": "pengujian",
+      "game_input": "2024-12-27"
+    },
+    {
+      "id": "U0363",
+      "set": "pengujian",
+      "game_input": "2024-12-28"
+    },
+    {
+      "id": "U0364",
+      "set": "pengujian",
+      "game_input": "2024-12-29"
+    },
+    {
+      "id": "U0365",
+      "set": "pengujian",
+      "game_input": "2024-12-30"
+    },
+    {
+      "id": "U0366",
+      "set": "pengujian",
+      "game_input": "2024-12-31"
+    },
+    {
+      "id": "U0367",
+      "set": "pengujian",
+      "game_input": "2025-01-01"
+    },
+    {
+      "id": "U0368",
+      "set": "pengujian",
+      "game_input": "2025-01-02"
+    },
+    {
+      "id": "U0369",
+      "set": "pengujian",
+      "game_input": "2025-01-03"
+    },
+    {
+      "id": "U0370",
+      "set": "pengujian",
+      "game_input": "2025-01-04"
+    },
+    {
+      "id": "U0371",
+      "set": "pengujian",
+      "game_input": "2025-01-05"
+    },
+    {
+      "id": "U0372",
+      "set": "pengujian",
+      "game_input": "2025-01-06"
+    },
+    {
+      "id": "U0373",
+      "set": "pengujian",
+      "game_input": "2025-01-07"
+    },
+    {
+      "id": "U0374",
+      "set": "pengujian",
+      "game_input": "2025-01-08"
+    },
+    {
+      "id": "U0375",
+      "set": "pengujian",
+      "game_input": "2025-01-09"
+    },
+    {
+      "id": "U0376",
+      "set": "pengujian",
+      "game_input": "2025-01-10"
+    },
+    {
+      "id": "U0377",
+      "set": "pengujian",
+      "game_input": "2025-01-11"
+    },
+    {
+      "id": "U0378",
+      "set": "pengujian",
+      "game_input": "2025-01-12"
+    },
+    {
+      "id": "U0379",
+      "set": "pengujian",
+      "game_input": "2025-01-13"
+    },
+    {
+      "id": "U0380",
+      "set": "pengujian",
+      "game_input": "2025-01-14"
+    },
+    {
+      "id": "U0381",
+      "set": "pengujian",
+      "game_input": "2025-01-15"
+    },
+    {
+      "id": "U0382",
+      "set": "pengujian",
+      "game_input": "2025-01-16"
+    },
+    {
+      "id": "U0383",
+      "set": "pengujian",
+      "game_input": "2025-01-17"
+    },
+    {
+      "id": "U0384",
+      "set": "pengujian",
+      "game_input": "2025-01-18"
+    },
+    {
+      "id": "U0385",
+      "set": "pengujian",
+      "game_input": "2025-01-19"
+    },
+    {
+      "id": "U0386",
+      "set": "pengujian",
+      "game_input": "2025-01-20"
+    },
+    {
+      "id": "U0387",
+      "set": "pengujian",
+      "game_input": "2025-01-21"
+    },
+    {
+      "id": "U0388",
+      "set": "pengujian",
+      "game_input": "2025-01-22"
+    },
+    {
+      "id": "U0389",
+      "set": "pengujian",
+      "game_input": "2025-01-23"
+    },
+    {
+      "id": "U0390",
+      "set": "pengujian",
+      "game_input": "2025-01-24"
+    },
+    {
+      "id": "U0391",
+      "set": "pengujian",
+      "game_input": "2025-01-25"
+    },
+    {
+      "id": "U0392",
+      "set": "pengujian",
+      "game_input": "2025-01-26"
+    },
+    {
+      "id": "U0393",
+      "set": "pengujian",
+      "game_input": "2025-01-27"
+    },
+    {
+      "id": "U0394",
+      "set": "pengujian",
+      "game_input": "2025-01-28"
+    },
+    {
+      "id": "U0395",
+      "set": "pengujian",
+      "game_input": "2025-01-29"
+    },
+    {
+      "id": "U0396",
+      "set": "pengujian",
+      "game_input": "2025-01-30"
+    },
+    {
+      "id": "U0397",
+      "set": "pengujian",
+      "game_input": "2025-01-31"
+    },
+    {
+      "id": "U0398",
+      "set": "pengujian",
+      "game_input": "2025-02-01"
+    },
+    {
+      "id": "U0399",
+      "set": "pengujian",
+      "game_input": "2025-02-02"
+    },
+    {
+      "id": "U0400",
+      "set": "pengujian",
+      "game_input": "2025-02-03"
+    },
+    {
+      "id": "U0401",
+      "set": "pengujian",
+      "game_input": "2025-02-04"
+    },
+    {
+      "id": "U0402",
+      "set": "pengujian",
+      "game_input": "2025-02-05"
+    },
+    {
+      "id": "U0403",
+      "set": "pengujian",
+      "game_input": "2025-02-06"
+    },
+    {
+      "id": "U0404",
+      "set": "pengujian",
+      "game_input": "2025-02-07"
+    },
+    {
+      "id": "U0405",
+      "set": "pengujian",
+      "game_input": "2025-02-08"
+    },
+    {
+      "id": "U0406",
+      "set": "pengujian",
+      "game_input": "2025-02-09"
+    },
+    {
+      "id": "U0407",
+      "set": "pengujian",
+      "game_input": "2025-02-10"
+    },
+    {
+      "id": "U0408",
+      "set": "pengujian",
+      "game_input": "2025-02-11"
+    },
+    {
+      "id": "U0409",
+      "set": "pengujian",
+      "game_input": "2025-02-12"
+    },
+    {
+      "id": "U0410",
+      "set": "pengujian",
+      "game_input": "2025-02-13"
+    },
+    {
+      "id": "U0411",
+      "set": "pengujian",
+      "game_input": "2025-02-14"
+    },
+    {
+      "id": "U0412",
+      "set": "pengujian",
+      "game_input": "2025-02-15"
+    },
+    {
+      "id": "U0413",
+      "set": "pengujian",
+      "game_input": "2025-02-16"
+    },
+    {
+      "id": "U0414",
+      "set": "pengujian",
+      "game_input": "2025-02-17"
+    },
+    {
+      "id": "U0415",
+      "set": "pengujian",
+      "game_input": "2025-02-18"
+    },
+    {
+      "id": "U0416",
+      "set": "pengujian",
+      "game_input": "2025-02-19"
+    },
+    {
+      "id": "U0417",
+      "set": "pengujian",
+      "game_input": "2025-02-20"
+    },
+    {
+      "id": "U0418",
+      "set": "pengujian",
+      "game_input": "2025-02-21"
+    },
+    {
+      "id": "U0419",
+      "set": "pengujian",
+      "game_input": "2025-02-22"
+    },
+    {
+      "id": "U0420",
+      "set": "pengujian",
+      "game_input": "2025-02-23"
+    },
+    {
+      "id": "U0421",
+      "set": "pengujian",
+      "game_input": "2025-02-24"
+    },
+    {
+      "id": "U0422",
+      "set": "pengujian",
+      "game_input": "2025-02-25"
+    },
+    {
+      "id": "U0423",
+      "set": "pengujian",
+      "game_input": "2025-02-26"
+    },
+    {
+      "id": "U0424",
+      "set": "pengujian",
+      "game_input": "2025-02-27"
+    },
+    {
+      "id": "U0425",
+      "set": "pengujian",
+      "game_input": "2025-02-28"
+    },
+    {
+      "id": "U0426",
+      "set": "pengujian",
+      "game_input": "2025-03-01"
+    },
+    {
+      "id": "U0427",
+      "set": "pengujian",
+      "game_input": "2025-03-02"
+    },
+    {
+      "id": "U0428",
+      "set": "pengujian",
+      "game_input": "2025-03-03"
+    },
+    {
+      "id": "U0429",
+      "set": "pengujian",
+      "game_input": "2025-03-04"
+    },
+    {
+      "id": "U0430",
+      "set": "pengujian",
+      "game_input": "2025-03-05"
+    },
+    {
+      "id": "U0431",
+      "set": "pengujian",
+      "game_input": "2025-03-06"
+    },
+    {
+      "id": "U0432",
+      "set": "pengujian",
+      "game_input": "2025-03-07"
+    },
+    {
+      "id": "U0433",
+      "set": "pengujian",
+      "game_input": "2025-03-08"
+    },
+    {
+      "id": "U0434",
+      "set": "pengujian",
+      "game_input": "2025-03-09"
+    },
+    {
+      "id": "U0435",
+      "set": "pengujian",
+      "game_input": "2025-03-10"
+    },
+    {
+      "id": "U0436",
+      "set": "pengujian",
+      "game_input": "2025-03-11"
+    },
+    {
+      "id": "U0437",
+      "set": "pengujian",
+      "game_input": "2025-03-12"
+    },
+    {
+      "id": "U0438",
+      "set": "pengujian",
+      "game_input": "2025-03-13"
+    },
+    {
+      "id": "U0439",
+      "set": "pengujian",
+      "game_input": "2025-03-14"
+    },
+    {
+      "id": "U0440",
+      "set": "pengujian",
+      "game_input": "2025-03-15"
+    },
+    {
+      "id": "U0441",
+      "set": "pengujian",
+      "game_input": "2025-03-16"
+    },
+    {
+      "id": "U0442",
+      "set": "pengujian",
+      "game_input": "2025-03-17"
+    },
+    {
+      "id": "U0443",
+      "set": "pengujian",
+      "game_input": "2025-03-18"
+    },
+    {
+      "id": "U0444",
+      "set": "pengujian",
+      "game_input": "2025-03-19"
+    },
+    {
+      "id": "U0445",
+      "set": "pengujian",
+      "game_input": "2025-03-20"
+    },
+    {
+      "id": "U0446",
+      "set": "pengujian",
+      "game_input": "2025-03-21"
+    },
+    {
+      "id": "U0447",
+      "set": "pengujian",
+      "game_input": "2025-03-22"
+    },
+    {
+      "id": "U0448",
+      "set": "pengujian",
+      "game_input": "2025-03-23"
+    },
+    {
+      "id": "U0449",
+      "set": "pengujian",
+      "game_input": "2025-03-24"
+    },
+    {
+      "id": "U0450",
+      "set": "pengujian",
+      "game_input": "2025-03-25"
+    },
+    {
+      "id": "U0451",
+      "set": "pengujian",
+      "game_input": "2025-03-26"
+    },
+    {
+      "id": "U0452",
+      "set": "pengujian",
+      "game_input": "2025-03-27"
+    },
+    {
+      "id": "U0453",
+      "set": "pengujian",
+      "game_input": "2025-03-28"
+    },
+    {
+      "id": "U0454",
+      "set": "pengujian",
+      "game_input": "2025-03-29"
+    },
+    {
+      "id": "U0455",
+      "set": "pengujian",
+      "game_input": "2025-03-30"
+    },
+    {
+      "id": "U0456",
+      "set": "pengujian",
+      "game_input": "2025-03-31"
+    },
+    {
+      "id": "U0457",
+      "set": "pengujian",
+      "game_input": "2025-04-01"
+    },
+    {
+      "id": "U0458",
+      "set": "pengujian",
+      "game_input": "2025-04-02"
+    },
+    {
+      "id": "U0459",
+      "set": "pengujian",
+      "game_input": "2025-04-03"
+    },
+    {
+      "id": "U0460",
+      "set": "pengujian",
+      "game_input": "2025-04-04"
+    },
+    {
+      "id": "U0461",
+      "set": "pengujian",
+      "game_input": "2025-04-05"
+    },
+    {
+      "id": "U0462",
+      "set": "pengujian",
+      "game_input": "2025-04-06"
+    },
+    {
+      "id": "U0463",
+      "set": "pengujian",
+      "game_input": "2025-04-07"
+    },
+    {
+      "id": "U0464",
+      "set": "pengujian",
+      "game_input": "2025-04-08"
+    },
+    {
+      "id": "U0465",
+      "set": "pengujian",
+      "game_input": "2025-04-09"
+    },
+    {
+      "id": "U0466",
+      "set": "pengujian",
+      "game_input": "2025-04-10"
+    },
+    {
+      "id": "U0467",
+      "set": "pengujian",
+      "game_input": "2025-04-11"
+    },
+    {
+      "id": "U0468",
+      "set": "pengujian",
+      "game_input": "2025-04-12"
+    },
+    {
+      "id": "U0469",
+      "set": "pengujian",
+      "game_input": "2025-04-13"
+    },
+    {
+      "id": "U0470",
+      "set": "pengujian",
+      "game_input": "2025-04-14"
+    },
+    {
+      "id": "U0471",
+      "set": "pengujian",
+      "game_input": "2025-04-15"
+    },
+    {
+      "id": "U0472",
+      "set": "pengujian",
+      "game_input": "2025-04-16"
+    },
+    {
+      "id": "U0473",
+      "set": "pengujian",
+      "game_input": "2025-04-17"
+    },
+    {
+      "id": "U0474",
+      "set": "pengujian",
+      "game_input": "2025-04-18"
+    },
+    {
+      "id": "U0475",
+      "set": "pengujian",
+      "game_input": "2025-04-19"
+    },
+    {
+      "id": "U0476",
+      "set": "pengujian",
+      "game_input": "2025-04-20"
+    },
+    {
+      "id": "U0477",
+      "set": "pengujian",
+      "game_input": "2025-04-21"
+    },
+    {
+      "id": "U0478",
+      "set": "pengujian",
+      "game_input": "2025-04-22"
+    },
+    {
+      "id": "U0479",
+      "set": "pengujian",
+      "game_input": "2025-04-23"
+    },
+    {
+      "id": "U0480",
+      "set": "pengujian",
+      "game_input": "2025-04-24"
+    },
+    {
+      "id": "U0481",
+      "set": "pengujian",
+      "game_input": "2025-04-25"
+    },
+    {
+      "id": "U0482",
+      "set": "pengujian",
+      "game_input": "2025-04-26"
+    },
+    {
+      "id": "U0483",
+      "set": "pengujian",
+      "game_input": "2025-04-27"
+    },
+    {
+      "id": "U0484",
+      "set": "pengujian",
+      "game_input": "2025-04-28"
+    },
+    {
+      "id": "U0485",
+      "set": "pengujian",
+      "game_input": "2025-04-29"
+    },
+    {
+      "id": "U0486",
+      "set": "pengujian",
+      "game_input": "2025-04-30"
+    },
+    {
+      "id": "U0487",
+      "set": "pengujian",
+      "game_input": "2025-05-01"
+    },
+    {
+      "id": "U0488",
+      "set": "pengujian",
+      "game_input": "2025-05-02"
+    },
+    {
+      "id": "U0489",
+      "set": "pengujian",
+      "game_input": "2025-05-03"
+    },
+    {
+      "id": "U0490",
+      "set": "pengujian",
+      "game_input": "2025-05-04"
+    },
+    {
+      "id": "U0491",
+      "set": "pengujian",
+      "game_input": "2025-05-05"
+    },
+    {
+      "id": "U0492",
+      "set": "pengujian",
+      "game_input": "2025-05-06"
+    },
+    {
+      "id": "U0493",
+      "set": "pengujian",
+      "game_input": "2025-05-07"
+    },
+    {
+      "id": "U0494",
+      "set": "pengujian",
+      "game_input": "2025-05-08"
+    },
+    {
+      "id": "U0495",
+      "set": "pengujian",
+      "game_input": "2025-05-09"
+    },
+    {
+      "id": "U0496",
+      "set": "pengujian",
+      "game_input": "2025-05-10"
+    },
+    {
+      "id": "U0497",
+      "set": "pengujian",
+      "game_input": "2025-05-11"
+    },
+    {
+      "id": "U0498",
+      "set": "pengujian",
+      "game_input": "2025-05-12"
+    },
+    {
+      "id": "U0499",
+      "set": "pengujian",
+      "game_input": "2025-05-13"
+    },
+    {
+      "id": "U0500",
+      "set": "pengujian",
+      "game_input": "2025-05-14"
+    },
+    {
+      "id": "U0501",
+      "set": "pengujian",
+      "game_input": "2025-05-15"
+    },
+    {
+      "id": "U0502",
+      "set": "pengujian",
+      "game_input": "2025-05-16"
+    },
+    {
+      "id": "U0503",
+      "set": "pengujian",
+      "game_input": "2025-05-17"
+    },
+    {
+      "id": "U0504",
+      "set": "pengujian",
+      "game_input": "2025-05-18"
+    },
+    {
+      "id": "U0505",
+      "set": "pengujian",
+      "game_input": "2025-05-19"
+    },
+    {
+      "id": "U0506",
+      "set": "pengujian",
+      "game_input": "2025-05-20"
+    },
+    {
+      "id": "U0507",
+      "set": "pengujian",
+      "game_input": "2025-05-21"
+    },
+    {
+      "id": "U0508",
+      "set": "pengujian",
+      "game_input": "2025-05-22"
+    },
+    {
+      "id": "U0509",
+      "set": "pengujian",
+      "game_input": "2025-05-23"
+    },
+    {
+      "id": "U0510",
+      "set": "pengujian",
+      "game_input": "2025-05-24"
+    },
+    {
+      "id": "U0511",
+      "set": "pengujian",
+      "game_input": "2025-05-25"
+    },
+    {
+      "id": "U0512",
+      "set": "pengujian",
+      "game_input": "2025-05-26"
+    },
+    {
+      "id": "U0513",
+      "set": "pengujian",
+      "game_input": "2025-05-27"
+    },
+    {
+      "id": "U0514",
+      "set": "pengujian",
+      "game_input": "2025-05-28"
+    },
+    {
+      "id": "U0515",
+      "set": "pengujian",
+      "game_input": "2025-05-29"
+    },
+    {
+      "id": "U0516",
+      "set": "pengujian",
+      "game_input": "2025-05-30"
+    },
+    {
+      "id": "U0517",
+      "set": "pengujian",
+      "game_input": "2025-05-31"
+    },
+    {
+      "id": "U0518",
+      "set": "pengujian",
+      "game_input": "2025-06-01"
+    },
+    {
+      "id": "U0519",
+      "set": "pengujian",
+      "game_input": "2025-06-02"
+    },
+    {
+      "id": "U0520",
+      "set": "pengujian",
+      "game_input": "2025-06-03"
+    },
+    {
+      "id": "U0521",
+      "set": "pengujian",
+      "game_input": "2025-06-04"
+    },
+    {
+      "id": "U0522",
+      "set": "pengujian",
+      "game_input": "2025-06-05"
+    },
+    {
+      "id": "U0523",
+      "set": "pengujian",
+      "game_input": "2025-06-06"
+    },
+    {
+      "id": "U0524",
+      "set": "pengujian",
+      "game_input": "2025-06-07"
+    },
+    {
+      "id": "U0525",
+      "set": "pengujian",
+      "game_input": "2025-06-08"
+    },
+    {
+      "id": "U0526",
+      "set": "pengujian",
+      "game_input": "2025-06-09"
+    },
+    {
+      "id": "U0527",
+      "set": "pengujian",
+      "game_input": "2025-06-10"
+    },
+    {
+      "id": "U0528",
+      "set": "pengujian",
+      "game_input": "2025-06-11"
+    },
+    {
+      "id": "U0529",
+      "set": "pengujian",
+      "game_input": "2025-06-12"
+    },
+    {
+      "id": "U0530",
+      "set": "pengujian",
+      "game_input": "2025-06-13"
+    },
+    {
+      "id": "U0531",
+      "set": "pengujian",
+      "game_input": "2025-06-14"
+    },
+    {
+      "id": "U0532",
+      "set": "pengujian",
+      "game_input": "2025-06-15"
+    },
+    {
+      "id": "U0533",
+      "set": "pengujian",
+      "game_input": "2025-06-16"
+    },
+    {
+      "id": "U0534",
+      "set": "pengujian",
+      "game_input": "2025-06-17"
+    },
+    {
+      "id": "U0535",
+      "set": "pengujian",
+      "game_input": "2025-06-18"
+    },
+    {
+      "id": "U0536",
+      "set": "pengujian",
+      "game_input": "2025-06-19"
+    },
+    {
+      "id": "U0537",
+      "set": "pengujian",
+      "game_input": "2025-06-20"
+    },
+    {
+      "id": "U0538",
+      "set": "pengujian",
+      "game_input": "2025-06-21"
+    },
+    {
+      "id": "U0539",
+      "set": "pengujian",
+      "game_input": "2025-06-22"
+    },
+    {
+      "id": "U0540",
+      "set": "pengujian",
+      "game_input": "2025-06-23"
+    },
+    {
+      "id": "U0541",
+      "set": "pengujian",
+      "game_input": "2025-06-24"
+    },
+    {
+      "id": "U0542",
+      "set": "pengujian",
+      "game_input": "2025-06-25"
+    },
+    {
+      "id": "U0543",
+      "set": "pengujian",
+      "game_input": "2025-06-26"
+    },
+    {
+      "id": "U0544",
+      "set": "pengujian",
+      "game_input": "2025-06-27"
+    },
+    {
+      "id": "U0545",
+      "set": "pengujian",
+      "game_input": "2025-06-28"
+    },
+    {
+      "id": "U0546",
+      "set": "pengujian",
+      "game_input": "2025-06-29"
+    },
+    {
+      "id": "U0547",
+      "set": "pengujian",
+      "game_input": "2025-06-30"
+    },
+    {
+      "id": "U0548",
+      "set": "pengujian",
+      "game_input": "2025-07-01"
+    },
+    {
+      "id": "U0549",
+      "set": "pengujian",
+      "game_input": "2025-07-02"
+    },
+    {
+      "id": "U0550",
+      "set": "pengujian",
+      "game_input": "2025-07-03"
+    },
+    {
+      "id": "U0551",
+      "set": "pengujian",
+      "game_input": "2025-07-04"
+    },
+    {
+      "id": "U0552",
+      "set": "pengujian",
+      "game_input": "2025-07-05"
+    },
+    {
+      "id": "U0553",
+      "set": "pengujian",
+      "game_input": "2025-07-06"
+    },
+    {
+      "id": "U0554",
+      "set": "pengujian",
+      "game_input": "2025-07-07"
+    },
+    {
+      "id": "U0555",
+      "set": "pengujian",
+      "game_input": "2025-07-08"
+    },
+    {
+      "id": "U0556",
+      "set": "pengujian",
+      "game_input": "2025-07-09"
+    },
+    {
+      "id": "U0557",
+      "set": "pengujian",
+      "game_input": "2025-07-10"
+    },
+    {
+      "id": "U0558",
+      "set": "pengujian",
+      "game_input": "2025-07-11"
+    },
+    {
+      "id": "U0559",
+      "set": "pengujian",
+      "game_input": "2025-07-12"
+    },
+    {
+      "id": "U0560",
+      "set": "pengujian",
+      "game_input": "2025-07-13"
+    },
+    {
+      "id": "U0561",
+      "set": "pengujian",
+      "game_input": "2025-07-14"
+    },
+    {
+      "id": "U0562",
+      "set": "pengujian",
+      "game_input": "2025-07-15"
+    },
+    {
+      "id": "U0563",
+      "set": "pengujian",
+      "game_input": "2025-07-16"
+    },
+    {
+      "id": "U0564",
+      "set": "pengujian",
+      "game_input": "2025-07-17"
+    },
+    {
+      "id": "U0565",
+      "set": "pengujian",
+      "game_input": "2025-07-18"
+    },
+    {
+      "id": "U0566",
+      "set": "pengujian",
+      "game_input": "2025-07-19"
+    },
+    {
+      "id": "U0567",
+      "set": "pengujian",
+      "game_input": "2025-07-20"
+    },
+    {
+      "id": "U0568",
+      "set": "pengujian",
+      "game_input": "2025-07-21"
+    },
+    {
+      "id": "U0569",
+      "set": "pengujian",
+      "game_input": "2025-07-22"
+    },
+    {
+      "id": "U0570",
+      "set": "pengujian",
+      "game_input": "2025-07-23"
+    },
+    {
+      "id": "U0571",
+      "set": "pengujian",
+      "game_input": "2025-07-24"
+    },
+    {
+      "id": "U0572",
+      "set": "pengujian",
+      "game_input": "2025-07-25"
+    },
+    {
+      "id": "U0573",
+      "set": "pengujian",
+      "game_input": "2025-07-26"
+    },
+    {
+      "id": "U0574",
+      "set": "pengujian",
+      "game_input": "2025-07-27"
+    },
+    {
+      "id": "U0575",
+      "set": "pengujian",
+      "game_input": "2025-07-28"
+    },
+    {
+      "id": "U0576",
+      "set": "pengujian",
+      "game_input": "2025-07-29"
+    },
+    {
+      "id": "U0577",
+      "set": "pengujian",
+      "game_input": "2025-07-30"
+    },
+    {
+      "id": "U0578",
+      "set": "pengujian",
+      "game_input": "2025-07-31"
+    },
+    {
+      "id": "U0579",
+      "set": "pengujian",
+      "game_input": "2025-08-01"
+    },
+    {
+      "id": "U0580",
+      "set": "pengujian",
+      "game_input": "2025-08-02"
+    },
+    {
+      "id": "U0581",
+      "set": "pengujian",
+      "game_input": "2025-08-03"
+    },
+    {
+      "id": "U0582",
+      "set": "pengujian",
+      "game_input": "2025-08-04"
+    },
+    {
+      "id": "U0583",
+      "set": "pengujian",
+      "game_input": "2025-08-05"
+    },
+    {
+      "id": "U0584",
+      "set": "pengujian",
+      "game_input": "2025-08-06"
+    },
+    {
+      "id": "U0585",
+      "set": "pengujian",
+      "game_input": "2025-08-07"
+    },
+    {
+      "id": "U0586",
+      "set": "pengujian",
+      "game_input": "2025-08-08"
+    },
+    {
+      "id": "U0587",
+      "set": "pengujian",
+      "game_input": "2025-08-09"
+    },
+    {
+      "id": "U0588",
+      "set": "pengujian",
+      "game_input": "2025-08-10"
+    },
+    {
+      "id": "U0589",
+      "set": "pengujian",
+      "game_input": "2025-08-11"
+    },
+    {
+      "id": "U0590",
+      "set": "pengujian",
+      "game_input": "2025-08-12"
+    },
+    {
+      "id": "U0591",
+      "set": "pengujian",
+      "game_input": "2025-08-13"
+    },
+    {
+      "id": "U0592",
+      "set": "pengujian",
+      "game_input": "2025-08-14"
+    },
+    {
+      "id": "U0593",
+      "set": "pengujian",
+      "game_input": "2025-08-15"
+    },
+    {
+      "id": "U0594",
+      "set": "pengujian",
+      "game_input": "2025-08-16"
+    },
+    {
+      "id": "U0595",
+      "set": "pengujian",
+      "game_input": "2025-08-17"
+    },
+    {
+      "id": "U0596",
+      "set": "pengujian",
+      "game_input": "2025-08-18"
+    },
+    {
+      "id": "U0597",
+      "set": "pengujian",
+      "game_input": "2025-08-19"
+    },
+    {
+      "id": "U0598",
+      "set": "pengujian",
+      "game_input": "2025-08-20"
+    },
+    {
+      "id": "U0599",
+      "set": "pengujian",
+      "game_input": "2025-08-21"
+    },
+    {
+      "id": "U0600",
+      "set": "pengujian",
+      "game_input": "2025-08-22"
+    },
+    {
+      "id": "U0601",
+      "set": "pengujian",
+      "game_input": "2025-08-23"
+    },
+    {
+      "id": "U0602",
+      "set": "pengujian",
+      "game_input": "2025-08-24"
+    },
+    {
+      "id": "U0603",
+      "set": "pengujian",
+      "game_input": "2025-08-25"
+    },
+    {
+      "id": "U0604",
+      "set": "pengujian",
+      "game_input": "2025-08-26"
+    },
+    {
+      "id": "U0605",
+      "set": "pengujian",
+      "game_input": "2025-08-27"
+    },
+    {
+      "id": "U0606",
+      "set": "pengujian",
+      "game_input": "2025-08-28"
+    },
+    {
+      "id": "U0607",
+      "set": "pengujian",
+      "game_input": "2025-08-29"
+    },
+    {
+      "id": "U0608",
+      "set": "pengujian",
+      "game_input": "2025-08-30"
+    },
+    {
+      "id": "U0609",
+      "set": "pengujian",
+      "game_input": "2025-08-31"
+    },
+    {
+      "id": "U0610",
+      "set": "pengujian",
+      "game_input": "2025-09-01"
+    },
+    {
+      "id": "U0611",
+      "set": "pengujian",
+      "game_input": "2025-09-02"
+    },
+    {
+      "id": "U0612",
+      "set": "pengujian",
+      "game_input": "2025-09-03"
+    },
+    {
+      "id": "U0613",
+      "set": "pengujian",
+      "game_input": "2025-09-04"
+    },
+    {
+      "id": "U0614",
+      "set": "pengujian",
+      "game_input": "2025-09-05"
+    },
+    {
+      "id": "U0615",
+      "set": "pengujian",
+      "game_input": "2025-09-06"
+    },
+    {
+      "id": "U0616",
+      "set": "pengujian",
+      "game_input": "2025-09-07"
+    },
+    {
+      "id": "U0617",
+      "set": "pengujian",
+      "game_input": "2025-09-08"
+    },
+    {
+      "id": "U0618",
+      "set": "pengujian",
+      "game_input": "2025-09-09"
+    },
+    {
+      "id": "U0619",
+      "set": "pengujian",
+      "game_input": "2025-09-10"
+    },
+    {
+      "id": "U0620",
+      "set": "pengujian",
+      "game_input": "2025-09-11"
+    },
+    {
+      "id": "U0621",
+      "set": "pengujian",
+      "game_input": "2025-09-12"
+    },
+    {
+      "id": "U0622",
+      "set": "pengujian",
+      "game_input": "2025-09-13"
+    },
+    {
+      "id": "U0623",
+      "set": "pengujian",
+      "game_input": "2025-09-14"
+    },
+    {
+      "id": "U0624",
+      "set": "pengujian",
+      "game_input": "2025-09-15"
+    },
+    {
+      "id": "U0625",
+      "set": "pengujian",
+      "game_input": "2025-09-16"
+    },
+    {
+      "id": "U0626",
+      "set": "pengujian",
+      "game_input": "2025-09-17"
+    },
+    {
+      "id": "U0627",
+      "set": "pengujian",
+      "game_input": "2025-09-18"
+    },
+    {
+      "id": "U0628",
+      "set": "pengujian",
+      "game_input": "2025-09-19"
+    },
+    {
+      "id": "U0629",
+      "set": "pengujian",
+      "game_input": "2025-09-20"
+    },
+    {
+      "id": "U0630",
+      "set": "pengujian",
+      "game_input": "2025-09-21"
+    },
+    {
+      "id": "U0631",
+      "set": "pengujian",
+      "game_input": "2025-09-22"
+    },
+    {
+      "id": "U0632",
+      "set": "pengujian",
+      "game_input": "2025-09-23"
+    },
+    {
+      "id": "U0633",
+      "set": "pengujian",
+      "game_input": "2025-09-24"
+    },
+    {
+      "id": "U0634",
+      "set": "pengujian",
+      "game_input": "2025-09-25"
+    },
+    {
+      "id": "U0635",
+      "set": "pengujian",
+      "game_input": "2025-09-26"
+    },
+    {
+      "id": "U0636",
+      "set": "pengujian",
+      "game_input": "2025-09-27"
+    },
+    {
+      "id": "U0637",
+      "set": "pengujian",
+      "game_input": "2025-09-28"
+    },
+    {
+      "id": "U0638",
+      "set": "pengujian",
+      "game_input": "2025-09-29"
+    },
+    {
+      "id": "U0639",
+      "set": "pengujian",
+      "game_input": "2025-09-30"
+    },
+    {
+      "id": "U0640",
+      "set": "pengujian",
+      "game_input": "2025-10-01"
+    },
+    {
+      "id": "U0641",
+      "set": "pengujian",
+      "game_input": "2025-10-02"
+    },
+    {
+      "id": "U0642",
+      "set": "pengujian",
+      "game_input": "2025-10-03"
+    },
+    {
+      "id": "U0643",
+      "set": "pengujian",
+      "game_input": "2025-10-04"
+    },
+    {
+      "id": "U0644",
+      "set": "pengujian",
+      "game_input": "2025-10-05"
+    },
+    {
+      "id": "U0645",
+      "set": "pengujian",
+      "game_input": "2025-10-06"
+    },
+    {
+      "id": "U0646",
+      "set": "pengujian",
+      "game_input": "2025-10-07"
+    },
+    {
+      "id": "U0647",
+      "set": "pengujian",
+      "game_input": "2025-10-08"
+    },
+    {
+      "id": "U0648",
+      "set": "pengujian",
+      "game_input": "2025-10-09"
+    },
+    {
+      "id": "U0649",
+      "set": "pengujian",
+      "game_input": "2025-10-10"
+    },
+    {
+      "id": "U0650",
+      "set": "pengujian",
+      "game_input": "2025-10-11"
+    },
+    {
+      "id": "U0651",
+      "set": "pengujian",
+      "game_input": "2025-10-12"
+    },
+    {
+      "id": "U0652",
+      "set": "pengujian",
+      "game_input": "2025-10-13"
+    },
+    {
+      "id": "U0653",
+      "set": "pengujian",
+      "game_input": "2025-10-14"
+    },
+    {
+      "id": "U0654",
+      "set": "pengujian",
+      "game_input": "2025-10-15"
+    },
+    {
+      "id": "U0655",
+      "set": "pengujian",
+      "game_input": "2025-10-16"
+    },
+    {
+      "id": "U0656",
+      "set": "pengujian",
+      "game_input": "2025-10-17"
+    },
+    {
+      "id": "U0657",
+      "set": "pengujian",
+      "game_input": "2025-10-18"
+    },
+    {
+      "id": "U0658",
+      "set": "pengujian",
+      "game_input": "2025-10-19"
+    },
+    {
+      "id": "U0659",
+      "set": "pengujian",
+      "game_input": "2025-10-20"
+    },
+    {
+      "id": "U0660",
+      "set": "pengujian",
+      "game_input": "2025-10-21"
+    },
+    {
+      "id": "U0661",
+      "set": "pengujian",
+      "game_input": "2025-10-22"
+    },
+    {
+      "id": "U0662",
+      "set": "pengujian",
+      "game_input": "2025-10-23"
+    },
+    {
+      "id": "U0663",
+      "set": "pengujian",
+      "game_input": "2025-10-24"
+    },
+    {
+      "id": "U0664",
+      "set": "pengujian",
+      "game_input": "2025-10-25"
+    },
+    {
+      "id": "U0665",
+      "set": "pengujian",
+      "game_input": "2025-10-26"
+    },
+    {
+      "id": "U0666",
+      "set": "pengujian",
+      "game_input": "2025-10-27"
+    },
+    {
+      "id": "U0667",
+      "set": "pengujian",
+      "game_input": "2025-10-28"
+    },
+    {
+      "id": "U0668",
+      "set": "pengujian",
+      "game_input": "2025-10-29"
+    },
+    {
+      "id": "U0669",
+      "set": "pengujian",
+      "game_input": "2025-10-30"
+    },
+    {
+      "id": "U0670",
+      "set": "pengujian",
+      "game_input": "2025-10-31"
+    },
+    {
+      "id": "U0671",
+      "set": "pengujian",
+      "game_input": "2025-11-01"
+    },
+    {
+      "id": "U0672",
+      "set": "pengujian",
+      "game_input": "2025-11-02"
+    },
+    {
+      "id": "U0673",
+      "set": "pengujian",
+      "game_input": "2025-11-03"
+    },
+    {
+      "id": "U0674",
+      "set": "pengujian",
+      "game_input": "2025-11-04"
+    },
+    {
+      "id": "U0675",
+      "set": "pengujian",
+      "game_input": "2025-11-05"
+    },
+    {
+      "id": "U0676",
+      "set": "pengujian",
+      "game_input": "2025-11-06"
+    },
+    {
+      "id": "U0677",
+      "set": "pengujian",
+      "game_input": "2025-11-07"
+    },
+    {
+      "id": "U0678",
+      "set": "pengujian",
+      "game_input": "2025-11-08"
+    },
+    {
+      "id": "U0679",
+      "set": "pengujian",
+      "game_input": "2025-11-09"
+    },
+    {
+      "id": "U0680",
+      "set": "pengujian",
+      "game_input": "2025-11-10"
+    },
+    {
+      "id": "U0681",
+      "set": "pengujian",
+      "game_input": "2025-11-11"
+    },
+    {
+      "id": "U0682",
+      "set": "pengujian",
+      "game_input": "2025-11-12"
+    },
+    {
+      "id": "U0683",
+      "set": "pengujian",
+      "game_input": "2025-11-13"
+    },
+    {
+      "id": "U0684",
+      "set": "pengujian",
+      "game_input": "2025-11-14"
+    },
+    {
+      "id": "U0685",
+      "set": "pengujian",
+      "game_input": "2025-11-15"
+    },
+    {
+      "id": "U0686",
+      "set": "pengujian",
+      "game_input": "2025-11-16"
+    },
+    {
+      "id": "U0687",
+      "set": "pengujian",
+      "game_input": "2025-11-17"
+    },
+    {
+      "id": "U0688",
+      "set": "pengujian",
+      "game_input": "2025-11-18"
+    },
+    {
+      "id": "U0689",
+      "set": "pengujian",
+      "game_input": "2025-11-19"
+    },
+    {
+      "id": "U0690",
+      "set": "pengujian",
+      "game_input": "2025-11-20"
+    },
+    {
+      "id": "U0691",
+      "set": "pengujian",
+      "game_input": "2025-11-21"
+    },
+    {
+      "id": "U0692",
+      "set": "pengujian",
+      "game_input": "2025-11-22"
+    },
+    {
+      "id": "U0693",
+      "set": "pengujian",
+      "game_input": "2025-11-23"
+    },
+    {
+      "id": "U0694",
+      "set": "pengujian",
+      "game_input": "2025-11-24"
+    },
+    {
+      "id": "U0695",
+      "set": "pengujian",
+      "game_input": "2025-11-25"
+    },
+    {
+      "id": "U0696",
+      "set": "pengujian",
+      "game_input": "2025-11-26"
+    },
+    {
+      "id": "U0697",
+      "set": "pengujian",
+      "game_input": "2025-11-27"
+    },
+    {
+      "id": "U0698",
+      "set": "pengujian",
+      "game_input": "2025-11-28"
+    },
+    {
+      "id": "U0699",
+      "set": "pengujian",
+      "game_input": "2025-11-29"
+    },
+    {
+      "id": "U0700",
+      "set": "pengujian",
+      "game_input": "2025-11-30"
+    },
+    {
+      "id": "U0701",
+      "set": "pengujian",
+      "game_input": "2025-12-01"
+    },
+    {
+      "id": "U0702",
+      "set": "pengujian",
+      "game_input": "2025-12-02"
+    },
+    {
+      "id": "U0703",
+      "set": "pengujian",
+      "game_input": "2025-12-03"
+    },
+    {
+      "id": "U0704",
+      "set": "pengujian",
+      "game_input": "2025-12-04"
+    },
+    {
+      "id": "U0705",
+      "set": "pengujian",
+      "game_input": "2025-12-05"
+    },
+    {
+      "id": "U0706",
+      "set": "pengujian",
+      "game_input": "2025-12-06"
+    },
+    {
+      "id": "U0707",
+      "set": "pengujian",
+      "game_input": "2025-12-07"
+    },
+    {
+      "id": "U0708",
+      "set": "pengujian",
+      "game_input": "2025-12-08"
+    },
+    {
+      "id": "U0709",
+      "set": "pengujian",
+      "game_input": "2025-12-09"
+    },
+    {
+      "id": "U0710",
+      "set": "pengujian",
+      "game_input": "2025-12-10"
+    },
+    {
+      "id": "U0711",
+      "set": "pengujian",
+      "game_input": "2025-12-11"
+    },
+    {
+      "id": "U0712",
+      "set": "pengujian",
+      "game_input": "2025-12-12"
+    },
+    {
+      "id": "U0713",
+      "set": "pengujian",
+      "game_input": "2025-12-13"
+    },
+    {
+      "id": "U0714",
+      "set": "pengujian",
+      "game_input": "2025-12-14"
+    },
+    {
+      "id": "U0715",
+      "set": "pengujian",
+      "game_input": "2025-12-15"
+    },
+    {
+      "id": "U0716",
+      "set": "pengujian",
+      "game_input": "2025-12-16"
+    },
+    {
+      "id": "U0717",
+      "set": "pengujian",
+      "game_input": "2025-12-17"
+    },
+    {
+      "id": "U0718",
+      "set": "pengujian",
+      "game_input": "2025-12-18"
+    },
+    {
+      "id": "U0719",
+      "set": "pengujian",
+      "game_input": "2025-12-19"
+    },
+    {
+      "id": "U0720",
+      "set": "pengujian",
+      "game_input": "2025-12-20"
+    },
+    {
+      "id": "U0721",
+      "set": "pengujian",
+      "game_input": "2025-12-21"
+    },
+    {
+      "id": "U0722",
+      "set": "pengujian",
+      "game_input": "2025-12-22"
+    },
+    {
+      "id": "U0723",
+      "set": "pengujian",
+      "game_input": "2025-12-23"
+    },
+    {
+      "id": "U0724",
+      "set": "pengujian",
+      "game_input": "2025-12-24"
+    },
+    {
+      "id": "U0725",
+      "set": "pengujian",
+      "game_input": "2025-12-25"
+    },
+    {
+      "id": "U0726",
+      "set": "pengujian",
+      "game_input": "2025-12-26"
+    },
+    {
+      "id": "U0727",
+      "set": "pengujian",
+      "game_input": "2025-12-27"
+    },
+    {
+      "id": "U0728",
+      "set": "pengujian",
+      "game_input": "2025-12-28"
+    },
+    {
+      "id": "U0729",
+      "set": "pengujian",
+      "game_input": "2025-12-29"
+    },
+    {
+      "id": "U0730",
+      "set": "pengujian",
+      "game_input": "2025-12-30"
+    },
+    {
+      "id": "U0731",
+      "set": "pengujian",
+      "game_input": "2025-12-31"
+    },
+    {
+      "id": "U0732",
+      "set": "pengujian",
+      "game_input": "2026-01-01"
+    },
+    {
+      "id": "U0733",
+      "set": "pengujian",
+      "game_input": "2026-01-02"
+    },
+    {
+      "id": "U0734",
+      "set": "pengujian",
+      "game_input": "2026-01-03"
+    },
+    {
+      "id": "U0735",
+      "set": "pengujian",
+      "game_input": "2026-01-04"
+    },
+    {
+      "id": "U0736",
+      "set": "pengujian",
+      "game_input": "2026-01-05"
+    },
+    {
+      "id": "U0737",
+      "set": "pengujian",
+      "game_input": "2026-01-06"
+    },
+    {
+      "id": "U0738",
+      "set": "pengujian",
+      "game_input": "2026-01-07"
+    },
+    {
+      "id": "U0739",
+      "set": "pengujian",
+      "game_input": "2026-01-08"
+    },
+    {
+      "id": "U0740",
+      "set": "pengujian",
+      "game_input": "2026-01-09"
+    },
+    {
+      "id": "U0741",
+      "set": "pengujian",
+      "game_input": "2026-01-10"
+    },
+    {
+      "id": "U0742",
+      "set": "pengujian",
+      "game_input": "2026-01-11"
+    },
+    {
+      "id": "U0743",
+      "set": "pengujian",
+      "game_input": "2026-01-12"
+    },
+    {
+      "id": "U0744",
+      "set": "pengujian",
+      "game_input": "2026-01-13"
+    },
+    {
+      "id": "U0745",
+      "set": "pengujian",
+      "game_input": "2026-01-14"
+    },
+    {
+      "id": "U0746",
+      "set": "pengujian",
+      "game_input": "2026-01-15"
+    },
+    {
+      "id": "U0747",
+      "set": "pengujian",
+      "game_input": "2026-01-16"
+    },
+    {
+      "id": "U0748",
+      "set": "pengujian",
+      "game_input": "2026-01-17"
+    },
+    {
+      "id": "U0749",
+      "set": "pengujian",
+      "game_input": "2026-01-18"
+    },
+    {
+      "id": "U0750",
+      "set": "pengujian",
+      "game_input": "2026-01-19"
+    },
+    {
+      "id": "U0751",
+      "set": "pengujian",
+      "game_input": "2026-01-20"
+    },
+    {
+      "id": "U0752",
+      "set": "pengujian",
+      "game_input": "2026-01-21"
+    },
+    {
+      "id": "U0753",
+      "set": "pengujian",
+      "game_input": "2026-01-22"
+    },
+    {
+      "id": "U0754",
+      "set": "pengujian",
+      "game_input": "2026-01-23"
+    },
+    {
+      "id": "U0755",
+      "set": "pengujian",
+      "game_input": "2026-01-24"
+    },
+    {
+      "id": "U0756",
+      "set": "pengujian",
+      "game_input": "2026-01-25"
+    },
+    {
+      "id": "U0757",
+      "set": "pengujian",
+      "game_input": "2026-01-26"
+    },
+    {
+      "id": "U0758",
+      "set": "pengujian",
+      "game_input": "2026-01-27"
+    },
+    {
+      "id": "U0759",
+      "set": "pengujian",
+      "game_input": "2026-01-28"
+    },
+    {
+      "id": "U0760",
+      "set": "pengujian",
+      "game_input": "2026-01-29"
+    },
+    {
+      "id": "U0761",
+      "set": "pengujian",
+      "game_input": "2026-01-30"
+    },
+    {
+      "id": "U0762",
+      "set": "pengujian",
+      "game_input": "2026-01-31"
+    },
+    {
+      "id": "U0763",
+      "set": "pengujian",
+      "game_input": "2026-02-01"
+    },
+    {
+      "id": "U0764",
+      "set": "pengujian",
+      "game_input": "2026-02-02"
+    },
+    {
+      "id": "U0765",
+      "set": "pengujian",
+      "game_input": "2026-02-03"
+    },
+    {
+      "id": "U0766",
+      "set": "pengujian",
+      "game_input": "2026-02-04"
+    },
+    {
+      "id": "U0767",
+      "set": "pengujian",
+      "game_input": "2026-02-05"
+    },
+    {
+      "id": "U0768",
+      "set": "pengujian",
+      "game_input": "2026-02-06"
+    },
+    {
+      "id": "U0769",
+      "set": "pengujian",
+      "game_input": "2026-02-07"
+    },
+    {
+      "id": "U0770",
+      "set": "pengujian",
+      "game_input": "2026-02-08"
+    },
+    {
+      "id": "U0771",
+      "set": "pengujian",
+      "game_input": "2026-02-09"
+    },
+    {
+      "id": "U0772",
+      "set": "pengujian",
+      "game_input": "2026-02-10"
+    },
+    {
+      "id": "U0773",
+      "set": "pengujian",
+      "game_input": "2026-02-11"
+    },
+    {
+      "id": "U0774",
+      "set": "pengujian",
+      "game_input": "2026-02-12"
+    },
+    {
+      "id": "U0775",
+      "set": "pengujian",
+      "game_input": "2026-02-13"
+    },
+    {
+      "id": "U0776",
+      "set": "pengujian",
+      "game_input": "2026-02-14"
+    },
+    {
+      "id": "U0777",
+      "set": "pengujian",
+      "game_input": "2026-02-15"
+    },
+    {
+      "id": "U0778",
+      "set": "pengujian",
+      "game_input": "2026-02-16"
+    },
+    {
+      "id": "U0779",
+      "set": "pengujian",
+      "game_input": "2026-02-17"
+    },
+    {
+      "id": "U0780",
+      "set": "pengujian",
+      "game_input": "2026-02-18"
+    },
+    {
+      "id": "U0781",
+      "set": "pengujian",
+      "game_input": "2026-02-19"
+    },
+    {
+      "id": "U0782",
+      "set": "pengujian",
+      "game_input": "2026-02-20"
+    },
+    {
+      "id": "U0783",
+      "set": "pengujian",
+      "game_input": "2026-02-21"
+    },
+    {
+      "id": "U0784",
+      "set": "pengujian",
+      "game_input": "2026-02-22"
+    },
+    {
+      "id": "U0785",
+      "set": "pengujian",
+      "game_input": "2026-02-23"
+    },
+    {
+      "id": "U0786",
+      "set": "pengujian",
+      "game_input": "2026-02-24"
+    },
+    {
+      "id": "U0787",
+      "set": "pengujian",
+      "game_input": "2026-02-25"
+    },
+    {
+      "id": "U0788",
+      "set": "pengujian",
+      "game_input": "2026-02-26"
+    },
+    {
+      "id": "U0789",
+      "set": "pengujian",
+      "game_input": "2026-02-27"
+    },
+    {
+      "id": "U0790",
+      "set": "pengujian",
+      "game_input": "2026-02-28"
+    },
+    {
+      "id": "U0791",
+      "set": "pengujian",
+      "game_input": "2026-03-01"
+    },
+    {
+      "id": "U0792",
+      "set": "pengujian",
+      "game_input": "2026-03-02"
+    },
+    {
+      "id": "U0793",
+      "set": "pengujian",
+      "game_input": "2026-03-03"
+    },
+    {
+      "id": "U0794",
+      "set": "pengujian",
+      "game_input": "2026-03-04"
+    },
+    {
+      "id": "U0795",
+      "set": "pengujian",
+      "game_input": "2026-03-05"
+    },
+    {
+      "id": "U0796",
+      "set": "pengujian",
+      "game_input": "2026-03-06"
+    },
+    {
+      "id": "U0797",
+      "set": "pengujian",
+      "game_input": "2026-03-07"
+    },
+    {
+      "id": "U0798",
+      "set": "pengujian",
+      "game_input": "2026-03-08"
+    },
+    {
+      "id": "U0799",
+      "set": "pengujian",
+      "game_input": "2026-03-09"
+    },
+    {
+      "id": "U0800",
+      "set": "pengujian",
+      "game_input": "2026-03-10"
+    },
+    {
+      "id": "U0801",
+      "set": "pengujian",
+      "game_input": "2026-03-11"
+    },
+    {
+      "id": "U0802",
+      "set": "pengujian",
+      "game_input": "2026-03-12"
+    },
+    {
+      "id": "U0803",
+      "set": "pengujian",
+      "game_input": "2026-03-13"
+    },
+    {
+      "id": "U0804",
+      "set": "pengujian",
+      "game_input": "2026-03-14"
+    },
+    {
+      "id": "U0805",
+      "set": "pengujian",
+      "game_input": "2026-03-15"
+    },
+    {
+      "id": "U0806",
+      "set": "pengujian",
+      "game_input": "2026-03-16"
+    },
+    {
+      "id": "U0807",
+      "set": "pengujian",
+      "game_input": "2026-03-17"
+    },
+    {
+      "id": "U0808",
+      "set": "pengujian",
+      "game_input": "2026-03-18"
+    },
+    {
+      "id": "U0809",
+      "set": "pengujian",
+      "game_input": "2026-03-19"
+    },
+    {
+      "id": "U0810",
+      "set": "pengujian",
+      "game_input": "2026-03-20"
+    },
+    {
+      "id": "U0811",
+      "set": "pengujian",
+      "game_input": "2026-03-21"
+    },
+    {
+      "id": "U0812",
+      "set": "pengujian",
+      "game_input": "2026-03-22"
+    },
+    {
+      "id": "U0813",
+      "set": "pengujian",
+      "game_input": "2026-03-23"
+    },
+    {
+      "id": "U0814",
+      "set": "pengujian",
+      "game_input": "2026-03-24"
+    },
+    {
+      "id": "U0815",
+      "set": "pengujian",
+      "game_input": "2026-03-25"
+    },
+    {
+      "id": "U0816",
+      "set": "pengujian",
+      "game_input": "2026-03-26"
+    },
+    {
+      "id": "U0817",
+      "set": "pengujian",
+      "game_input": "2026-03-27"
+    },
+    {
+      "id": "U0818",
+      "set": "pengujian",
+      "game_input": "2026-03-28"
+    },
+    {
+      "id": "U0819",
+      "set": "pengujian",
+      "game_input": "2026-03-29"
+    },
+    {
+      "id": "U0820",
+      "set": "pengujian",
+      "game_input": "2026-03-30"
+    },
+    {
+      "id": "U0821",
+      "set": "pengujian",
+      "game_input": "2026-03-31"
+    },
+    {
+      "id": "U0822",
+      "set": "pengujian",
+      "game_input": "2026-04-01"
+    },
+    {
+      "id": "U0823",
+      "set": "pengujian",
+      "game_input": "2026-04-02"
+    },
+    {
+      "id": "U0824",
+      "set": "pengujian",
+      "game_input": "2026-04-03"
+    },
+    {
+      "id": "U0825",
+      "set": "pengujian",
+      "game_input": "2026-04-04"
+    },
+    {
+      "id": "U0826",
+      "set": "pengujian",
+      "game_input": "2026-04-05"
+    },
+    {
+      "id": "U0827",
+      "set": "pengujian",
+      "game_input": "2026-04-06"
+    },
+    {
+      "id": "U0828",
+      "set": "pengujian",
+      "game_input": "2026-04-07"
+    },
+    {
+      "id": "U0829",
+      "set": "pengujian",
+      "game_input": "2026-04-08"
+    },
+    {
+      "id": "U0830",
+      "set": "pengujian",
+      "game_input": "2026-04-09"
+    },
+    {
+      "id": "U0831",
+      "set": "pengujian",
+      "game_input": "2026-04-10"
+    },
+    {
+      "id": "U0832",
+      "set": "pengujian",
+      "game_input": "2026-04-11"
+    },
+    {
+      "id": "U0833",
+      "set": "pengujian",
+      "game_input": "2026-04-12"
+    },
+    {
+      "id": "U0834",
+      "set": "pengujian",
+      "game_input": "2026-04-13"
+    },
+    {
+      "id": "U0835",
+      "set": "pengujian",
+      "game_input": "2026-04-14"
+    },
+    {
+      "id": "U0836",
+      "set": "pengujian",
+      "game_input": "2026-04-15"
+    },
+    {
+      "id": "U0837",
+      "set": "pengujian",
+      "game_input": "2026-04-16"
+    },
+    {
+      "id": "U0838",
+      "set": "pengujian",
+      "game_input": "2026-04-17"
+    },
+    {
+      "id": "U0839",
+      "set": "pengujian",
+      "game_input": "2026-04-18"
+    },
+    {
+      "id": "U0840",
+      "set": "pengujian",
+      "game_input": "2026-04-19"
+    },
+    {
+      "id": "U0841",
+      "set": "pengujian",
+      "game_input": "2026-04-20"
+    },
+    {
+      "id": "U0842",
+      "set": "pengujian",
+      "game_input": "2026-04-21"
+    },
+    {
+      "id": "U0843",
+      "set": "pengujian",
+      "game_input": "2026-04-22"
+    },
+    {
+      "id": "U0844",
+      "set": "pengujian",
+      "game_input": "2026-04-23"
+    },
+    {
+      "id": "U0845",
+      "set": "pengujian",
+      "game_input": "2026-04-24"
+    },
+    {
+      "id": "U0846",
+      "set": "pengujian",
+      "game_input": "2026-04-25"
+    },
+    {
+      "id": "U0847",
+      "set": "pengujian",
+      "game_input": "2026-04-26"
+    },
+    {
+      "id": "U0848",
+      "set": "pengujian",
+      "game_input": "2026-04-27"
+    },
+    {
+      "id": "U0849",
+      "set": "pengujian",
+      "game_input": "2026-04-28"
+    },
+    {
+      "id": "U0850",
+      "set": "pengujian",
+      "game_input": "2026-04-29"
+    },
+    {
+      "id": "U0851",
+      "set": "pengujian",
+      "game_input": "2026-04-30"
+    },
+    {
+      "id": "U0852",
+      "set": "pengujian",
+      "game_input": "2026-05-01"
+    },
+    {
+      "id": "U0853",
+      "set": "pengujian",
+      "game_input": "2026-05-02"
+    },
+    {
+      "id": "U0854",
+      "set": "pengujian",
+      "game_input": "2026-05-03"
+    },
+    {
+      "id": "U0855",
+      "set": "pengujian",
+      "game_input": "2026-05-04"
+    },
+    {
+      "id": "U0856",
+      "set": "pengujian",
+      "game_input": "2026-05-05"
+    },
+    {
+      "id": "U0857",
+      "set": "pengujian",
+      "game_input": "2026-05-06"
+    },
+    {
+      "id": "U0858",
+      "set": "pengujian",
+      "game_input": "2026-05-07"
+    },
+    {
+      "id": "U0859",
+      "set": "pengujian",
+      "game_input": "2026-05-08"
+    },
+    {
+      "id": "U0860",
+      "set": "pengujian",
+      "game_input": "2026-05-09"
+    },
+    {
+      "id": "U0861",
+      "set": "pengujian",
+      "game_input": "2026-05-10"
+    },
+    {
+      "id": "U0862",
+      "set": "pengujian",
+      "game_input": "2026-05-11"
+    },
+    {
+      "id": "U0863",
+      "set": "pengujian",
+      "game_input": "2026-05-12"
+    },
+    {
+      "id": "U0864",
+      "set": "pengujian",
+      "game_input": "2026-05-13"
+    },
+    {
+      "id": "U0865",
+      "set": "pengujian",
+      "game_input": "2026-05-14"
+    },
+    {
+      "id": "U0866",
+      "set": "pengujian",
+      "game_input": "2026-05-15"
+    },
+    {
+      "id": "U0867",
+      "set": "pengujian",
+      "game_input": "2026-05-16"
+    },
+    {
+      "id": "U0868",
+      "set": "pengujian",
+      "game_input": "2026-05-17"
+    },
+    {
+      "id": "U0869",
+      "set": "pengujian",
+      "game_input": "2026-05-18"
+    },
+    {
+      "id": "U0870",
+      "set": "pengujian",
+      "game_input": "2026-05-19"
+    },
+    {
+      "id": "U0871",
+      "set": "pengujian",
+      "game_input": "2026-05-20"
+    },
+    {
+      "id": "U0872",
+      "set": "pengujian",
+      "game_input": "2026-05-21"
+    },
+    {
+      "id": "U0873",
+      "set": "pengujian",
+      "game_input": "2026-05-22"
+    },
+    {
+      "id": "U0874",
+      "set": "pengujian",
+      "game_input": "2026-05-23"
+    },
+    {
+      "id": "U0875",
+      "set": "pengujian",
+      "game_input": "2026-05-24"
+    },
+    {
+      "id": "U0876",
+      "set": "pengujian",
+      "game_input": "2026-05-25"
+    },
+    {
+      "id": "U0877",
+      "set": "pengujian",
+      "game_input": "2026-05-26"
+    },
+    {
+      "id": "U0878",
+      "set": "pengujian",
+      "game_input": "2026-05-27"
+    },
+    {
+      "id": "U0879",
+      "set": "pengujian",
+      "game_input": "2026-05-28"
+    },
+    {
+      "id": "U0880",
+      "set": "pengujian",
+      "game_input": "2026-05-29"
+    },
+    {
+      "id": "U0881",
+      "set": "pengujian",
+      "game_input": "2026-05-30"
+    },
+    {
+      "id": "U0882",
+      "set": "pengujian",
+      "game_input": "2026-05-31"
+    },
+    {
+      "id": "U0883",
+      "set": "pengujian",
+      "game_input": "2026-06-01"
+    },
+    {
+      "id": "U0884",
+      "set": "pengujian",
+      "game_input": "2026-06-02"
+    },
+    {
+      "id": "U0885",
+      "set": "pengujian",
+      "game_input": "2026-06-03"
+    },
+    {
+      "id": "U0886",
+      "set": "pengujian",
+      "game_input": "2026-06-04"
+    },
+    {
+      "id": "U0887",
+      "set": "pengujian",
+      "game_input": "2026-06-05"
+    },
+    {
+      "id": "U0888",
+      "set": "pengujian",
+      "game_input": "2026-06-06"
+    },
+    {
+      "id": "U0889",
+      "set": "pengujian",
+      "game_input": "2026-06-07"
+    },
+    {
+      "id": "U0890",
+      "set": "pengujian",
+      "game_input": "2026-06-08"
+    },
+    {
+      "id": "U0891",
+      "set": "pengujian",
+      "game_input": "2026-06-09"
+    },
+    {
+      "id": "U0892",
+      "set": "pengujian",
+      "game_input": "2026-06-10"
+    },
+    {
+      "id": "U0893",
+      "set": "pengujian",
+      "game_input": "2026-06-11"
+    },
+    {
+      "id": "U0894",
+      "set": "pengujian",
+      "game_input": "2026-06-12"
+    },
+    {
+      "id": "U0895",
+      "set": "pengujian",
+      "game_input": "2026-06-13"
+    },
+    {
+      "id": "U0896",
+      "set": "pengujian",
+      "game_input": "2026-06-14"
+    },
+    {
+      "id": "U0897",
+      "set": "pengujian",
+      "game_input": "2026-06-15"
+    },
+    {
+      "id": "U0898",
+      "set": "pengujian",
+      "game_input": "2026-06-16"
+    },
+    {
+      "id": "U0899",
+      "set": "pengujian",
+      "game_input": "2026-06-17"
+    },
+    {
+      "id": "U0900",
+      "set": "pengujian",
+      "game_input": "2026-06-18"
+    },
+    {
+      "id": "U0901",
+      "set": "pengujian",
+      "game_input": "2026-06-19"
+    },
+    {
+      "id": "U0902",
+      "set": "pengujian",
+      "game_input": "2026-06-20"
+    },
+    {
+      "id": "U0903",
+      "set": "pengujian",
+      "game_input": "2026-06-21"
+    },
+    {
+      "id": "U0904",
+      "set": "pengujian",
+      "game_input": "2026-06-22"
+    },
+    {
+      "id": "U0905",
+      "set": "pengujian",
+      "game_input": "2026-06-23"
+    },
+    {
+      "id": "U0906",
+      "set": "pengujian",
+      "game_input": "2026-06-24"
+    },
+    {
+      "id": "U0907",
+      "set": "pengujian",
+      "game_input": "2026-06-25"
+    },
+    {
+      "id": "U0908",
+      "set": "pengujian",
+      "game_input": "2026-06-26"
+    },
+    {
+      "id": "U0909",
+      "set": "pengujian",
+      "game_input": "2026-06-27"
+    },
+    {
+      "id": "U0910",
+      "set": "pengujian",
+      "game_input": "2026-06-28"
+    },
+    {
+      "id": "U0911",
+      "set": "pengujian",
+      "game_input": "2026-06-29"
+    },
+    {
+      "id": "U0912",
+      "set": "pengujian",
+      "game_input": "2026-06-30"
+    },
+    {
+      "id": "U0913",
+      "set": "pengujian",
+      "game_input": "2026-07-01"
+    },
+    {
+      "id": "U0914",
+      "set": "pengujian",
+      "game_input": "2026-07-02"
+    },
+    {
+      "id": "U0915",
+      "set": "pengujian",
+      "game_input": "2026-07-03"
+    },
+    {
+      "id": "U0916",
+      "set": "pengujian",
+      "game_input": "2026-07-04"
+    },
+    {
+      "id": "U0917",
+      "set": "pengujian",
+      "game_input": "2026-07-05"
+    },
+    {
+      "id": "U0918",
+      "set": "pengujian",
+      "game_input": "2026-07-06"
+    },
+    {
+      "id": "U0919",
+      "set": "pengujian",
+      "game_input": "2026-07-07"
+    },
+    {
+      "id": "U0920",
+      "set": "pengujian",
+      "game_input": "2026-07-08"
+    },
+    {
+      "id": "U0921",
+      "set": "pengujian",
+      "game_input": "2026-07-09"
+    },
+    {
+      "id": "U0922",
+      "set": "pengujian",
+      "game_input": "2026-07-10"
+    },
+    {
+      "id": "U0923",
+      "set": "pengujian",
+      "game_input": "2026-07-11"
+    },
+    {
+      "id": "U0924",
+      "set": "pengujian",
+      "game_input": "2026-07-12"
+    },
+    {
+      "id": "U0925",
+      "set": "pengujian",
+      "game_input": "2026-07-13"
+    },
+    {
+      "id": "U0926",
+      "set": "pengujian",
+      "game_input": "2026-07-14"
+    },
+    {
+      "id": "U0927",
+      "set": "pengujian",
+      "game_input": "2026-07-15"
+    },
+    {
+      "id": "U0928",
+      "set": "pengujian",
+      "game_input": "2026-07-16"
+    },
+    {
+      "id": "U0929",
+      "set": "pengujian",
+      "game_input": "2026-07-17"
+    },
+    {
+      "id": "U0930",
+      "set": "pengujian",
+      "game_input": "2026-07-18"
+    },
+    {
+      "id": "U0931",
+      "set": "pengujian",
+      "game_input": "2026-07-19"
+    },
+    {
+      "id": "U0932",
+      "set": "pengujian",
+      "game_input": "2026-07-20"
+    },
+    {
+      "id": "U0933",
+      "set": "pengujian",
+      "game_input": "2026-07-21"
+    },
+    {
+      "id": "U0934",
+      "set": "pengujian",
+      "game_input": "2026-07-22"
+    },
+    {
+      "id": "U0935",
+      "set": "pengujian",
+      "game_input": "2026-07-23"
+    },
+    {
+      "id": "U0936",
+      "set": "pengujian",
+      "game_input": "2026-07-24"
+    },
+    {
+      "id": "U0937",
+      "set": "pengujian",
+      "game_input": "2026-07-25"
+    },
+    {
+      "id": "U0938",
+      "set": "pengujian",
+      "game_input": "2026-07-26"
+    },
+    {
+      "id": "U0939",
+      "set": "pengujian",
+      "game_input": "2026-07-27"
+    },
+    {
+      "id": "U0940",
+      "set": "pengujian",
+      "game_input": "2026-07-28"
+    },
+    {
+      "id": "U0941",
+      "set": "pengujian",
+      "game_input": "2026-07-29"
+    },
+    {
+      "id": "U0942",
+      "set": "pengujian",
+      "game_input": "2026-07-30"
+    },
+    {
+      "id": "U0943",
+      "set": "pengujian",
+      "game_input": "2026-07-31"
+    },
+    {
+      "id": "U0944",
+      "set": "pengujian",
+      "game_input": "2026-08-01"
+    },
+    {
+      "id": "U0945",
+      "set": "pengujian",
+      "game_input": "2026-08-02"
+    },
+    {
+      "id": "U0946",
+      "set": "pengujian",
+      "game_input": "2026-08-03"
+    },
+    {
+      "id": "U0947",
+      "set": "pengujian",
+      "game_input": "2026-08-04"
+    },
+    {
+      "id": "U0948",
+      "set": "pengujian",
+      "game_input": "2026-08-05"
+    },
+    {
+      "id": "U0949",
+      "set": "pengujian",
+      "game_input": "2026-08-06"
+    },
+    {
+      "id": "U0950",
+      "set": "pengujian",
+      "game_input": "2026-08-07"
+    },
+    {
+      "id": "U0951",
+      "set": "pengujian",
+      "game_input": "2026-08-08"
+    },
+    {
+      "id": "U0952",
+      "set": "pengujian",
+      "game_input": "2026-08-09"
+    },
+    {
+      "id": "U0953",
+      "set": "pengujian",
+      "game_input": "2026-08-10"
+    },
+    {
+      "id": "U0954",
+      "set": "pengujian",
+      "game_input": "2026-08-11"
+    },
+    {
+      "id": "U0955",
+      "set": "pengujian",
+      "game_input": "2026-08-12"
+    },
+    {
+      "id": "U0956",
+      "set": "pengujian",
+      "game_input": "2026-08-13"
+    },
+    {
+      "id": "U0957",
+      "set": "pengujian",
+      "game_input": "2026-08-14"
+    },
+    {
+      "id": "U0958",
+      "set": "pengujian",
+      "game_input": "2026-08-15"
+    },
+    {
+      "id": "U0959",
+      "set": "pengujian",
+      "game_input": "2026-08-16"
+    },
+    {
+      "id": "U0960",
+      "set": "pengujian",
+      "game_input": "2026-08-17"
+    },
+    {
+      "id": "U0961",
+      "set": "pengujian",
+      "game_input": "2026-08-18"
+    },
+    {
+      "id": "U0962",
+      "set": "pengujian",
+      "game_input": "2026-08-19"
+    },
+    {
+      "id": "U0963",
+      "set": "pengujian",
+      "game_input": "2026-08-20"
+    },
+    {
+      "id": "U0964",
+      "set": "pengujian",
+      "game_input": "2026-08-21"
+    },
+    {
+      "id": "U0965",
+      "set": "pengujian",
+      "game_input": "2026-08-22"
+    },
+    {
+      "id": "U0966",
+      "set": "pengujian",
+      "game_input": "2026-08-23"
+    },
+    {
+      "id": "U0967",
+      "set": "pengujian",
+      "game_input": "2026-08-24"
+    },
+    {
+      "id": "U0968",
+      "set": "pengujian",
+      "game_input": "2026-08-25"
+    },
+    {
+      "id": "U0969",
+      "set": "pengujian",
+      "game_input": "2026-08-26"
+    },
+    {
+      "id": "U0970",
+      "set": "pengujian",
+      "game_input": "2026-08-27"
+    },
+    {
+      "id": "U0971",
+      "set": "pengujian",
+      "game_input": "2026-08-28"
+    },
+    {
+      "id": "U0972",
+      "set": "pengujian",
+      "game_input": "2026-08-29"
+    },
+    {
+      "id": "U0973",
+      "set": "pengujian",
+      "game_input": "2026-08-30"
+    },
+    {
+      "id": "U0974",
+      "set": "pengujian",
+      "game_input": "2026-08-31"
+    },
+    {
+      "id": "U0975",
+      "set": "pengujian",
+      "game_input": "2026-09-01"
+    },
+    {
+      "id": "U0976",
+      "set": "pengujian",
+      "game_input": "2026-09-02"
+    },
+    {
+      "id": "U0977",
+      "set": "pengujian",
+      "game_input": "2026-09-03"
+    },
+    {
+      "id": "U0978",
+      "set": "pengujian",
+      "game_input": "2026-09-04"
+    },
+    {
+      "id": "U0979",
+      "set": "pengujian",
+      "game_input": "2026-09-05"
+    },
+    {
+      "id": "U0980",
+      "set": "pengujian",
+      "game_input": "2026-09-06"
+    },
+    {
+      "id": "U0981",
+      "set": "pengujian",
+      "game_input": "2026-09-07"
+    },
+    {
+      "id": "U0982",
+      "set": "pengujian",
+      "game_input": "2026-09-08"
+    },
+    {
+      "id": "U0983",
+      "set": "pengujian",
+      "game_input": "2026-09-09"
+    },
+    {
+      "id": "U0984",
+      "set": "pengujian",
+      "game_input": "2026-09-10"
+    },
+    {
+      "id": "U0985",
+      "set": "pengujian",
+      "game_input": "2026-09-11"
+    },
+    {
+      "id": "U0986",
+      "set": "pengujian",
+      "game_input": "2026-09-12"
+    },
+    {
+      "id": "U0987",
+      "set": "pengujian",
+      "game_input": "2026-09-13"
+    },
+    {
+      "id": "U0988",
+      "set": "pengujian",
+      "game_input": "2026-09-14"
+    },
+    {
+      "id": "U0989",
+      "set": "pengujian",
+      "game_input": "2026-09-15"
+    },
+    {
+      "id": "U0990",
+      "set": "pengujian",
+      "game_input": "2026-09-16"
+    },
+    {
+      "id": "U0991",
+      "set": "pengujian",
+      "game_input": "2026-09-17"
+    },
+    {
+      "id": "U0992",
+      "set": "pengujian",
+      "game_input": "2026-09-18"
+    },
+    {
+      "id": "U0993",
+      "set": "pengujian",
+      "game_input": "2026-09-19"
+    },
+    {
+      "id": "U0994",
+      "set": "pengujian",
+      "game_input": "2026-09-20"
+    },
+    {
+      "id": "U0995",
+      "set": "pengujian",
+      "game_input": "2026-09-21"
+    },
+    {
+      "id": "U0996",
+      "set": "pengujian",
+      "game_input": "2026-09-22"
+    },
+    {
+      "id": "U0997",
+      "set": "pengujian",
+      "game_input": "2026-09-23"
+    },
+    {
+      "id": "U0998",
+      "set": "pengujian",
+      "game_input": "2026-09-24"
+    },
+    {
+      "id": "U0999",
+      "set": "pengujian",
+      "game_input": "2026-09-25"
+    },
+    {
+      "id": "U1000",
+      "set": "pengujian",
+      "game_input": "2026-09-26"
+    }
+  ]
+}

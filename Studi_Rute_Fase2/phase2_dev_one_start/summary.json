@@ -1,0 +1,436 @@
+{
+  "method": {
+    "original": {
+      "minimum_best_reward": {
+        "mean": 0.8444444444444444,
+        "median": 1,
+        "p05": 0,
+        "p95": 2
+      },
+      "reward_gap": {
+        "mean": 0.8555555555555555,
+        "median": 1,
+        "p05": 0,
+        "p95": 2
+      },
+      "worst_risk_streak": {
+        "mean": 1.4,
+        "median": 1,
+        "p05": 1,
+        "p95": 3
+      },
+      "unique_path_share": {
+        "mean": 0.5796942908217418,
+        "median": 0.5454545454545454,
+        "p05": 0.29214285714285715,
+        "p95": 1
+      },
+      "paths_with_reward_share": {
+        "mean": 0.5688835211629328,
+        "median": 0.5584415584415584,
+        "p05": 0.08166666666666668,
+        "p95": 1
+      },
+      "generation_ms": {
+        "mean": 0.1542199999999825,
+        "median": 0.11395000000004529,
+        "p05": 0.06297999999987951,
+        "p95": 0.3292200000000605
+      }
+    },
+    "random_search": {
+      "minimum_best_reward": {
+        "mean": 1.6555555555555554,
+        "median": 2,
+        "p05": 0,
+        "p95": 3
+      },
+      "reward_gap": {
+        "mean": 0.06666666666666667,
+        "median": 0,
+        "p05": 0,
+        "p95": 1
+      },
+      "worst_risk_streak": {
+        "mean": 1.0333333333333334,
+        "median": 1,
+        "p05": 1,
+        "p95": 2
+      },
+      "unique_path_share": {
+        "mean": 0.6702416029867013,
+        "median": 0.6583333333333333,
+        "p05": 0.40750000000000003,
+        "p95": 1
+      },
+      "paths_with_reward_share": {
+        "mean": 0.6089568474372394,
+        "median": 0.625,
+        "p05": 0.125,
+        "p95": 1
+      },
+      "generation_ms": {
+        "mean": 5.877216666666665,
+        "median": 5.324999999999875,
+        "p05": 3.1920500000000063,
+        "p95": 8.643720000000066
+      }
+    },
+    "genetic_algorithm": {
+      "minimum_best_reward": {
+        "mean": 1.6555555555555554,
+        "median": 2,
+        "p05": 0,
+        "p95": 3
+      },
+      "reward_gap": {
+        "mean": 0.06666666666666667,
+        "median": 0,
+        "p05": 0,
+        "p95": 1
+      },
+      "worst_risk_streak": {
+        "mean": 1.0333333333333334,
+        "median": 1,
+        "p05": 1,
+        "p95": 2
+      },
+      "unique_path_share": {
+        "mean": 0.6709360474311458,
+        "median": 0.6583333333333333,
+        "p05": 0.40750000000000003,
+        "p95": 1
+      },
+      "paths_with_reward_share": {
+        "mean": 0.6200796598100518,
+        "median": 0.6,
+        "p05": 0.19642857142857142,
+        "p95": 1
+      },
+      "generation_ms": {
+        "mean": 8.603959999999988,
+        "median": 7.840849999999961,
+        "p05": 5.521924999999885,
+        "p95": 14.844759999999987
+      }
+    },
+    "local_swap_repair": {
+      "minimum_best_reward": {
+        "mean": 1.5,
+        "median": 1,
+        "p05": 0,
+        "p95": 3
+      },
+      "reward_gap": {
+        "mean": 0.07777777777777778,
+        "median": 0,
+        "p05": 0,
+        "p95": 1
+      },
+      "worst_risk_streak": {
+        "mean": 1.1,
+        "median": 1,
+        "p05": 1,
+        "p95": 2
+      },
+      "unique_path_share": {
+        "mean": 0.6500906890857873,
+        "median": 0.6396103896103896,
+        "p05": 0.3826007326007326,
+        "p95": 1
+      },
+      "paths_with_reward_share": {
+        "mean": 0.6133227901365156,
+        "median": 0.6339285714285714,
+        "p05": 0.1603896103896104,
+        "p95": 1
+      },
+      "generation_ms": {
+        "mean": 0.3965911111111047,
+        "median": 0.33024999999997817,
+        "p05": 0.1436399999999253,
+        "p95": 0.6620349999999547
+      }
+    }
+  },
+  "paired_difference_ga_minus_original": {
+    "minimum_best_reward": {
+      "mean_difference": 0.8111111111111111,
+      "bootstrap95": [
+        0.6555555555555556,
+        0.9888888888888889
+      ],
+      "positive_share": 0.6222222222222222,
+      "equal_share": 0.37777777777777777
+    },
+    "reward_gap": {
+      "mean_difference": -0.7888888888888889,
+      "bootstrap95": [
+        -0.9666666666666667,
+        -0.6111111111111112
+      ],
+      "positive_share": 0,
+      "equal_share": 0.45555555555555555
+    },
+    "worst_risk_streak": {
+      "mean_difference": -0.36666666666666664,
+      "bootstrap95": [
+        -0.5,
+        -0.24444444444444444
+      ],
+      "positive_share": 0.011111111111111112,
+      "equal_share": 0.6666666666666666
+    },
+    "unique_path_share": {
+      "mean_difference": 0.09124175660940369,
+      "bootstrap95": [
+        0.06804264689558806,
+        0.1155875441053137
+      ],
+      "positive_share": 0.5555555555555556,
+      "equal_share": 0.4111111111111111
+    },
+    "paths_with_reward_share": {
+      "mean_difference": 0.05119613864711904,
+      "bootstrap95": [
+        0.01013155014012857,
+        0.09707167598650442
+      ],
+      "positive_share": 0.45555555555555555,
+      "equal_share": 0.3
+    },
+    "generation_ms": {
+      "mean_difference": 8.449740000000007,
+      "bootstrap95": [
+        7.792727611111109,
+        9.276569722222238
+      ],
+      "positive_share": 1,
+      "equal_share": 0
+    }
+  },
+  "paired_difference_ga_minus_random_search": {
+    "minimum_best_reward": {
+      "mean_difference": 0,
+      "bootstrap95": [
+        0,
+        0
+      ],
+      "positive_share": 0,
+      "equal_share": 1
+    },
+    "reward_gap": {
+      "mean_difference": 0,
+      "bootstrap95": [
+        0,
+        0
+      ],
+      "positive_share": 0,
+      "equal_share": 1
+    },
+    "worst_risk_streak": {
+      "mean_difference": 0,
+      "bootstrap95": [
+        0,
+        0
+      ],
+      "positive_share": 0,
+      "equal_share": 1
+    },
+    "unique_path_share": {
+      "mean_difference": 0.0006944444444444445,
+      "bootstrap95": [
+        0,
+        0.0020833333333333333
+      ],
+      "positive_share": 0.011111111111111112,
+      "equal_share": 0.9888888888888889
+    },
+    "paths_with_reward_share": {
+      "mean_difference": 0.011122812372812376,
+      "bootstrap95": [
+        -0.014699240574240572,
+        0.036279378029378015
+      ],
+      "positive_share": 0.2111111111111111,
+      "equal_share": 0.6333333333333333
+    },
+    "generation_ms": {
+      "mean_difference": 2.7267433333333244,
+      "bootstrap95": [
+        2.3326501666666504,
+        3.1419559166666597
+      ],
+      "positive_share": 0.9777777777777777,
+      "equal_share": 0
+    }
+  },
+  "paired_difference_local_minus_original": {
+    "minimum_best_reward": {
+      "mean_difference": 0.6555555555555556,
+      "bootstrap95": [
+        0.5111111111111111,
+        0.8111111111111111
+      ],
+      "positive_share": 0.5111111111111111,
+      "equal_share": 0.4888888888888889
+    },
+    "reward_gap": {
+      "mean_difference": -0.7777777777777778,
+      "bootstrap95": [
+        -0.9555555555555556,
+        -0.6
+      ],
+      "positive_share": 0,
+      "equal_share": 0.4666666666666667
+    },
+    "worst_risk_streak": {
+      "mean_difference": -0.3,
+      "bootstrap95": [
+        -0.41138888888888886,
+        -0.18888888888888888
+      ],
+      "positive_share": 0.011111111111111112,
+      "equal_share": 0.7222222222222222
+    },
+    "unique_path_share": {
+      "mean_difference": 0.07039639826404531,
+      "bootstrap95": [
+        0.04758930809114631,
+        0.09462651013202486
+      ],
+      "positive_share": 0.4444444444444444,
+      "equal_share": 0.5111111111111111
+    },
+    "paths_with_reward_share": {
+      "mean_difference": 0.0444392689735827,
+      "bootstrap95": [
+        0.014981646553337731,
+        0.07481423047722068
+      ],
+      "positive_share": 0.34444444444444444,
+      "equal_share": 0.4666666666666667
+    },
+    "generation_ms": {
+      "mean_difference": 0.24237111111112217,
+      "bootstrap95": [
+        0.20065936111113847,
+        0.29547486111112486
+      ],
+      "positive_share": 1,
+      "equal_share": 0
+    }
+  },
+  "paired_difference_local_minus_random_search": {
+    "minimum_best_reward": {
+      "mean_difference": -0.15555555555555556,
+      "bootstrap95": [
+        -0.24444444444444444,
+        -0.07777777777777778
+      ],
+      "positive_share": 0,
+      "equal_share": 0.8555555555555555
+    },
+    "reward_gap": {
+      "mean_difference": 0.011111111111111112,
+      "bootstrap95": [
+        0,
+        0.03333333333333333
+      ],
+      "positive_share": 0.011111111111111112,
+      "equal_share": 0.9888888888888889
+    },
+    "worst_risk_streak": {
+      "mean_difference": 0.06666666666666667,
+      "bootstrap95": [
+        0.022222222222222223,
+        0.12222222222222222
+      ],
+      "positive_share": 0.06666666666666667,
+      "equal_share": 0.9333333333333333
+    },
+    "unique_path_share": {
+      "mean_difference": -0.0201509139009139,
+      "bootstrap95": [
+        -0.031881152797819466,
+        -0.00943171797338464
+      ],
+      "positive_share": 0.011111111111111112,
+      "equal_share": 0.8
+    },
+    "paths_with_reward_share": {
+      "mean_difference": 0.0043659426992760314,
+      "bootstrap95": [
+        -0.030592032196198875,
+        0.03635005041255039
+      ],
+      "positive_share": 0.2777777777777778,
+      "equal_share": 0.5222222222222223
+    },
+    "generation_ms": {
+      "mean_difference": -5.4806255555555605,
+      "bootstrap95": [
+        -6.381508722222227,
+        -4.882973138888892
+      ],
+      "positive_share": 0,
+      "equal_share": 0
+    }
+  },
+  "paired_difference_local_minus_ga": {
+    "minimum_best_reward": {
+      "mean_difference": -0.15555555555555556,
+      "bootstrap95": [
+        -0.23333333333333334,
+        -0.07777777777777778
+      ],
+      "positive_share": 0,
+      "equal_share": 0.8555555555555555
+    },
+    "reward_gap": {
+      "mean_difference": 0.011111111111111112,
+      "bootstrap95": [
+        0,
+        0.03333333333333333
+      ],
+      "positive_share": 0.011111111111111112,
+      "equal_share": 0.9888888888888889
+    },
+    "worst_risk_streak": {
+      "mean_difference": 0.06666666666666667,
+      "bootstrap95": [
+        0.022222222222222223,
+        0.12222222222222222
+      ],
+      "positive_share": 0.06666666666666667,
+      "equal_share": 0.9333333333333333
+    },
+    "unique_path_share": {
+      "mean_difference": -0.02084535834535834,
+      "bootstrap95": [
+        -0.033181662858746186,
+        -0.010583453583453592
+      ],
+      "positive_share": 0.011111111111111112,
+      "equal_share": 0.7888888888888889
+    },
+    "paths_with_reward_share": {
+      "mean_difference": -0.006756869673536343,
+      "bootstrap95": [
+        -0.04191071197321198,
+        0.02790942660734326
+      ],
+      "positive_share": 0.2222222222222222,
+      "equal_share": 0.5444444444444444
+    },
+    "generation_ms": {
+      "mean_difference": -8.207368888888885,
+      "bootstrap95": [
+        -8.929082249999993,
+        -7.579899388888887
+      ],
+      "positive_share": 0,
+      "equal_share": 0
+    }
+  }
+}

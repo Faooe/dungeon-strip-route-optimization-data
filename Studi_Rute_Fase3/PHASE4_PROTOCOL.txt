@@ -1,0 +1,71 @@
+ANALISIS TAMBAHAN REVISI 13 — DUNGEON STRIP
+============================================
+
+Analisis ini dilakukan setelah hasil utama diketahui. Data pengujian utama,
+empat keluaran metode per seed, parameter empat titik awal, dan urutan tujuan
+tidak diubah. Seluruh angka baru merupakan analisis penjelas dan sensitivitas,
+bukan pengujian praregistrasi baru. Tidak ada responden atau permainan manual.
+
+1. SUSUNAN OPTIMUM YANG SERI
+phase4_optimal_ties.py mengevaluasi ulang semua 3.787.236 susunan pada 1.000
+seed uji. Untuk setiap seed, semua susunan dengan nilai terbaik yang sama
+pada empat tujuan dihitung. Metrik pejalan acak dihitung untuk setiap susunan
+optimum, lalu direratakan di dalam seed. Rerata artikel kemudian memberi bobot
+sama kepada setiap seed, bukan kepada setiap susunan. Nilai minimum dan
+maksimum di antara susunan seri juga disimpan per seed. Sebanyak 993 seed
+mempunyai lebih dari satu susunan optimum. Hasil per seed:
+phase4_optimal_ties_per_seed.csv; ringkasan: phase4_optimal_ties_summary.json.
+
+2. BIAYA ENUMERASI PADA NODE.JS
+phase4_enumeration_timing.mjs mengambil fungsi buatPeta dari salinan kode game
+dan fungsi prepare/measure/objectives dari skrip fase2.mjs yang dibekukan.
+Waktu mencakup pembangkitan peta, persiapan graf, pembuatan permutasi unik,
+dan evaluasi seluruh susunan. Setiap nilai optimum dan ukuran ruang pencarian
+dicocokkan dengan hasil Python untuk seluruh 1.000 seed. Versi Node.js:
+v24.22.3. Kode game SHA-256:
+b1d5cbe36149f8d529608e3fd81e9d18c2888f70855f368aec64d5d514d7a9ca
+Skrip fase2.mjs sebelum eksperimen SHA-256:
+81a37b7066c9c82c0cb8ae54634adb66570a8a91a598e27c95e62ea74829fd6d
+
+Empat metode lama dijalankan ulang pada perangkat dan Node.js yang sama;
+semua 4.000 peta, metrik, dan jumlah evaluasi identik dengan hasil utama.
+Waktu hanya indikatif karena enumerasi dan empat metode dijalankan pada proses
+terpisah dan beban perangkat dapat berubah. Hasil per seed:
+phase4_node_enumeration_per_seed.csv dan phase4_timing_methods/maps.jsonl.
+
+3. SENSITIVITAS JUMLAH TITIK AWAL
+phase4_tuning_restarts.py membuat turunan sementara dari fase2.mjs dengan hanya
+jumlah titik awal pencarian lokal diubah menjadi 1, 2, 3, 4, atau 8. Semua
+pengaturan memakai 90 seed pengembangan yang sama; tidak ada seed uji utama
+yang dipakai memilih ulang parameter. Hasil 1 dan 4 identik dengan arsip
+pengembangan lama. Optimum untuk 90 seed dihitung secara eksak, lalu gap
+ditentukan. Delapan titik awal mencapai optimum pada semua 90 seed
+pengembangan, tetapi membutuhkan rerata 280,9 evaluasi; hal ini tidak
+mengubah keputusan prauji yang memakai empat titik awal.
+
+4. PEMERIKSAAN TERPISAH
+phase4_validate.py menghitung ulang ikatan optimum dan metrik pejalan acak
+secara sederhana pada delapan seed kecil; hasilnya cocok. Pada seluruh 62 seed
+dengan satu Peti/Toko dan nilai optimum nol, tidak ada node pada lapisan hadiah
+yang dapat dijangkau dari kedua titik awal sekaligus. Pemeriksa juga
+mencocokkan seluruh 4.000 peta pengukuran ulang dengan arsip utama.
+Hasil: phase4_validation.json.
+
+5. JEJAK BERKAS
+SHA-256 kode final (setelah perbaikan alat, bukan hash praregistrasi):
+phase4_optimal_ties.py:
+1f2a60d7b328785e2b99adab0f980de781d24e2fc2dad0ec023341f6fbda5d4d
+phase4_enumeration_timing.mjs:
+d5304d34f350732d930ec776e909ac9d77cfed9ff006c97c587e1ae5a71cb8fd
+phase4_tuning_restarts.py:
+7f91cff6ffd3705e353027bc2cae9c862a9672f02afd731bfc470f51acdd2da5
+phase4_validate.py:
+ec86cd59acc7e2409d35545072f52a62eb064e76a7d2b77cad5a5d96872f1cb0
+
+SHA-256 hasil utama:
+phase4_optimal_ties_per_seed.csv:
+5061e8738bab81ad69ad57ca7f510652b3647c8e6f6378320ee242afae885d8a
+phase4_node_enumeration_per_seed.csv:
+8f31450e73d5130e9dadfb11c849ae55ff9dc4a1688626d3545f7b1e8b94b583
+phase4_tuning_per_seed.csv:
+363b8583d714a972133a06b2a63b8f106f1cf6e80ed75ae8de52d6efbd61d252

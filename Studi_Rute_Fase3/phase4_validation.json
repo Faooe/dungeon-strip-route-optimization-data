@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "independent_tie_seed_count": 8,
+  "independent_tie_seed_inputs": [
+    "2024-01-09",
+    "2024-01-18",
+    "2024-02-01",
+    "2024-02-07",
+    "2024-02-29",
+    "2024-03-19",
+    "2024-03-22",
+    "2024-04-17"
+  ],
+  "zero_reward_topology_seeds": 62,
+  "repeated_phase2_maps_checked": 4000,
+  "node_exact_seeds_checked": 1000
+}

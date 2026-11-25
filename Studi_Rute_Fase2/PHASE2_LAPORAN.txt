@@ -1,0 +1,92 @@
+HASIL FASE 2 — PEMBANGKITAN RUTE OTOMATIS DUNGEON STRIP
+======================================================
+
+Status: penelitian komputasional selesai; naskah jurnal belum ditulis.
+Seluruh data berikut berasal dari peta yang dibuat komputer. Tidak ada
+responden dan tidak ada permainan manual.
+
+Desain
+------
+Setelah pengembangan pada 90 seed, empat metode diuji pada 1.000 seed baru
+(2024-01-01 sampai 2026-09-26): generator game asli, pencarian acak, algoritma
+genetika, dan perbaikan lokal multi-start. Setiap seed menghasilkan empat
+peta. Graf koneksi dan frekuensi setiap jenis ruang per lapisan dijaga sama;
+hanya posisi jenis ruang yang diubah. Pencarian acak dan genetika masing-masing
+memeriksa 744 kandidat. Perbaikan lokal memeriksa rata-rata 140,6 kandidat.
+
+Hasil uji utama, rerata per peta
+-----------------------------
+Metrik                       Asli     Acak     Genetika  Lokal
+Minimum peluang hadiah       0,981    1,651    1,651     1,639
+Selisih antar titik awal     0,768    0,068    0,068     0,068
+Rentetan Elite/Tantangan     1,367    1,008    1,006     1,008
+Proporsi urutan jalur unik   0,616    0,691    0,692     0,689
+Waktu per peta (ms)          0,079    4,015    6,350     0,775
+
+Dibanding generator asli, metode lokal menaikkan minimum peluang hadiah
+rata-rata 0,658 ruang (selang bootstrap berpasangan 95%: 0,615–0,702),
+menurunkan selisih antar titik awal 0,700 ruang (−0,751 hingga −0,651),
+dan menurunkan rentetan Elite/Tantangan terburuk 0,359 ruang
+(−0,392 hingga −0,324).
+
+Dibanding pencarian acak 744 kandidat, metode lokal memiliki minimum peluang
+hadiah rata-rata 0,012 ruang lebih rendah (selang bootstrap 95%:
+−0,019 hingga −0,006). Menurut urutan prioritas semua metrik, kedua metode
+seri pada 944 dari 1.000 seed; lokal lebih baik pada 11 dan lebih buruk pada
+45 seed. Metode lokal memakai sekitar 81% lebih sedikit evaluasi kandidat
+dan waktu teramati sekitar 5,2 kali lebih singkat daripada pencarian acak.
+Perbandingan waktu diputar urutannya per seed, tetapi masih berupa satu proses
+Node.js dan sebaiknya diperlakukan sebagai indikasi, bukan benchmark perangkat
+keras final.
+
+Uji sensitivitas definisi (eksploratori)
+---------------------------------------
+Jika hadiah hanya Peti, minimum peluang hadiah lokal 0,897 dibanding asli
+0,579. Jika Misteri juga dihitung sebagai peluang hadiah, lokal 2,043
+dibanding asli 1,691. Jadi arah peningkatan akses hadiah tetap terlihat.
+Sebaliknya, jika semua ruang Tempur ikut dianggap risiko tinggi, rentetan
+risiko terburuk lokal 4,052 dan asli 4,051: tidak ada perbaikan pada ukuran
+risiko yang lebih luas. Klaim penurunan rentetan risiko harus dibatasi pada
+Elite/Tantangan saja.
+
+Kesimpulan terbatas
+------------------
+Perbaikan lokal multi-start mendekati hasil pencarian acak dan genetika
+dengan lebih sedikit evaluasi pada masalah penempatan jenis ruang yang
+diteliti. Pencarian acak dan genetika sedikit lebih baik pada beberapa peta.
+Hasil ini tidak membuktikan bahwa pemain lebih menikmati rute, bahwa peluang
+menang meningkat, atau bahwa seluruh tantangan game lebih seimbang.
+
+Judul kerja yang tepat berdasarkan data:
+"Perbandingan Efisiensi Perbaikan Lokal Multi-Start, Pencarian Acak, dan
+Algoritma Genetika untuk Optimasi Rute Roguelite Dungeon Strip".
+
+Batas penelitian yang wajib dijelaskan dalam artikel
+-----------------------------------------------------
+1. Yang dioptimasi hanya penempatan jenis ruang dalam lapisan pada graf rute
+   game. Koneksi, jumlah ruang, dan jenis ruang per lapisan tetap.
+2. Metrik hadiah mengukur kesempatan, bukan barang yang diperoleh. Toko
+   memerlukan gold; Elite dan Tantangan juga dapat memberi hadiah.
+3. Selisih antar titik awal hanya melihat dua titik awal, bukan setiap
+   persimpangan keputusan di tengah peta.
+4. Keunikan yang diukur ialah urutan jenis ruang, bukan keberagaman graf
+   koneksi atau peta visual.
+5. Data berasal dari satu game dan tidak mengandung observasi pemain.
+6. Parameter empat titik awal metode lokal dipilih memakai 90 seed
+   pengembangan. Pengujian 1.000 seed dilakukan pada tanggal seed terpisah.
+
+Pemeriksaan
+-----------
+Pemeriksa Python menghitung ulang semua metrik dari 4.000 graf mentah,
+memastikan koneksi dan jumlah jenis ruang per lapisan sama dalam tiap seed,
+memeriksa hash kode sumber, dan menghitung ulang rerata. Semua pemeriksaan
+lolos. Lima seed pertama (20 peta) juga dibuat ulang secara terpisah dan
+menghasilkan peta, metrik, serta jumlah evaluasi yang identik.
+
+Catatan kelayakan artikel
+------------------------
+Data ini cukup untuk menyusun artikel komparasi algoritma yang terukur dan
+dapat diaudit. Sebelum target SINTA 3, perlu tinjauan pustaka primer yang
+rapi, justifikasi ukuran struktural, pembahasan hasil negatif pada definisi
+risiko yang lebih luas, dan penyesuaian ke template jurnal. Jangan menulis
+klaim pengalaman pemain karena penelitian ini tidak mengujinya.

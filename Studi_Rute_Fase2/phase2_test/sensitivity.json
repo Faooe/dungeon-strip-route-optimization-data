@@ -1,0 +1,150 @@
+{
+  "note": "Exploratory sensitivity on the same test maps; algorithms were optimized only under the main definition.",
+  "schemes": {
+    "main_peti_toko__elit_tantangan": {
+      "reward_types": [
+        "peti",
+        "toko"
+      ],
+      "risk_types": [
+        "elit",
+        "tantangan"
+      ],
+      "means": {
+        "original": {
+          "minimum_best_reward": 0.981,
+          "reward_gap": 0.768,
+          "worst_risk_streak": 1.367,
+          "paths_with_reward_share": 0.5979643077337637
+        },
+        "random_search": {
+          "minimum_best_reward": 1.651,
+          "reward_gap": 0.068,
+          "worst_risk_streak": 1.008,
+          "paths_with_reward_share": 0.6276182562317575
+        },
+        "genetic_algorithm": {
+          "minimum_best_reward": 1.651,
+          "reward_gap": 0.068,
+          "worst_risk_streak": 1.006,
+          "paths_with_reward_share": 0.6310646328516853
+        },
+        "local_swap_repair": {
+          "minimum_best_reward": 1.639,
+          "reward_gap": 0.068,
+          "worst_risk_streak": 1.008,
+          "paths_with_reward_share": 0.6240699050691049
+        }
+      }
+    },
+    "peti_only__elit_tantangan": {
+      "reward_types": [
+        "peti"
+      ],
+      "risk_types": [
+        "elit",
+        "tantangan"
+      ],
+      "means": {
+        "original": {
+          "minimum_best_reward": 0.579,
+          "reward_gap": 0.667,
+          "worst_risk_streak": 1.367,
+          "paths_with_reward_share": 0.4261217137410776
+        },
+        "random_search": {
+          "minimum_best_reward": 0.905,
+          "reward_gap": 0.336,
+          "worst_risk_streak": 1.008,
+          "paths_with_reward_share": 0.45049125852965044
+        },
+        "genetic_algorithm": {
+          "minimum_best_reward": 0.899,
+          "reward_gap": 0.341,
+          "worst_risk_streak": 1.006,
+          "paths_with_reward_share": 0.46032882142071885
+        },
+        "local_swap_repair": {
+          "minimum_best_reward": 0.897,
+          "reward_gap": 0.341,
+          "worst_risk_streak": 1.008,
+          "paths_with_reward_share": 0.4527480323596481
+        }
+      }
+    },
+    "peti_toko_misteri__elit_tantangan": {
+      "reward_types": [
+        "misteri",
+        "peti",
+        "toko"
+      ],
+      "risk_types": [
+        "elit",
+        "tantangan"
+      ],
+      "means": {
+        "original": {
+          "minimum_best_reward": 1.691,
+          "reward_gap": 0.896,
+          "worst_risk_streak": 1.367,
+          "paths_with_reward_share": 0.8407779426088575
+        },
+        "random_search": {
+          "minimum_best_reward": 2.085,
+          "reward_gap": 0.607,
+          "worst_risk_streak": 1.008,
+          "paths_with_reward_share": 0.8652418313143534
+        },
+        "genetic_algorithm": {
+          "minimum_best_reward": 2.07,
+          "reward_gap": 0.629,
+          "worst_risk_streak": 1.006,
+          "paths_with_reward_share": 0.8644384398830175
+        },
+        "local_swap_repair": {
+          "minimum_best_reward": 2.043,
+          "reward_gap": 0.637,
+          "worst_risk_streak": 1.008,
+          "paths_with_reward_share": 0.8635840062656656
+        }
+      }
+    },
+    "peti_toko__all_combat": {
+      "reward_types": [
+        "peti",
+        "toko"
+      ],
+      "risk_types": [
+        "elit",
+        "tantangan",
+        "tempur"
+      ],
+      "means": {
+        "original": {
+          "minimum_best_reward": 0.981,
+          "reward_gap": 0.768,
+          "worst_risk_streak": 4.051,
+          "paths_with_reward_share": 0.5979643077337637
+        },
+        "random_search": {
+          "minimum_best_reward": 1.651,
+          "reward_gap": 0.068,
+          "worst_risk_streak": 4.07,
+          "paths_with_reward_share": 0.6276182562317575
+        },
+        "genetic_algorithm": {
+          "minimum_best_reward": 1.651,
+          "reward_gap": 0.068,
+          "worst_risk_streak": 4.064,
+          "paths_with_reward_share": 0.6310646328516853
+        },
+        "local_swap_repair": {
+          "minimum_best_reward": 1.639,
+          "reward_gap": 0.068,
+          "worst_risk_streak": 4.052,
+          "paths_with_reward_share": 0.6240699050691049
+        }
+      }
+    }
+  }
+}

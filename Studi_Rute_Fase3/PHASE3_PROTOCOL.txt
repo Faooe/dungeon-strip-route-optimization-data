@@ -1,0 +1,117 @@
+PROTOKOL FASE 3 — ANALISIS TAMBAHAN ATAS DATA FASE 2
+=====================================================
+
+Protokol ini dicatat sebelum phase3_analyze.py dijalankan. Kode analisis
+phase3_analyze.py memiliki SHA-256 berikut sebelum eksekusi pertama:
+745ca4bc8083c3cfa094178fea2a54365c4888daa0598ed18d7a5a6ce4e3c34c
+Sesudah pemeriksaan pertama, aturan seri dalam batch diperbaiki agar wakil
+optimum benar-benar susunan pertama pada urutan enumerasi. SHA-256 revisi
+phase3_analyze.py sebelum eksekusi ulang:
+1ef1e2071581c301f66f009a9c3e5b3d0bf0d9d60f08a53862c169bafb182b35
+Skrip pemeriksaan terpisah phase3_validate.py memiliki SHA-256 berikut
+sebelum eksekusi pertamanya:
+9d22486f2b665a7c75ee4d5d19d1e489cc2f23ca1f868f8c6c52d03ebad394ba
+Skrip verifikasi DOI verify_references.py memiliki SHA-256 berikut sebelum
+eksekusi pertamanya:
+b06d42baa60615a020079224b1791e982c8243d37acc27cff4b71c7ade0d7405
+Sesudah uji pertama, pemeriksa DOI diperbaiki untuk buku tanpa tanda kutip,
+nama penulis dengan nama depan lengkap, dan respons HTTP 429. SHA-256 revisi
+sebelum uji kedua:
+17365ff6ddf4c065208018d0f308586f1fce1b4f46b756782531153b2e0e7c61
+Skrip pembuat gambar make_figures.py memiliki SHA-256 berikut sebelum
+eksekusi pertamanya:
+115d65ae300514e7f845221bb3a26811e2d3e49eaebbd100c43fb254e98738bb
+Gambar alur pertama terlalu padat pada inspeksi visual; teks dipersingkat.
+SHA-256 make_figures.py sebelum eksekusi ulang:
+2cb31a45a6cecb0f1d99e80a373e950fbb8dcf68823b217c58bdff6555d4b139
+Skrip audit naskah audit_article.py memiliki SHA-256 berikut sebelum
+eksekusi pertamanya:
+9abdee65a8b498db6050bbc131f0662b89fdc4b6da2ed177c5d1cc64875778bf
+Audit pertama menemukan bahwa elemen kolom tunggal boleh tidak tertulis
+eksplisit dalam DOCX. Kondisi itu ditangani; SHA-256 audit_article.py sebelum
+eksekusi ulang:
+b9e438485410d9f0fca8d5d033b6e3bdf120c0e92c71df1a05432045cf86c70f
+Skrip pembuat paket package_submission.py memiliki SHA-256 berikut sebelum
+eksekusi pertamanya:
+06ccd8f5d6099c1b5ce5d78abac77fb4ce24484c6488fefd766a31b318c8fe20
+Untuk membuat paket dapat dijalankan setelah ekstraksi, arsip pengembangan
+satu titik awal ditambahkan ke Fase 2 dan pembacaan folder dibuat relatif.
+SHA-256 sebelum eksekusi ulang skrip yang disesuaikan:
+phase3_analyze.py:
+d9ad1fefb0deab9bc45bcc36837591f748df692a51ac7869e5b7d5995597be3d
+phase3_validate.py:
+3b34cfed67e4bbf0598d01dc11448873ba0af04480fbc9549fca39b6577ac7e2
+verify_references.py:
+440ab1ccdb3cfbb173a1e507b3e4a6648e6b0f5bb8e3d598d8f06e9ac352369f
+Pemeriksa istilah asing pada audit naskah diperluas untuk istilah game dan
+L-system. SHA-256 audit_article.py sebelum eksekusi ulang:
+e1e5208c12cf87e2f11d9f1dedd2231338fdedf8f565aa93b2640e7ecc7bcf8a
+Pemeriksaan terpisah diperluas untuk menghitung ulang seluruh nilai
+sensitivitas dari 4.000 peta. SHA-256 phase3_validate.py sebelum eksekusi:
+dbfd398a17844c4e9ef2ce5b0312b9c520d2199fc627768d2a8f557d8fa32d60
+Audit angka naskah diperluas untuk contoh dua seed, distribusi lima seri,
+dan sensitivitas. SHA-256 audit_article.py sebelum eksekusi:
+73e8b4880271d202060a8c6a4692941dd6a73786cca3fce2551beb09c7144ce9
+Setelah perbaikan keterbacaan Tabel 3 dan Tabel 5, audit naskah diperluas
+untuk memeriksa tidak adanya penanda nilai kosong pada kedua tabel.
+SHA-256 audit_article.py sebelum eksekusi:
+751c9190306cef9c0d7e52c11602e235c2720da16f2b8e4ece05836ea76bffff
+
+Sumber: 1.000 seed uji dan empat peta per seed dalam berkas Fase 2
+phase2_test/maps.jsonl. Seed pengembangan tidak masuk analisis utama.
+Fase 1 bersifat eksploratif; protokol dan pengujian utama Fase 2 sudah selesai
+sebelum analisis tambahan ini. Fase 3 tidak mengubah keluaran empat metode.
+
+Optimum eksak: untuk tiap seed uji, enumerasi hasil kali Kartesius seluruh
+permutasi multiset jenis ruang yang unik pada lapisan 1, 2, 3, dan 4. Identitas
+node, sisi graf, jumlah tiap jenis ruang per lapisan, serta lapisan 0, 5, dan 6
+tetap. Nilai objektif dibandingkan secara leksikografis: maksimum kesempatan
+Peti/Toko minimum dari dua titik awal; minimum selisih kedua titik awal;
+minimum rentetan Elite/Tantangan terpanjang; maksimum jumlah urutan jenis
+ruang yang unik (ekuivalen dengan proporsinya pada graf seed yang sama).
+Jika beberapa penataan setara pada keempat tujuan, dipilih penataan pertama
+dalam urutan enumerasi deterministik. Optimum ini merupakan optimum menurut
+metrik yang ditetapkan, bukan optimum pengalaman bermain.
+
+Gap tiap metode dilaporkan terhadap optimum untuk keempat metrik. Selisih
+metrik sekunder hanya ditafsirkan jika metrik yang lebih tinggi prioritasnya
+setara; peta yang kalah pada metrik pertama masih dapat unggul pada metrik
+sekunder. Status optimum metrik 1–2 dan status optimum keempat metrik
+dibedakan. Ukuran ruang pencarian dihitung sebagai perkalian jumlah permutasi
+multiset unik tiap lapisan internal, termasuk penataan awal.
+
+Metrik tambahan yang tidak dipakai untuk memilih peta: pejalan acak dimulai
+terpisah dari titik awal kiri dan kanan. Pada tiap node, satu sisi keluar
+dipilih seragam; proses berakhir di Bos. Probabilitas bertemu minimal satu
+Peti/Toko = 1 dikurangi probabilitas tidak menjumpai keduanya di sepanjang
+perjalanan. Ekspektasi jumlah Peti/Toko adalah penjumlahan peluang mengunjungi
+setiap ruang hadiah. Kedua nilai dihitung tepat dengan rekursi graf asiklik,
+bukan simulasi Monte Carlo. Laporan memuat nilai kiri, kanan, minimum dari
+keduanya, serta rata-ratanya. Perbandingan utama memakai minimum dari dua
+titik awal. Karena metrik pejalan acak bukan bagian dari tujuan optimasi,
+penataan optimum yang seri pada empat tujuan dapat mempunyai nilai pejalan
+acak berbeda; aturan pemilihan penataan seri dicatat di atas.
+
+Selisih pejalan acak dihitung berpasangan pada 1.000 seed yang sama. Selang
+bootstrap persentil 95% memakai 2.000 pengambilan ulang pasangan seed dengan
+PRNG NumPy dan seed tetap 20261125. Uji tanda dua sisi mengabaikan seri dan
+memakai distribusi binomial eksak p=0,5. Kuantil p05/p95 menggunakan
+interpolasi linear NumPy; simpangan baku adalah SD sampel (ddof=1).
+
+Tuning hanya memakai hasil yang sudah tersedia dari 90 seed pengembangan:
+satu titik awal pada arsip phase2_dev awal dan empat titik awal pada hasil
+phase2_dev akhir. Waktu eksekusi berasal dari proses yang berbeda sehingga
+lebih tepat dibaca sebagai indikasi, sedangkan jumlah evaluasi kandidat
+merupakan ukuran biaya yang dapat dibandingkan langsung. Tidak ada nilai
+inisialisasi baru yang ditambahkan.
+
+Fungsi game mengubah string berbentuk YYYY-MM-DD menjadi bilangan dengan
+menghapus tanda hubung, lalu menggunakan PRNG berulang dengan pencampuran
+bit. String yang berurutan menghasilkan peta deterministik yang berbeda,
+tetapi hal itu sendiri tidak membuktikan independensi statistik peta.
+Perbandingan metode dipasangkan pada seed yang sama; hasil bootstrap
+ditafsirkan sebagai ketidakpastian empiris antar kode seed yang diuji.
+
+Validasi: skrip Python terpisah memeriksa ruang permutasi, hasil optimum,
+metrik pejalan acak, dan kesesuaian ringkasan dengan CSV. Hasil Fase 2 yang
+sudah dipublikasikan di berkas lokal diperiksa ulang tanpa mengubahnya.

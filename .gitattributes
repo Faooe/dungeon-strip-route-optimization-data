@@ -1,0 +1,8 @@
+*.js -text
+*.mjs -text
+*.py -text
+*.json -text
+*.jsonl -text
+*.csv -text
+*.txt -text
+*.png binary
