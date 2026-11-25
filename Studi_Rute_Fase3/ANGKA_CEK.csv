@@ -9,11 +9,11 @@ Tabel 5 tanpa tanda nilai kosong,False,False,cocok
 Kata 1. PENDAHULUAN,True,True,cocok
 Jumlah kata 1. PENDAHULUAN,>=700,816,cocok
 Kata 2. METODOLOGI PENELITIAN,True,True,cocok
-Jumlah kata 2. METODOLOGI PENELITIAN,>=500,952,cocok
+Jumlah kata 2. METODOLOGI PENELITIAN,>=500,978,cocok
 Kata 3. HASIL DAN PEMBAHASAN,True,True,cocok
-Jumlah kata 3. HASIL DAN PEMBAHASAN,>=1800,2315,cocok
+Jumlah kata 3. HASIL DAN PEMBAHASAN,>=1800,2494,cocok
 Kata 4. KESIMPULAN,True,True,cocok
-Jumlah kata 4. KESIMPULAN,>=200,317,cocok
+Jumlah kata 4. KESIMPULAN,>=200,344,cocok
 Kata ABSTRAK,True,True,cocok
 Kata ABSTRACT,True,True,cocok
 Jumlah KATA KUNCI,True,True,cocok
@@ -62,6 +62,16 @@ Tanpa Peti/Toko,39,39,cocok
 Satu Peti/Toko,62,62,cocok
 Tabel 2 berisi lima pilihan titik awal,6,6,cocok
 Tabel 6 memuat waktu enumerasi,True,True,cocok
+Persentil 99 enumerasi,232.011559,232.0115590000004,cocok
+Maksimum enumerasi,550.433,550.4329999999991,cocok
+Enumerasi melewati satu frame,256,256,cocok
+Delapan titik awal optimum dua metrik,999,999,cocok
+Delapan titik awal optimum empat metrik,992,992,cocok
+Delapan titik awal rerata evaluasi,280.502,280.502,cocok
+Naskah menyebut waktu p99,True,True,cocok
+Naskah menyebut sensitivitas tambahan,True,True,cocok
+Naskah membedakan pengukuran ulang,True,True,cocok
+Naskah tidak membatasi enumerasi pada 744,True,True,cocok
 Tabel 8 rerata seluruh optimum,True,True,cocok
 Gambar 2 menyebut seed U0013,True,True,cocok
 Lokal minimum naik,543,543,cocok

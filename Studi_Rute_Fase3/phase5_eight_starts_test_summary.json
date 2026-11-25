@@ -1,0 +1,15 @@
+{
+  "status": "post_hoc_sensitivity_not_primary_test_method",
+  "seed_count": 1000,
+  "mean_evaluations_four": 140.626,
+  "mean_evaluations_eight": 280.502,
+  "mean_minimum_four": 1.639,
+  "mean_minimum_eight": 1.65,
+  "optimal_first_two_four": 988,
+  "optimal_first_two_eight": 999,
+  "optimal_all_four_four": 952,
+  "optimal_all_four_eight": 992,
+  "remaining_first_two_failures": [
+    "2026-06-16"
+  ]
+}

@@ -1,0 +1,43 @@
+ANALISIS TAMBAHAN REVISI LANJUTAN — DUNGEON STRIP
+=================================================
+
+Analisis di berkas ini dilakukan setelah hasil utama empat titik awal pada
+1.000 seed uji diketahui. Peta dan statistik utama tidak diubah. Angka tanggal
+pada masukan game hanyalah kode deterministik, bukan periode pengambilan data.
+
+1. SENSITIVITAS DELAPAN TITIK AWAL PADA SEED UJI
+Skrip phase5_test_eight_starts.py membuat salinan sementara phase2.mjs dengan
+hanya jumlah titik awal pencarian lokal diubah dari empat menjadi delapan.
+Semua 1.000 seed uji, salinan kode game, fungsi tujuan, dan batas sepuluh
+langkah per titik awal tetap sama. Keluaran tiga metode lain dicocokkan
+persis dengan arsip utama; keluaran delapan titik awal dibandingkan per seed
+dengan empat titik awal dan optimum enumerasi eksak.
+
+Empat titik awal: rerata 140,626 evaluasi; optimum dua metrik 988/1.000;
+optimum empat metrik 952/1.000.
+Delapan titik awal: rerata 280,502 evaluasi; optimum dua metrik 999/1.000;
+optimum empat metrik 992/1.000. Satu kegagalan dua metrik yang tersisa
+adalah U0898. Hasil per seed ada di phase5_eight_starts_test_per_seed.csv;
+ringkasan di phase5_eight_starts_test_summary.json. Konfigurasi delapan
+tidak menggantikan metode uji utama yang ditetapkan lebih dahulu.
+
+2. LATENSI EKOR DISTRIBUSI
+phase5_latency_summary.py membaca waktu pengukuran ulang dari
+phase4_timing_methods/maps.jsonl dan phase4_node_enumeration_per_seed.csv.
+Komputer pengukuran: AMD Ryzen 7 8845HS, RAM fisik 8 GB, Windows 11 64-bit.
+Pengukuran ulang memakai Node.js v24.22.3; eksperimen utama Fase 2 memakai
+Node.js v22.20.0. Karena itu, angka waktu di Tabel 6 berasal dari pengukuran
+ulang dan dapat berbeda sedikit dari summary.json Fase 2.
+
+Enumerasi: p99 232,012 ms; maksimum 550,433 ms; 256/1.000 seed melewati
+16,667 ms. Pencarian lokal empat titik awal: p99 2,193 ms; maksimum
+3,172 ms; 0/1.000 melewati 16,667 ms. Ambang satu frame pada 60 fps ini
+hanya skenario desain; generator belum diuji sebagai bagian dari game yang
+berjalan, sehingga angka tersebut bukan jaminan waktu frame nyata.
+Seluruh metrik waktu lima metode ada di phase5_latency_summary.json.
+
+3. REPRODUKSI
+Jalankan phase5_latency_summary.py untuk menghitung ringkasan waktu dari
+data mentah. Jalankan phase5_test_eight_starts.py dengan Node.js 24 dan
+Python 3.10+ serta NumPy untuk mengulang sensitivitas delapan titik awal.
+Pengaturan NODE_EXECUTABLE dapat menunjuk ke executable Node.js setempat.

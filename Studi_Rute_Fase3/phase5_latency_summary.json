@@ -1,0 +1,52 @@
+{
+  "frame_budget_ms": 16.666666666666668,
+  "frame_budget_is_illustrative": true,
+  "measurement_scope": "Node.js computation only; game integration not measured",
+  "methods": {
+    "original": {
+      "count": 1000,
+      "mean_ms": 0.08701139999999034,
+      "median_ms": 0.07504999999991924,
+      "p95_ms": 0.14302000000002407,
+      "p99_ms": 0.2275779999999667,
+      "max_ms": 1.8961999999999932,
+      "over_frame_budget": 0
+    },
+    "random_search": {
+      "count": 1000,
+      "mean_ms": 4.059497599999973,
+      "median_ms": 3.742500000000291,
+      "p95_ms": 6.884380000000599,
+      "p99_ms": 9.222145999999551,
+      "max_ms": 17.63729999999987,
+      "over_frame_budget": 1
+    },
+    "genetic_algorithm": {
+      "count": 1000,
+      "mean_ms": 6.540766299999981,
+      "median_ms": 6.132550000000265,
+      "p95_ms": 10.134755000001494,
+      "p99_ms": 13.139922000000068,
+      "max_ms": 21.578700000000026,
+      "over_frame_budget": 4
+    },
+    "local_swap_repair": {
+      "count": 1000,
+      "mean_ms": 0.7845127999999866,
+      "median_ms": 0.6996999999992113,
+      "p95_ms": 1.5328749999991937,
+      "p99_ms": 2.192580999999883,
+      "max_ms": 3.172099999999773,
+      "over_frame_budget": 0
+    },
+    "exact": {
+      "count": 1000,
+      "mean_ms": 19.45120419999999,
+      "median_ms": 6.274750000000495,
+      "p95_ms": 76.36680000000042,
+      "p99_ms": 232.0115590000004,
+      "max_ms": 550.4329999999991,
+      "over_frame_budget": 256
+    }
+  }
+}

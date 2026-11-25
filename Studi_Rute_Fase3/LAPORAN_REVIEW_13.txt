@@ -2,7 +2,7 @@ LAPORAN REVISI ARTIKEL JSON — DUNGEON STRIP
 ==========================================
 
 Naskah Revisi 13: 11 halaman, 3 gambar, 9 tabel, 20 referensi.
-Audit struktur dan angka: 93 pemeriksaan lulus.
+Audit struktur dan angka: 103 pemeriksaan lulus.
 
 PERBAIKAN BERDASARKAN CATATAN REVIEW
 1. Baris optimum pejalan acak menghitung rerata seluruh susunan yang seri
@@ -15,8 +15,13 @@ PERBAIKAN BERDASARKAN CATATAN REVIEW
 2. Enumerasi dijalankan di Node.js v24.22.3 dengan fungsi penilai dari
    skrip eksperimen asli yang dibekukan. Semua 1.000 optimum dan jumlah
    susunannya sama dengan audit Python. Rerata waktu enumerasi 19,451 ms,
-   median 6,275 ms; rerata waktu pencarian lokal pada pengukuran ulang
-   0,785 ms. Waktu bersifat indikatif karena proses diukur terpisah.
+   median 6,275 ms, p99 232,012 ms, maksimum 550,433 ms. Rerata waktu
+   pencarian lokal pada pengukuran ulang 0,785 ms; p99 2,193 ms dan
+   maksimum 3,172 ms. Waktu bersifat indikatif karena proses diukur
+   terpisah. Seluruh 1.000 seed layak dienumerasi bila latensi saat
+   pemuatan level dapat diterima; 256 seed melewati anggaran ilustratif
+   satu frame 60 fps. Perangkat: Ryzen 7 8845HS, RAM 8 GB, Windows 11.
+   Pengukuran ulang memakai Node.js v24.22.3, pengujian utama v22.20.0.
 3. Tabel 5 kini khusus mutu rute; Tabel 6 khusus jumlah evaluasi dan waktu.
    Tabel perbandingan, pejalan acak, dan sensitivitas bergeser menjadi
    Tabel 7, 8, dan 9.
@@ -34,6 +39,12 @@ PERBAIKAN BERDASARKAN CATATAN REVIEW
    90/90 seed dengan rerata 280,9 evaluasi; empat titik awal tetap dipakai
    pada uji utama karena telah ditetapkan sebelumnya. Tiga uji tanda
    ditafsirkan dengan ambang Bonferroni 0,0167.
+9. Analisis tambahan setelah hasil utama menjalankan delapan titik awal
+   pada 1.000 seed uji. Optimum dua metrik tercapai pada 999 seed dan
+   optimum empat metrik pada 992 seed, dengan rerata 280,5 evaluasi.
+   U0898 tetap meleset. Hasil ini tidak mengganti keluaran utama empat
+   titik awal. Data dan skrip ada pada berkas phase5_* dan
+   PHASE5_PROTOCOL.txt.
 
 PEMERIKSAAN
 - Delapan seed kecil diperiksa lagi dengan enumerasi sederhana dan
@@ -48,6 +59,9 @@ SEBELUM SUBMISI
 - Data dan kode tersedia pada repositori publik:
   https://github.com/Faooe/dungeon-strip-route-optimization-data
   Riwayat commit GitHub menyimpan versi data yang digunakan.
+- Naskah Word/PDF tidak diunggah ke GitHub.
+- Tag rilis dan DOI Zenodo belum tersedia; keduanya akan disiapkan setelah
+  identitas pembuat arsip dikonfirmasi.
 - Nama, urutan penulis, afiliasi, dan email perlu dikonfirmasi penulis.
 - Angka Volume/Nomor/DOI dan tanggal Submitted/Accepted/Published adalah
   placeholder redaksi dari template.

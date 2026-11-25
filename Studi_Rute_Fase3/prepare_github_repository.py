@@ -16,6 +16,7 @@ Repositori pendukung artikel **“Optimum Eksak Penataan Ruang Dungeon Strip:
 Evaluasi Algoritma Genetika dan Pencarian Lokal”**. Berkas ini memuat data
 eksperimen dan kode analisis. Tidak ada responden maupun permainan manual;
 komputer menghasilkan dan mengevaluasi peta secara deterministik.
+Naskah artikel Word/PDF tidak tersedia dalam repositori ini.
 
 ## Isi
 
@@ -33,8 +34,13 @@ komputer menghasilkan dan mengevaluasi peta secara deterministik.
   empat metode.
 - `Studi_Rute_Fase3/phase4_tuning_per_seed.csv`: sensitivitas 1, 2, 3, 4,
   dan 8 titik awal pada 90 masukan pengembangan.
+- `Studi_Rute_Fase3/phase5_eight_starts_test_per_seed.csv`: sensitivitas
+  tambahan delapan titik awal pada 1.000 masukan uji setelah hasil utama.
+- `Studi_Rute_Fase3/phase5_latency_summary.json`: persentil ke-99, maksimum,
+  dan hitungan waktu di atas anggaran ilustratif satu frame 60 fps.
 - `Studi_Rute_Fase3/PHASE3_PROTOCOL.txt` dan `PHASE4_PROTOCOL.txt`:
   metode, urutan analisis, serta hash kode dan hasil.
+- `Studi_Rute_Fase3/PHASE5_PROTOCOL.txt`: rincian analisis lanjutan.
 - `Studi_Rute_Fase3/phase4_validation.json`: pemeriksaan terpisah.
 
 Masukan fungsi berbentuk `YYYY-MM-DD` karena format yang diterima game.
@@ -55,9 +61,10 @@ Untuk mengulang seluruh enumerasi dan analisis ikatan optimum, jalankan
 `python Studi_Rute_Fase3/phase4_optimal_ties.py`. Durasi pengukuran waktu
 bergantung pada perangkat dan beban proses.
 
-Analisis sensitivitas memakai masukan pengembangan saja dan dilakukan
-setelah uji utama. Hasil tersebut tidak mengubah konfigurasi empat titik
-awal yang dipakai pada 1.000 masukan uji.
+Analisis sensitivitas 1, 2, 3, 4, dan 8 titik awal pada masukan pengembangan
+serta analisis delapan titik awal pada masukan uji dilakukan setelah uji utama.
+Hasil tersebut tidak mengubah konfigurasi empat titik awal atau keluaran
+utama yang dipakai pada 1.000 masukan uji.
 
 Kode game tersedia untuk reproduksi penelitian. Repositori ini tidak
 menyertakan aset grafis, audio, atau paket aplikasi game.

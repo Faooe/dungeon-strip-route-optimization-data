@@ -2,8 +2,9 @@ DATA DAN KODE DUNGEON STRIP
 ===========================
 
 Paket ini memuat data utama dan analisis tambahan yang mendukung artikel.
-Baca ASAL_DATA.txt, Studi_Rute_Fase3/PHASE3_README.txt, dan
-Studi_Rute_Fase3/PHASE4_PROTOCOL.txt.
+Naskah Word/PDF tidak termasuk dalam paket atau repositori GitHub.
+Baca ASAL_DATA.txt, Studi_Rute_Fase3/PHASE3_README.txt,
+Studi_Rute_Fase3/PHASE4_PROTOCOL.txt, dan PHASE5_PROTOCOL.txt.
 
 Pada salinan distribusi phase2.mjs, nilai default lokasi sumber diganti
 dengan jalur relatif ke logika_snapshot.js. Perubahan jalur tidak mengubah
