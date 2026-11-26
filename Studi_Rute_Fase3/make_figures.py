@@ -8,7 +8,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
+from matplotlib.patches import FancyArrowPatch, Rectangle
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
@@ -23,34 +23,29 @@ def save(fig, name):
 
 
 def workflow():
-    fig, ax = plt.subplots(figsize=(6.15, 1.95))
-    ax.set_xlim(0, 10)
-    ax.set_ylim(.75, 4.15)
+    steps = [
+        "Kode pembuat peta dan hash SHA-256",
+        "Pra-uji: pilih 4 titik awal dari 90 seed",
+        "Uji utama: 1.000 seed × 4 metode",
+        "Pasca-uji: enumerasi, pejalan acak, sensitivitas",
+        "Audit data dan perbandingan berpasangan",
+    ]
+    fig, ax = plt.subplots(figsize=(5.9, 2.6))
+    ax.set_xlim(0, 5.9)
+    ax.set_ylim(0, 2.6)
     ax.axis("off")
-    blue, green = "#e9f1f6", "#eaf3ec"
-
-    def box(x, y, w, h, text, color=blue):
-        patch = FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.025,rounding_size=0.12",
-                               facecolor=color, edgecolor="#384c5c", linewidth=.9)
-        ax.add_patch(patch)
-        ax.text(x+w/2, y+h/2, text, ha="center", va="center", fontsize=7.5, linespacing=1.08)
-
-    def arrow(x1, y1, x2, y2):
-        ax.add_patch(FancyArrowPatch((x1, y1), (x2, y2), arrowstyle="-|>",
-                                     mutation_scale=8, linewidth=.9, color="#384c5c"))
-
-    box(.2, 3.15, 2.1, .72, "90 $\\it{seed}$\npengembangan")
-    box(3.0, 3.15, 2.6, .72, "Tuning pencarian lokal\n4 titik awal")
-    arrow(2.4, 3.51, 2.9, 3.51)
-    box(.2, 1.15, 1.65, .92, "1.000 $\\it{seed}$\nuji", green)
-    box(2.2, 1.15, 2.35, .92, "4 metode +\noptimum eksak", green)
-    box(4.95, 1.15, 2.4, .92, "Struktur, pejalan\nacak, biaya", green)
-    box(7.72, 1.15, 1.9, .92, "Pemeriksaan\nulang", green)
-    arrow(1.92, 1.61, 2.13, 1.61)
-    arrow(4.62, 1.61, 4.88, 1.61)
-    arrow(7.42, 1.61, 7.65, 1.61)
-    arrow(4.3, 3.07, 4.3, 2.16)
-    ax.text(4.52, 2.63, "parameter tetap", fontsize=7.5, va="center")
+    ink = "#1C2730"
+    centers = [2.18, 1.75, 1.32, .89, .46]
+    for i, (label, cy) in enumerate(zip(steps, centers)):
+        ax.add_patch(Rectangle((.58, cy-.15), 4.74, .30,
+                               linewidth=1.15, edgecolor=ink, facecolor="white"))
+        ax.text(2.95, cy, label, ha="center", va="center", color=ink, fontsize=10.2)
+        if i < len(steps)-1:
+            ax.add_patch(FancyArrowPatch((2.95, cy-.155),
+                                         (2.95, centers[i+1]+.155),
+                                         arrowstyle="-|>", mutation_scale=8,
+                                         linewidth=1.15, color=ink))
+    fig.subplots_adjust(left=.02, right=.98, top=.99, bottom=.015)
     save(fig, "Gambar_1_Tahapan_Penelitian.png")
 
 

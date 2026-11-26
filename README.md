@@ -1,6 +1,6 @@
 # Dungeon Strip: data optimasi struktur rute
 
-Repositori pendukung artikel **“Optimum Eksak Penataan Ruang Dungeon Strip:
+Repositori pendukung artikel **“Optimum Eksak Penataan Ruang pada Graf Dungeon Strip:
 Evaluasi Algoritma Genetika dan Pencarian Lokal”**. Berkas ini memuat data
 eksperimen dan kode analisis. Tidak ada responden maupun permainan manual;
 komputer menghasilkan dan mengevaluasi peta secara deterministik.
@@ -12,7 +12,9 @@ Kode (`.js`, `.mjs`, `.py`) menggunakan [MIT](LICENSE). Data, gambar analisis,
 dan dokumentasi menggunakan [CC BY 4.0](DATA_LICENSE.md). Kredit pencipta
 data tercantum dalam berkas lisensi data.
 
-Versi data yang dirujuk naskah adalah [tag v1.0.1](https://github.com/Faooe/dungeon-strip-route-optimization-data/tree/v1.0.1).
+Versi data yang dirujuk naskah adalah [tag v1.0.2](https://github.com/Faooe/dungeon-strip-route-optimization-data/tree/v1.0.2).
+
+Panduan reproduksi berurutan ada di [REPRODUKSI.md](REPRODUKSI.md).
 
 ## Isi
 

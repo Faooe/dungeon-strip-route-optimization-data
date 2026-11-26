@@ -2,9 +2,11 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 import math
 import re
+import zipfile
 from pathlib import Path
 
 from docx import Document
@@ -101,8 +103,8 @@ def main():
             check("Spasi judul bagian", (paragraph.paragraph_format.space_before.pt,
                                          paragraph.paragraph_format.space_after.pt), (18, 6))
     check("Tautan data publik", "https://github.com/Faooe/dungeon-strip-route-optimization-data" in source, True)
-    check("Naskah menunjuk versi data bertag", "https://github.com/Faooe/dungeon-strip-route-optimization-data/tree/v1.0.1" in source, True)
-    check("Naskah menyebut lisensi", "lisensi MIT" in source and "CC BY 4.0" in source, True)
+    check("Naskah menunjuk versi data bertag", "https://github.com/Faooe/dungeon-strip-route-optimization-data/tree/v1.0.2" in source, True)
+    check("Keterangan repositori tetap ringkas", "Naskah artikel tidak disertakan" in source or "lisensi MIT" in source, False)
     check("Tidak ada placeholder data publik", "[URL/DOI Zenodo-GitHub - ISI PENULIS]" in source, False)
     check("Tidak ada path pribadi di naskah", bool(re.search(r"C:[/\\]Users", source)), False)
     check("Naskah memakai rerata seluruh optimum", "rerata seluruh susunan optimum" in source, True)
@@ -135,6 +137,13 @@ def main():
     check("Naskah tidak membatasi enumerasi pada 744",'hanya menunjukkan kesetaraan jumlah evaluasi' in source,True)
     check("Tabel 8 rerata seluruh optimum",any('Rerata seluruh' in c.text for row in doc.tables[7].rows for c in row.cells),True)
     check("Gambar 2 menyebut seed U0013",any('Gambar 2.' in p.text and 'U0013' in p.text for p in doc.paragraphs),True)
+    figure2 = HERE.parent / 'Artikel_JSON_Dungeon_Strip' / 'Gambar_2_Graf_U0013_Awal_dan_Optimasi.png'
+    digest = hashlib.sha256(figure2.read_bytes()).digest()
+    with zipfile.ZipFile(DOCX) as archive:
+        embedded = [hashlib.sha256(archive.read(name)).digest() for name in archive.namelist()
+                    if name.startswith('word/media/')]
+    check("Gambar 2 baru tertanam pada Word", digest in embedded, True)
+    check("Uraian Gambar 2 menyebut sumber data", 'Gambar ini dibuat dari data eksperimen' in source, True)
     check("Lokal minimum naik", sum(int(r['local_swap_repair_minimum']) > int(r['original_minimum']) for r in records), 543)
     check("Lokal minimum tetap", sum(int(r['local_swap_repair_minimum']) == int(r['original_minimum']) for r in records), 457)
     check("Peta awal selisih nol", sum(int(r['original_gap']) == 0 for r in records), 410)

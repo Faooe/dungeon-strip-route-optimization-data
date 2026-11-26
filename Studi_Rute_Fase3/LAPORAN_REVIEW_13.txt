@@ -1,8 +1,8 @@
 LAPORAN REVISI ARTIKEL JSON — DUNGEON STRIP
 ==========================================
 
-Naskah Revisi 13: 11 halaman, 3 gambar, 9 tabel, 20 referensi.
-Audit struktur dan angka: 105 pemeriksaan lulus.
+Naskah terbaru setelah review mayor: 12 halaman, 3 gambar, 9 tabel, 20 referensi.
+Audit struktur dan angka: 107 pemeriksaan lulus.
 
 PERBAIKAN BERDASARKAN CATATAN REVIEW
 1. Baris optimum pejalan acak menghitung rerata seluruh susunan yang seri
@@ -18,8 +18,9 @@ PERBAIKAN BERDASARKAN CATATAN REVIEW
    median 6,275 ms, p99 232,012 ms, maksimum 550,433 ms. Rerata waktu
    pencarian lokal pada pengukuran ulang 0,785 ms; p99 2,193 ms dan
    maksimum 3,172 ms. Waktu bersifat indikatif karena proses diukur
-   terpisah. Seluruh 1.000 seed layak dienumerasi bila latensi saat
-   pemuatan level dapat diterima; 256 seed melewati anggaran ilustratif
+   terpisah. Seluruh 1.000 seed dapat dienumerasi pada perangkat uji;
+   penerapan saat memuat level bergantung pada toleransi latensi produk.
+   Sebanyak 256 seed melewati anggaran ilustratif
    satu frame 60 fps. Perangkat: Ryzen 7 8845HS, RAM 8 GB, Windows 11.
    Pengukuran ulang memakai Node.js v24.22.3, pengujian utama v22.20.0.
 3. Tabel 5 kini khusus mutu rute; Tabel 6 khusus jumlah evaluasi dan waktu.
@@ -32,8 +33,12 @@ PERBAIKAN BERDASARKAN CATATAN REVIEW
    62 graf telah diperiksa ulang.
 6. Naskah menjelaskan Dungeon Strip sebagai game yang dikembangkan penulis
    dari salinan lokal. Fungsi Air Suci dijelaskan pada Tabel 1.
-7. Gambar 1 diperbaiki. Gambar 2 diambil ulang dari antarmuka game dengan
-   masukan U0013 dan cocok dengan peta awal pada data mentah. Gambar 3 tetap.
+7. Gambar 1 diperbaiki. Gambar 2 kini memperlihatkan graf U0013 sebelum dan
+   sesudah pencarian lokal. Angka 1/4 dan 3/3, identitas node, seluruh sisi,
+   dan jumlah jenis ruang per lapisan dicocokkan dengan data mentah.
+   Garis menyorot salah satu jalur terbaik dari setiap titik awal; ada
+   jalur terbaik lain yang seri. Tangkapan layar lama disimpan di Arsip.
+   Gambar 3 tetap.
 8. Sensitivitas 1, 2, 3, 4, dan 8 titik awal hanya memakai 90 seed
    pengembangan. Delapan titik awal mencapai optimum empat metrik pada
    90/90 seed dengan rerata 280,9 evaluasi; empat titik awal tetap dipakai
@@ -45,6 +50,23 @@ PERBAIKAN BERDASARKAN CATATAN REVIEW
    U0898 tetap meleset. Hasil ini tidak mengganti keluaran utama empat
    titik awal. Data dan skrip ada pada berkas phase5_* dan
    PHASE5_PROTOCOL.txt.
+
+TAMBAHAN BERDASARKAN REVIEW MAYOR
+- Judul membatasi objek pada graf Dungeon Strip. Abstrak dan kesimpulan
+  membatasi optimum pada permutasi ruang dan empat metrik leksikografis.
+- Urutan metrik dinyatakan sebagai keputusan desain, disertai contoh
+  konsekuensinya. Dua titik awal dapat dipilih pemain menurut kode game.
+- Gambar 1 dan metode memisahkan pra-uji, uji utama, dan analisis pasca-uji.
+- Tabel 7 menunjukkan 49, 17, dan 56 pasangan yang tidak seri. Nilai p dan
+  selang bootstrap diberi batas tafsir karena independensi antarseed belum
+  dibuktikan; jumlah menang/seri/kalah serta ukuran efek diutamakan.
+- Perbandingan waktu menjelaskan bahwa genetika sekitar 61% lebih lambat
+  daripada acak pada rerata pengukuran ulang meskipun keduanya memakai
+  744 evaluasi. Angka 16,7 ms adalah ambang ilustratif pada benchmark,
+  bukan prediksi waktu frame game.
+- Detail pengacakan, persilangan, seleksi, kandidat berulang, penghentian,
+  dan pemecahan seri dijelaskan. REPRODUKSI.md memberi urutan perintah
+  dari data peta mentah ke angka analisis serta gambar.
 
 PEMERIKSAAN
 - Delapan seed kecil diperiksa lagi dengan enumerasi sederhana dan
@@ -58,8 +80,8 @@ PEMERIKSAAN
 SEBELUM SUBMISI
 - Data dan kode tersedia pada repositori publik:
   https://github.com/Faooe/dungeon-strip-route-optimization-data
-  Versi yang dirujuk artikel adalah tag v1.0.1:
-  https://github.com/Faooe/dungeon-strip-route-optimization-data/tree/v1.0.1
+  Versi yang dirujuk artikel adalah tag v1.0.2:
+  https://github.com/Faooe/dungeon-strip-route-optimization-data/tree/v1.0.2
   Kode memakai MIT; data dan dokumentasi memakai CC BY 4.0.
 - Naskah Word/PDF tidak diunggah ke GitHub.
 - DOI Zenodo tidak dipakai sesuai pilihan penulis.
@@ -69,3 +91,6 @@ SEBELUM SUBMISI
 - Konfigurasi graf sintetis besar belum ditambahkan karena merupakan
   eksperimen baru di luar protokol dan data game utama. Batas generalisasi
   tersebut dinyatakan pada pembahasan.
+- Uji pada kumpulan seed baru dengan cara pembentukan berbeda belum
+  dilakukan; saran ini dicatat sebagai penelitian berikutnya dan tidak
+  diklaim sebagai hasil naskah.

@@ -12,7 +12,7 @@ DEST = Path.home() / 'Documents' / 'JSON_Dungeon_Strip' / '05_Repo_GitHub'
 
 README = """# Dungeon Strip: data optimasi struktur rute
 
-Repositori pendukung artikel **“Optimum Eksak Penataan Ruang Dungeon Strip:
+Repositori pendukung artikel **“Optimum Eksak Penataan Ruang pada Graf Dungeon Strip:
 Evaluasi Algoritma Genetika dan Pencarian Lokal”**. Berkas ini memuat data
 eksperimen dan kode analisis. Tidak ada responden maupun permainan manual;
 komputer menghasilkan dan mengevaluasi peta secara deterministik.
@@ -24,7 +24,9 @@ Kode (`.js`, `.mjs`, `.py`) menggunakan [MIT](LICENSE). Data, gambar analisis,
 dan dokumentasi menggunakan [CC BY 4.0](DATA_LICENSE.md). Kredit pencipta
 data tercantum dalam berkas lisensi data.
 
-Versi data yang dirujuk naskah adalah [tag v1.0.1](https://github.com/Faooe/dungeon-strip-route-optimization-data/tree/v1.0.1).
+Versi data yang dirujuk naskah adalah [tag v1.0.2](https://github.com/Faooe/dungeon-strip-route-optimization-data/tree/v1.0.2).
+
+Panduan reproduksi berurutan ada di [REPRODUKSI.md](REPRODUKSI.md).
 
 ## Isi
 
@@ -82,6 +84,7 @@ GITIGNORE = """__pycache__/
 *.pyc
 .DS_Store
 rerun/
+Artikel_JSON_Dungeon_Strip/
 """
 
 GITATTRIBUTES = """*.js -text
@@ -108,7 +111,7 @@ def main():
                 target.parent.mkdir(parents=True, exist_ok=True)
                 target.write_bytes(archive.read(member))
     (DEST / 'README.md').write_text(README, encoding='utf-8')
-    for name in ('LICENSE', 'DATA_LICENSE.md'):
+    for name in ('LICENSE', 'DATA_LICENSE.md', 'REPRODUKSI.md', 'requirements.txt'):
         (DEST / name).write_bytes((ROOT / 'work' / 'repo_assets' / name).read_bytes())
     (DEST / '.gitignore').write_text(GITIGNORE, encoding='utf-8')
     (DEST / '.gitattributes').write_text(GITATTRIBUTES, encoding='utf-8')
